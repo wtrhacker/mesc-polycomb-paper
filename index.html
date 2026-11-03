@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected Polycomb perturbation phenotypes and chromatin-interaction measurements in mouse embryonic stem cells, with other contexts clearly separated.">
+  <link rel="icon" href="data:,">
+  <title>Polycomb experiments · mESC</title>
+  <link rel="stylesheet" href="web/styles.css">
+  <script defer src="data/gems.js"></script>
+  <script defer src="web/app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="index.html">mESC <span>/</span> Polycomb experiments</a>
+    <span class="scope-label">Serum / LIF · selected evidence</span>
+  </header>
+  <main class="shell">
+    <aside class="sidebar" aria-label="Browse by Polycomb component">
+      <div class="sidebar-label">COMPONENT · RELATED CARDS</div>
+      <nav id="subunit-nav" aria-label="Subunits"></nav>
+      <div class="sidebar-note">Counts are related cards; linked source records stay separate.</div>
+      <button id="guide-button" class="text-button" type="button">Guide</button>
+    </aside>
+    <div class="workspace">
+      <section class="intro">
+        <div><h1>What changed—and what followed.</h1><p>Binding, histone marks and RNA.</p></div>
+        <div id="collection-stats" class="stats" aria-live="polite"></div>
+      </section>
+      <div class="viewbar">
+        <nav class="tabs" aria-label="Evidence view">
+          <button type="button" data-view="chromatin" class="active" aria-pressed="true">Chromatin <span id="chromatin-count"></span></button>
+          <button type="button" data-view="rna" aria-pressed="false">RNA <span id="rna-count"></span></button>
+          <button type="button" data-view="compare" aria-pressed="false">Compare <span id="compare-count"></span></button>
+          <button type="button" data-view="2i" aria-pressed="false">2i <span id="context-count"></span></button>
+          <button type="button" data-view="papers" aria-pressed="false">Papers</button>
+          <button type="button" data-view="references" aria-pressed="false">References</button>
+        </nav>
+        <button id="export-button" class="text-button" type="button">Export selection ↗</button>
+      </div>
+      <form id="filters" class="filters" role="search">
+        <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Search experiments" placeholder="Protein, mutation, measured result or paper…" autocomplete="off"></label>
+        <label class="select-control"><span>Readout</span><select id="readout-filter"><option value="all">All</option></select></label>
+        <label class="select-control"><span>Show</span><select id="importance-filter"><option value="all">All selected</option><option value="key">Key observations</option></select></label>
+        <button id="reset-button" class="text-button" type="button" hidden>Reset</button>
+      </form>
+      <div class="results-line"><p id="results-count" role="status"></p><span id="results-note"></span></div>
+      <p class="arrow-key" title="Arrow size describes reported magnitude, not statistical significance.">↑/↓ moderate · ↑↑/↓↓ large · retained</p>
+      <div id="content"><div class="empty"><h2>Evidence review is in progress</h2><p></p></div></div>
+      <footer><span>Source-linked observations.</span><span><a href="PAPER_DISPOSITIONS.csv">Selection notes ↗</a> · <a href="pdfs/INVENTORY.csv">Local files ↗</a></span></footer>
+    </div>
+  </main>
+  <div id="compare-tray" class="compare-tray" hidden><span id="tray-label"></span><button id="compare-selected" type="button">Compare selected →</button><button id="clear-selected" type="button" aria-label="Clear comparison">×</button></div>
+  <dialog id="evidence-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-bar"><span id="dialog-context">EXPERIMENT & EVIDENCE</span><button id="condition-top" class="condition-top" type="button" aria-label="Return to entry heading" hidden>Top ↑</button><button id="close-dialog" type="button" aria-label="Close evidence">×</button></div>
+    <div id="dialog-body"></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
