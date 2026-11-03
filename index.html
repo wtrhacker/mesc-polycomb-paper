@@ -47,13 +47,17 @@
       <div class="results-line"><p id="results-count" role="status"></p><span id="results-note"></span></div>
       <p class="arrow-key" title="Arrow size describes reported magnitude, not statistical significance.">↑/↓ moderate · ↑↑/↓↓ large · retained</p>
       <div id="content"><div class="empty"><h2>Evidence review is in progress</h2><p></p></div></div>
-      <footer><span>Source-linked observations.</span><span><a href="PAPER_DISPOSITIONS.csv">Selection notes ↗</a> · <a href="pdfs/INVENTORY.csv">Local files ↗</a></span></footer>
+      <footer><span>Source-linked observations.</span></footer>
     </div>
   </main>
   <div id="compare-tray" class="compare-tray" hidden><span id="tray-label"></span><button id="compare-selected" type="button">Compare selected →</button><button id="clear-selected" type="button" aria-label="Clear comparison">×</button></div>
   <dialog id="evidence-dialog" aria-labelledby="dialog-title">
     <div class="dialog-bar"><span id="dialog-context">EXPERIMENT & EVIDENCE</span><button id="condition-top" class="condition-top" type="button" aria-label="Return to entry heading" hidden>Top ↑</button><button id="close-dialog" type="button" aria-label="Close evidence">×</button></div>
     <div id="dialog-body"></div>
+  </dialog>
+  <dialog id="panel-zoom" aria-labelledby="panel-zoom-title">
+    <div class="zoom-bar"><b id="panel-zoom-title">Figure</b><div class="zoom-controls"><button type="button" id="zoom-out" aria-label="Zoom out">−</button><button type="button" id="zoom-fit">Fit</button><button type="button" id="zoom-in" aria-label="Zoom in">+</button><button type="button" id="close-zoom" aria-label="Close enlarged figure">×</button></div></div>
+    <div class="zoom-canvas"><img id="zoom-image" alt=""></div>
   </dialog>
   <div id="toast" class="toast" role="status" hidden></div>
 </body>

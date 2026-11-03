@@ -741,31 +741,42 @@ window.GEMS = {
           "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
           "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
           "box_normalized": [
-            0.35,
-            0.08,
-            0.97,
-            0.352
+            0.3729003359462486,
+            0.08788598574821853,
+            0.8667413213885778,
+            0.35312747426761676
           ],
           "box_pixels": [
-            521,
-            168,
-            1444,
-            741
+            666,
+            222,
+            1548,
+            892
           ],
           "source_image_size": [
-            1489,
-            2105
+            1786,
+            2526
           ],
-          "caption": "Original source crop; no image content changed.",
+          "caption": "Single native-source rectangular crop; no data alteration or stitching.",
           "reviewed": true,
           "review_status": "reviewed",
-          "verification": "Caller confirmed manual visual review against the source.",
+          "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
           "created_at": "2026-11-02T22:30:54.989611+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:54.989611+00:00",
+          "legend_key": [
+            {
+              "label": "WT / Rybp/Yaf2-DKO",
+              "text": "Wild type / cells lacking both RYBP and YAF2."
+            },
+            {
+              "label": "Peak center / reads density",
+              "text": "ChIP read signal aligned to the center of the named molecule’s peaks."
+            }
+          ],
+          "reading_note": "B/C at top are H2Aub1/CBX7; D/E below are RING1B/H3K27me3. Each compares dashed RYBP/YAF2-DKO with solid WT.",
           "short_label": "Figure S3B–E · stable double-knockout chromatin profiles",
-          "width": 923,
-          "height": 573
+          "width": 882,
+          "height": 670
         },
         {
           "paper_id": "zhao-2024",
@@ -799,6 +810,17 @@ window.GEMS = {
           "created_at": "2026-11-02T22:31:03.063773+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:31:03.063773+00:00",
+          "legend_key": [
+            {
+              "label": "WT / Rybp/Yaf2-DKO",
+              "text": "Wild type / cells lacking both RYBP and YAF2."
+            },
+            {
+              "label": "RPM / log ratio",
+              "text": "Reads per million mapped reads / base-2 log DKO-to-WT ChIP ratio."
+            }
+          ],
+          "reading_note": "The central gray group is labeled 78%; it contains peaks within the paper’s 1.5-fold boundary. This is distinct from the mean profile in S3E.",
           "short_label": "Figure 2J · H3K27me3 changes across individual peaks",
           "width": 385,
           "height": 352
@@ -885,7 +907,7 @@ window.GEMS = {
       "comparison_links": [
         {
           "observation_id": "gem-prc1-rose-retained-suz12",
-          "text": "H3K27me3 falls after 96h RYBP deletion in YAF2-null cells; here, the stable double-KO retains near-WT mean H3K27me3."
+          "text": "96h RYBP deletion in YAF2-null cells lowers target-site H3K27me3; established RYBP/YAF2-knockout clones retain near-WT mean H3K27me3."
         }
       ],
       "presentation": {
@@ -950,31 +972,31 @@ window.GEMS = {
               {
                 "paper_id": "zhao-2024",
                 "path": "panels/result-focus/zhao24-s3d.png",
-                "label": "Figure S3D",
-                "short_label": "Figure S3D",
+                "label": "Figure S3B–E · RING1B (D)",
+                "short_label": "Figure S3B–E · RING1B (D)",
                 "page": 29,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.3834788448623237,
-                  0.22137767220902613,
-                  0.6118200134318335,
-                  0.35201900237529693
+                  0.3729003359462486,
+                  0.08788598574821853,
+                  0.8667413213885778,
+                  0.35312747426761676
                 ],
                 "box_pixels": [
-                  685,
-                  559,
-                  1093,
-                  889
+                  666,
+                  222,
+                  1548,
+                  892
                 ],
                 "source_image_size": [
                   1786,
                   2526
                 ],
-                "width": 408,
-                "height": 330,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 882,
+                "height": 670,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -982,7 +1004,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/zhao24-s3-abcd.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "WT / Rybp/Yaf2-DKO",
+                    "text": "Wild type / cells lacking both RYBP and YAF2."
+                  },
+                  {
+                    "label": "Peak center / reads density",
+                    "text": "ChIP read signal aligned to the center of the named molecule’s peaks."
+                  }
+                ],
+                "reading_note": "Use D, lower left: dashed RYBP/YAF2-DKO RING1B is lower than solid WT at the central peak."
               }
             ],
             "summary": [
@@ -1000,31 +1033,31 @@ window.GEMS = {
               {
                 "paper_id": "zhao-2024",
                 "path": "panels/result-focus/zhao24-s3b.png",
-                "label": "Figure S3B",
-                "short_label": "Figure S3B",
+                "label": "Figure S3B–E · H2Aub1 (B)",
+                "short_label": "Figure S3B–E · H2Aub1 (B)",
                 "page": 29,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.3687038280725319,
-                  0.08836104513064133,
-                  0.6118200134318335,
-                  0.2204275534441805
+                  0.3729003359462486,
+                  0.08788598574821853,
+                  0.8667413213885778,
+                  0.35312747426761676
                 ],
                 "box_pixels": [
-                  659,
-                  223,
-                  1093,
-                  557
+                  666,
+                  222,
+                  1548,
+                  892
                 ],
                 "source_image_size": [
                   1786,
                   2526
                 ],
-                "width": 434,
-                "height": 334,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 882,
+                "height": 670,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -1032,7 +1065,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/zhao24-s3-abcd.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "WT / Rybp/Yaf2-DKO",
+                    "text": "Wild type / cells lacking both RYBP and YAF2."
+                  },
+                  {
+                    "label": "Peak center / reads density",
+                    "text": "ChIP read signal aligned to the center of the named molecule’s peaks."
+                  }
+                ],
+                "reading_note": "Use B, upper left: dashed RYBP/YAF2-DKO H2Aub1 is lower than solid WT around the peak center."
               }
             ],
             "summary": [
@@ -1050,31 +1094,31 @@ window.GEMS = {
               {
                 "paper_id": "zhao-2024",
                 "path": "panels/result-focus/zhao24-s3e.png",
-                "label": "Figure S3E",
-                "short_label": "Figure S3E",
+                "label": "Figure S3B–E · H3K27me3 (E)",
+                "short_label": "Figure S3B–E · H3K27me3 (E)",
                 "page": 29,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.6051040967092007,
-                  0.22137767220902613,
-                  0.8670248488918737,
-                  0.35201900237529693
+                  0.3729003359462486,
+                  0.08788598574821853,
+                  0.8667413213885778,
+                  0.35312747426761676
                 ],
                 "box_pixels": [
-                  1081,
-                  559,
-                  1549,
-                  889
+                  666,
+                  222,
+                  1548,
+                  892
                 ],
                 "source_image_size": [
                   1786,
                   2526
                 ],
-                "width": 468,
-                "height": 330,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 882,
+                "height": 670,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -1082,7 +1126,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/zhao24-s3-abcd.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "WT / Rybp/Yaf2-DKO",
+                    "text": "Wild type / cells lacking both RYBP and YAF2."
+                  },
+                  {
+                    "label": "Peak center / reads density",
+                    "text": "ChIP read signal aligned to the center of the named molecule’s peaks."
+                  }
+                ],
+                "reading_note": "Use E, lower right: the H3K27me3 WT/DKO profiles are close; Figure 2J supplies the individual-peak distribution."
               },
               {
                 "paper_id": "zhao-2024",
@@ -1116,6 +1171,17 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:31:03.063773+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:31:03.063773+00:00",
+                "legend_key": [
+                  {
+                    "label": "WT / Rybp/Yaf2-DKO",
+                    "text": "Wild type / cells lacking both RYBP and YAF2."
+                  },
+                  {
+                    "label": "RPM / log ratio",
+                    "text": "Reads per million mapped reads / base-2 log DKO-to-WT ChIP ratio."
+                  }
+                ],
+                "reading_note": "The central gray group is labeled 78%; it contains peaks within the paper’s 1.5-fold boundary. This is distinct from the mean profile in S3E.",
                 "short_label": "Figure 2J · H3K27me3 changes across individual peaks",
                 "width": 385,
                 "height": 352
@@ -1137,31 +1203,31 @@ window.GEMS = {
               {
                 "paper_id": "zhao-2024",
                 "path": "panels/result-focus/zhao24-s3c.png",
-                "label": "Figure S3C",
-                "short_label": "Figure S3C",
+                "label": "Figure S3B–E · CBX7 (C)",
+                "short_label": "Figure S3B–E · CBX7 (C)",
                 "page": 29,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.6051040967092007,
-                  0.08836104513064133,
-                  0.8670248488918737,
-                  0.2204275534441805
+                  0.3729003359462486,
+                  0.08788598574821853,
+                  0.8667413213885778,
+                  0.35312747426761676
                 ],
                 "box_pixels": [
-                  1081,
-                  223,
-                  1549,
-                  557
+                  666,
+                  222,
+                  1548,
+                  892
                 ],
                 "source_image_size": [
                   1786,
                   2526
                 ],
-                "width": 468,
-                "height": 334,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 882,
+                "height": 670,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -1169,7 +1235,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/zhao24-s3-abcd.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "WT / Rybp/Yaf2-DKO",
+                    "text": "Wild type / cells lacking both RYBP and YAF2."
+                  },
+                  {
+                    "label": "Peak center / reads density",
+                    "text": "ChIP read signal aligned to the center of the named molecule’s peaks."
+                  }
+                ],
+                "reading_note": "Use C, upper right: dashed RYBP/YAF2-DKO CBX7 is higher than solid WT around the peak center."
               }
             ],
             "summary": [
@@ -1233,6 +1310,17 @@ window.GEMS = {
           "created_at": "2026-11-02T22:30:53.923228+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:53.923228+00:00",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+            },
+            {
+              "label": "Input / read density",
+              "text": "Input is chromatin before immunoprecipitation; read density is the calibrated ChIP sequencing signal."
+            }
+          ],
+          "reading_note": "B above measures H3K27me3 and C below SUZ12. Compare dashed OHT with solid UNT: H3K27me3 is lower, while SUZ12 is close to or above UNT.",
           "short_label": "Figure 8B–C · target-site H3K27me3 and SUZ12",
           "width": 443,
           "height": 683
@@ -1269,6 +1357,17 @@ window.GEMS = {
           "created_at": "2026-11-02T22:30:54.039914+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:54.039914+00:00",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+            },
+            {
+              "label": "% input / n.c.",
+              "text": "Percentage of input DNA recovered by ChIP / negative-control locus."
+            }
+          ],
+          "reading_note": "Use B on the right: compare red OHT and blue UNT SUZ12 ChIP bars at the six loci. A on the left measures H3K27me3 separately.",
           "short_label": "Figure 8 supplement 2A–B · selected-locus validation",
           "width": 710,
           "height": 307
@@ -1308,7 +1407,18 @@ window.GEMS = {
           "review_status": "reviewed",
           "verification": "Direct visual review of the crop and native PDF page 10; Figure 5H labels, UNT/OHT curves, legend and axes retained.",
           "checked": "2026-11-03",
-          "visual_reviewed_at": "2026-11-03T15:33:51.887509+00:00"
+          "visual_reviewed_at": "2026-11-03T15:33:51.887509+00:00",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+            },
+            {
+              "label": "Input / read density",
+              "text": "Input is chromatin before immunoprecipitation; read density is the calibrated ChIP sequencing signal."
+            }
+          ],
+          "reading_note": "Solid UNT and dashed OHT red curves are H2AK119ub1 at target peaks; dashed OHT is lower. Gray curves are input."
         }
       ],
       "review_status": "reviewed",
@@ -1409,6 +1519,17 @@ window.GEMS = {
             "created_at": "2026-11-02T22:30:54.506765+00:00",
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:30:54.506765+00:00",
+            "legend_key": [
+              {
+                "label": "UNT / OHT",
+                "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+              },
+              {
+                "label": "Log2 fold change / base mean / P",
+                "text": "Base-2 log treated/control nuclear RNA abundance / average normalized count / significance P-value. Red dots mark P < 0.05."
+              }
+            ],
+            "reading_note": "Points above zero have higher nuclear RNA after RYBP removal; red points meet P < 0.05. The counts 230/37 come from the source analysis, not labels drawn in this MA plot.",
             "short_label": "Figure 9A · nuclear RNA",
             "width": 474,
             "height": 482
@@ -1463,7 +1584,7 @@ window.GEMS = {
       "comparison_links": [
         {
           "observation_id": "gem-prc1-zhao24-dko",
-          "text": "Stable RYBP/YAF2 double-KO retains near-WT mean H3K27me3, whereas this 96h conditional deletion reduces target-site H3K27me3."
+          "text": "Established RYBP/YAF2-knockout clones retain near-WT mean H3K27me3; 96h RYBP deletion in YAF2-null cells lowers target-site H3K27me3."
         },
         {
           "observation_id": "zepeda20-rybp-established",
@@ -1563,7 +1684,18 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Direct visual review of the crop and native PDF page 10; Figure 5H labels, UNT/OHT curves, legend and axes retained.",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T15:33:51.887509+00:00"
+                "visual_reviewed_at": "2026-11-03T15:33:51.887509+00:00",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+                  },
+                  {
+                    "label": "Input / read density",
+                    "text": "Input is chromatin before immunoprecipitation; read density is the calibrated ChIP sequencing signal."
+                  }
+                ],
+                "reading_note": "Solid UNT and dashed OHT red curves are H2AK119ub1 at target peaks; dashed OHT is lower. Gray curves are input."
               },
               {
                 "paper_id": "rose-2016",
@@ -1597,6 +1729,17 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:30:53.923228+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:30:53.923228+00:00",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+                  },
+                  {
+                    "label": "Input / read density",
+                    "text": "Input is chromatin before immunoprecipitation; read density is the calibrated ChIP sequencing signal."
+                  }
+                ],
+                "reading_note": "B above measures H3K27me3 and C below SUZ12. Compare dashed OHT with solid UNT: H3K27me3 is lower, while SUZ12 is close to or above UNT.",
                 "short_label": "Figure 8B–C · target-site H3K27me3 and SUZ12",
                 "width": 443,
                 "height": 683
@@ -1652,6 +1795,17 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:30:53.923228+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:30:53.923228+00:00",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+                  },
+                  {
+                    "label": "Input / read density",
+                    "text": "Input is chromatin before immunoprecipitation; read density is the calibrated ChIP sequencing signal."
+                  }
+                ],
+                "reading_note": "B above measures H3K27me3 and C below SUZ12. Compare dashed OHT with solid UNT: H3K27me3 is lower, while SUZ12 is close to or above UNT.",
                 "short_label": "Figure 8B–C · target-site H3K27me3 and SUZ12",
                 "width": 443,
                 "height": 683
@@ -1688,6 +1842,17 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:30:54.039914+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:30:54.039914+00:00",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+                  },
+                  {
+                    "label": "% input / n.c.",
+                    "text": "Percentage of input DNA recovered by ChIP / negative-control locus."
+                  }
+                ],
+                "reading_note": "Use B on the right: compare red OHT and blue UNT SUZ12 ChIP bars at the six loci. A on the left measures H3K27me3 separately.",
                 "short_label": "Figure 8 supplement 2A–B · selected-locus validation",
                 "width": 710,
                 "height": 307
@@ -1738,6 +1903,17 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:30:54.506765+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:30:54.506765+00:00",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+                  },
+                  {
+                    "label": "Log2 fold change / base mean / P",
+                    "text": "Base-2 log treated/control nuclear RNA abundance / average normalized count / significance P-value. Red dots mark P < 0.05."
+                  }
+                ],
+                "reading_note": "Points above zero have higher nuclear RNA after RYBP removal; red points meet P < 0.05. The counts 230/37 come from the source analysis, not labels drawn in this MA plot.",
                 "short_label": "Figure 9A · nuclear RNA",
                 "width": 474,
                 "height": 482
@@ -1805,6 +1981,25 @@ window.GEMS = {
           "created_at": "2026-11-02T22:30:56.480079+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:56.480079+00:00",
+          "legend_key": [
+            {
+              "label": "IAA / h",
+              "text": "Auxin-triggered RYBP degradation / hours."
+            },
+            {
+              "label": "Aphidicolin",
+              "text": "DNA-replication inhibitor."
+            },
+            {
+              "label": "H2Aub1 / H2AK119ub1",
+              "text": "H2A carrying one ubiquitin on lysine 119."
+            },
+            {
+              "label": "H3 / kDa",
+              "text": "Loading control / protein molecular mass."
+            }
+          ],
+          "reading_note": "Compare bulk H2AK119ub1 over auxin treatment without versus with aphidicolin; H3 controls loading in both blots.",
           "short_label": "Figure 6g–h · RYBP degradation, bulk mark and aphidicolin",
           "width": 864,
           "height": 174
@@ -1915,6 +2110,21 @@ window.GEMS = {
               "created_at": "2026-11-02T22:30:57.019666+00:00",
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:30:57.019666+00:00",
+              "legend_key": [
+                {
+                  "label": "IAA / h",
+                  "text": "Auxin-triggered RYBP degradation / hours."
+                },
+                {
+                  "label": "% input",
+                  "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                },
+                {
+                  "label": "IgG",
+                  "text": "Background-control antibody."
+                }
+              ],
+              "reading_note": "Upper panels measure local H2AK119ub1; lower panels measure RNA at the same four loci over their displayed time points.",
               "short_label": "Figure 6i–j · matched local mark and RNA time courses",
               "width": 953,
               "height": 669
@@ -1962,6 +2172,21 @@ window.GEMS = {
             "created_at": "2026-11-02T22:30:57.019666+00:00",
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:30:57.019666+00:00",
+            "legend_key": [
+              {
+                "label": "IAA / h",
+                "text": "Auxin-triggered RYBP degradation / hours."
+              },
+              {
+                "label": "% input",
+                "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+              },
+              {
+                "label": "IgG",
+                "text": "Background-control antibody."
+              }
+            ],
+            "reading_note": "Upper panels measure local H2AK119ub1; lower panels measure RNA at the same four loci over their displayed time points.",
             "short_label": "Figure 6i–j · matched local mark and RNA time courses",
             "width": 953,
             "height": 669
@@ -1998,7 +2223,7 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "RYBP AID ± aphidicolin",
-        "result": "RYBP lost by ~1h; bulk H2AK119ub1 declines from ~12h. Aphidicolin preserves the mark; local ChIP decreases by 12h.",
+        "result": "RYBP lost by ~1h; bulk H2AK119ub1 declines from ~12h and is better preserved with aphidicolin. Local H2AK119ub1 ChIP ↓ by 12h.",
         "timing": "1–96h; local ChIP 12/24/48h",
         "function": "YAF2 present",
         "rna_result": "Notch1/Cdx1 ↑; Gata3/Tbx4 ↓. RNA measured without aphidicolin.",
@@ -2076,10 +2301,10 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1038/s41556-020-0484-1",
                 "source_sha256": "f5d7ea8de21b8469610dc054b560197bfb70dac534b061c43b2cb166c31cb3e8",
                 "box_normalized": [
-                  0.05977165883143049,
-                  0.531850353892821,
-                  0.33829415715245126,
-                  0.6198179979777553
+                  0.05977,
+                  0.53185,
+                  0.35,
+                  0.623
                 ],
                 "box_pixels": [
                   107,
@@ -2091,8 +2316,8 @@ window.GEMS = {
                   1786,
                   2373
                 ],
-                "width": 497,
-                "height": 209,
+                "width": 520,
+                "height": 218,
                 "caption": "Original rectangular source crop; no image content changed.",
                 "view": "Chromatin",
                 "reviewed": true,
@@ -2100,8 +2325,34 @@ window.GEMS = {
                 "created_at": "2026-11-03T15:47:00.501096+00:00",
                 "derived_from_crop": "panels/reviewed-prc1/zhao20-fig6-gh.png",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "visual_reviewed_at": "2026-11-03T16:37:36.009876+00:00",
+                "verification": "Individually inspected against native PDF source page; original rectangular source content only.",
+                "legend_key": [
+                  {
+                    "label": "IAA / h",
+                    "text": "Auxin-triggered RYBP degradation / hours."
+                  },
+                  {
+                    "label": "HA–AID",
+                    "text": "Epitope and auxin-degradation tags on RYBP."
+                  },
+                  {
+                    "label": "H2Aub1 / H2AK119ub1",
+                    "text": "H2A carrying one ubiquitin on lysine 119."
+                  },
+                  {
+                    "label": "H3 / kDa",
+                    "text": "Loading control / protein molecular mass."
+                  }
+                ],
+                "reading_note": "Read RYBP disappearance across auxin time points; H3 controls loading and the adjacent row measures bulk H2AK119ub1.",
+                "box_pdf_points": [
+                  35.579646578369136,
+                  420.62209690246584,
+                  208.34660034179686,
+                  492.70953533935545
+                ],
+                "render_dpi": 216
               }
             ],
             "summary": [
@@ -2148,6 +2399,25 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:30:56.480079+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:30:56.480079+00:00",
+                "legend_key": [
+                  {
+                    "label": "IAA / h",
+                    "text": "Auxin-triggered RYBP degradation / hours."
+                  },
+                  {
+                    "label": "Aphidicolin",
+                    "text": "DNA-replication inhibitor."
+                  },
+                  {
+                    "label": "H2Aub1 / H2AK119ub1",
+                    "text": "H2A carrying one ubiquitin on lysine 119."
+                  },
+                  {
+                    "label": "H3 / kDa",
+                    "text": "Loading control / protein molecular mass."
+                  }
+                ],
+                "reading_note": "Compare bulk H2AK119ub1 over auxin treatment without versus with aphidicolin; H3 controls loading in both blots.",
                 "short_label": "Figure 6g–h · RYBP degradation, bulk mark and aphidicolin",
                 "width": 864,
                 "height": 174
@@ -2200,7 +2470,22 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/zhao20-fig6-ij.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "IAA / h",
+                    "text": "Auxin-triggered RYBP degradation / hours."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "IgG",
+                    "text": "Background-control antibody."
+                  }
+                ],
+                "reading_note": "Compare untreated with 12, 24 and 48 h auxin at each locus; the first local-mark measurement is 12 h."
               }
             ],
             "summary": [
@@ -2265,7 +2550,22 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.995073+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "Wild-type / Eed-null / Rybp-null",
+              "text": "Unmodified cells / cells lacking EED / cells lacking RYBP."
+            },
+            {
+              "label": "Shared / Variant specific",
+              "text": "Purple: targets occupied by canonical and variant PRC1; green: variant-PRC1-specific targets."
+            },
+            {
+              "label": "TSS / gene distance / read density",
+              "text": "TSS is the transcription start site; kb is thousands of DNA bases. Profile and heatmap scales show ChIP read enrichment."
+            }
+          ],
+          "reading_note": "Within each molecule block compare WT/EED-null/RYBP-null; the upper purple target class is shared and the lower green class is variant-specific."
         },
         {
           "paper_id": "zepeda-martinez-2020",
@@ -2297,7 +2597,22 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.942377+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "Eed-null / Rybp-null",
+              "text": "Cells lacking EED / cells lacking RYBP."
+            },
+            {
+              "label": "Rnf2 / RPKM",
+              "text": "RING1B / reads per kilobase per million mapped reads."
+            },
+            {
+              "label": "Shared / Variant specific",
+              "text": "Purple: canonical-and-variant PRC1 targets; green: variant-PRC1-specific targets."
+            }
+          ],
+          "reading_note": "Left columns compare EED-null with WT, right columns RYBP-null with WT. RING1B is above and H2AK119ub1 below; purple denotes shared targets."
         }
       ],
       "limitations": [
@@ -2364,7 +2679,18 @@ window.GEMS = {
             "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
             "created_at": "2026-11-03T00:41:39.031174+00:00",
             "reviewed_at": "2026-11-03T00:47:20.698871+00:00",
-            "view": "rna"
+            "view": "rna",
+            "legend_key": [
+              {
+                "label": "Eed-null / Rybp-null",
+                "text": "Cells lacking EED / cells lacking RYBP."
+              },
+              {
+                "label": "Shared / Variant / log2 change",
+                "text": "Canonical-and-variant PRC1 targets / variant-only targets; RNA knockout-to-WT ratio on a base-2 log scale."
+              }
+            ],
+            "reading_note": "Use purple Shared boxes: the EED-null comparison is left and RYBP-null right; both medians lie close to zero log2 RNA change."
           },
           {
             "paper_id": "zepeda-martinez-2020",
@@ -2397,7 +2723,26 @@ window.GEMS = {
             "review_status": "reviewed",
             "verification": "Full source PDF page and final crop visually inspected; panel letters, conditions, axes and legends retained.",
             "visual_reviewed_at": "2026-11-03T15:33:25.680979+00:00",
-            "checked": "2026-11-03"
+            "checked": "2026-11-03",
+            "legend_key": [
+              {
+                "label": "dRybp Eed-null / dSuz12 Rybp-null / dRnf2 Ring1-null",
+                "text": "Auxin-degradable RYBP in EED-null cells / SUZ12 in RYBP-null cells / RING1B in RING1A-null cells."
+              },
+              {
+                "label": "IAA / untreated",
+                "text": "Auxin treatment degrades the tagged protein; untreated or −IAA is its matched control."
+              },
+              {
+                "label": "TSS / fold change",
+                "text": "TSS is the transcription start site; log2 fold change is the base-2 log of treated/untreated RNA abundance."
+              },
+              {
+                "label": "Shared / Variant specific",
+                "text": "Purple: shared canonical/variant PRC1 targets; green: variant-PRC1-specific targets."
+              }
+            ],
+            "reading_note": "Use the middle dSuz12/Rybp-null comparison: purple Shared boxes at 24/48h are higher than the green Variant-specific boxes, with the larger shift at 48h."
           }
         ],
         "chromatin_pairing": {
@@ -2434,7 +2779,22 @@ window.GEMS = {
               "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
               "created_at": "2026-11-03T00:41:38.942377+00:00",
               "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-              "view": "chromatin"
+              "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "Eed-null / Rybp-null",
+                  "text": "Cells lacking EED / cells lacking RYBP."
+                },
+                {
+                  "label": "Rnf2 / RPKM",
+                  "text": "RING1B / reads per kilobase per million mapped reads."
+                },
+                {
+                  "label": "Shared / Variant specific",
+                  "text": "Purple: canonical-and-variant PRC1 targets; green: variant-PRC1-specific targets."
+                }
+              ],
+              "reading_note": "Left columns compare EED-null with WT, right columns RYBP-null with WT. RING1B is above and H2AK119ub1 below; purple denotes shared targets."
             },
             {
               "paper_id": "zepeda-martinez-2020",
@@ -2466,7 +2826,22 @@ window.GEMS = {
               "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
               "created_at": "2026-11-03T00:41:38.995073+00:00",
               "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-              "view": "chromatin"
+              "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "Wild-type / Eed-null / Rybp-null",
+                  "text": "Unmodified cells / cells lacking EED / cells lacking RYBP."
+                },
+                {
+                  "label": "Shared / Variant specific",
+                  "text": "Purple: targets occupied by canonical and variant PRC1; green: variant-PRC1-specific targets."
+                },
+                {
+                  "label": "TSS / gene distance / read density",
+                  "text": "TSS is the transcription start site; kb is thousands of DNA bases. Profile and heatmap scales show ChIP read enrichment."
+                }
+              ],
+              "reading_note": "Within each molecule block compare WT/EED-null/RYBP-null; the upper purple target class is shared and the lower green class is variant-specific."
             }
           ],
           "linked_observation_id": "zepeda20-rybp-established",
@@ -2635,7 +3010,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-prc2/zepeda20-s2a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "Wild-type / Eed-null / Rybp-null",
+                    "text": "Unmodified cells / cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "TSS / kb",
+                    "text": "Transcription start site / thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Compare first WT and third RYBP-null PCGF1 columns; the RYBP-null profile is lower. The middle EED-null condition is a separate comparison."
               }
             ],
             "summary": [
@@ -2681,7 +3067,22 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:38.942377+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-                "view": "chromatin"
+                "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Eed-null / Rybp-null",
+                    "text": "Cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "Rnf2 / RPKM",
+                    "text": "RING1B / reads per kilobase per million mapped reads."
+                  },
+                  {
+                    "label": "Shared / Variant specific",
+                    "text": "Purple: canonical-and-variant PRC1 targets; green: variant-PRC1-specific targets."
+                  }
+                ],
+                "reading_note": "Left columns compare EED-null with WT, right columns RYBP-null with WT. RING1B is above and H2AK119ub1 below; purple denotes shared targets."
               }
             ],
             "summary": [
@@ -2732,7 +3133,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-prc2/zepeda20-s2a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "Wild-type / Eed-null / Rybp-null",
+                    "text": "Unmodified cells / cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "TSS / kb",
+                    "text": "Transcription start site / thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Compare the first WT and third RYBP-null columns in H3K27me3, especially the upper purple shared-target profile."
               }
             ],
             "summary": [
@@ -2783,7 +3195,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-prc2/zepeda20-s2a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "Wild-type / Eed-null / Rybp-null",
+                    "text": "Unmodified cells / cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "TSS / kb",
+                    "text": "Transcription start site / thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Compare the first WT and third RYBP-null columns, especially the upper purple shared-target profile; the middle EED-null condition is a separate comparison."
               }
             ],
             "summary": [
@@ -2829,7 +3252,18 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:39.031174+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698871+00:00",
-                "view": "rna"
+                "view": "rna",
+                "legend_key": [
+                  {
+                    "label": "Eed-null / Rybp-null",
+                    "text": "Cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "Shared / Variant / log2 change",
+                    "text": "Canonical-and-variant PRC1 targets / variant-only targets; RNA knockout-to-WT ratio on a base-2 log scale."
+                  }
+                ],
+                "reading_note": "Use purple Shared boxes: the EED-null comparison is left and RYBP-null right; both medians lie close to zero log2 RNA change."
               }
             ],
             "summary": [
@@ -2908,6 +3342,17 @@ window.GEMS = {
           "created_at": "2026-11-02T22:30:55.466656+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:55.466656+00:00",
+          "legend_key": [
+            {
+              "label": "0h / 2h / 4h / 8h",
+              "text": "Hours after auxin-induced RYBP/YAF2 degradation; 0h is untreated."
+            },
+            {
+              "label": "Read density / peak center",
+              "text": "ChIP sequencing signal aligned to the center of each named protein’s peaks."
+            }
+          ],
+          "reading_note": "D is CBX7 and E is RING1B. Compare the red, blue, green and purple curves for 0, 2, 4 and 8h within each panel.",
           "short_label": "Figure 3D–E · CBX7 and RING1B over 2–8 hours",
           "width": 724,
           "height": 433
@@ -2944,6 +3389,17 @@ window.GEMS = {
           "created_at": "2026-11-02T22:30:55.940458+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:55.940458+00:00",
+          "legend_key": [
+            {
+              "label": "IAA / − / hours",
+              "text": "Auxin degrades RYBP/YAF2; − is untreated and 2/4/8h are treatment times."
+            },
+            {
+              "label": "% input",
+              "text": "ChIP DNA recovered as a percentage of starting input DNA."
+            }
+          ],
+          "reading_note": "Each column is one labeled locus; the top row measures H2Aub1 and the lower row CBX7 across the same auxin time course.",
           "short_label": "Figure 3G · mark and CBX7 at four loci",
           "width": 1116,
           "height": 636
@@ -3028,7 +3484,7 @@ window.GEMS = {
       "comparison_links": [
         {
           "observation_id": "gem-prc1-zhao24-dko",
-          "text": "The stable double-KO also increases CBX7. The acute series additionally shows a 2h RING1B dip and partial recovery by 8h."
+          "text": "Established RYBP/YAF2-knockout clones also show higher CBX7 ChIP. Acute RYBP/YAF2 degradation shows a RING1B ChIP dip at 2h and partial recovery by 8h."
         }
       ],
       "presentation": {
@@ -3111,7 +3567,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/zhao24-fig3-de.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "0h / 2h / 4h / 8h",
+                    "text": "Hours after auxin-induced RYBP/YAF2 degradation; 0h is untreated."
+                  },
+                  {
+                    "label": "Read density / peak center",
+                    "text": "ChIP sequencing signal aligned to the center of each named protein’s peaks."
+                  }
+                ],
+                "reading_note": "RING1B is lowest in blue at 2h; green 4h and purple 8h recover partway toward red 0h."
               }
             ],
             "summary": [
@@ -3161,7 +3628,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/zhao24-fig3g.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "IAA / − / hours",
+                    "text": "Auxin degrades RYBP/YAF2; − is untreated and 2/4/8h are treatment times."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "ChIP DNA recovered as a percentage of starting input DNA."
+                  }
+                ],
+                "reading_note": "Compare the four time bars within each H2Aub1 plot; pair the columns with the native gene-name strip. All four finish below their untreated bar."
               },
               {
                 "paper_id": "zhao-2024",
@@ -3199,7 +3677,14 @@ window.GEMS = {
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
                 "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
-                "panel_role": "shared_key"
+                "panel_role": "shared_key",
+                "legend_key": [
+                  {
+                    "label": "Locus names",
+                    "text": "Dpf3, Smc1B, Hoxc12 and Six1 identify the four G plot columns, in that order; this strip is a shared key."
+                  }
+                ],
+                "reading_note": "These are the four native column names for the companion Figure 3G plots, left to right; this strip contains no measurements."
               }
             ],
             "summary": [
@@ -3218,31 +3703,31 @@ window.GEMS = {
               {
                 "paper_id": "zhao-2024",
                 "path": "panels/result-focus/zhao24-fig3d.png",
-                "label": "Figure 3D · CBX7",
-                "short_label": "Figure 3D · CBX7",
+                "label": "Figure 3D–E · CBX7 (left, D)",
+                "short_label": "Figure 3D–E · CBX7 (left, D)",
                 "page": 7,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.13992042440318303,
-                  0.3769152196118488,
-                  0.37997347480106103,
-                  0.5980592441266599
+                  0.1398562741846324,
+                  0.37718177948063003,
+                  0.6207849640685461,
+                  0.5981268624946786
                 ],
                 "box_pixels": [
                   253,
-                  885,
-                  687,
+                  886,
+                  1123,
                   1405
                 ],
                 "source_image_size": [
                   1809,
                   2349
                 ],
-                "width": 434,
-                "height": 520,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 870,
+                "height": 519,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -3250,7 +3735,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/zhao24-fig3-de.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "0h / 2h / 4h / 8h",
+                    "text": "Hours after auxin-induced RYBP/YAF2 degradation; 0h is untreated."
+                  },
+                  {
+                    "label": "Read density / peak center",
+                    "text": "ChIP sequencing signal aligned to the center of each named protein’s peaks."
+                  }
+                ],
+                "reading_note": "Use left panel D: CBX7 profiles increase from red 0h through blue 2h, green 4h and purple 8h after auxin."
               }
             ],
             "summary": [
@@ -3314,6 +3810,29 @@ window.GEMS = {
           "created_at": "2026-11-02T22:30:57.863241+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:57.863241+00:00",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "TF/AA; 1 / 2",
+              "text": "RYBP reader variant; independent edited clones."
+            },
+            {
+              "label": "KO / null",
+              "text": "Loss of the named protein."
+            },
+            {
+              "label": "H2Aub1 / H2AK119ub1",
+              "text": "H2A carrying one ubiquitin on lysine 119."
+            },
+            {
+              "label": "kb / center",
+              "text": "1,000 DNA bases / aligned target midpoint."
+            }
+          ],
+          "reading_note": "In b compare WT/KO and WT/reader-mutant heatmaps with their appropriate scales; c shows the named locus under reader mutation.",
           "short_label": "Figure 2b–c · endogenous RYBP-reader mutant",
           "width": 946,
           "height": 390
@@ -3350,6 +3869,25 @@ window.GEMS = {
           "created_at": "2026-11-02T22:31:02.481153+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:31:02.481153+00:00",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "Rybp T31A/F32A",
+              "text": "Reader-mutant cells."
+            },
+            {
+              "label": "H2Aub1 / H2AK119ub1",
+              "text": "H2A carrying one ubiquitin on lysine 119."
+            },
+            {
+              "label": "K / peak centre",
+              "text": "1,000 DNA bases / aligned mark peak midpoint."
+            }
+          ],
+          "reading_note": "Compare WT/reader-mutant curves separately for H3K27me3 and H2AK119ub1 using each vertical axis.",
           "short_label": "Figure 4b lower row · reader-mutant H3K27me3 and H2AK119ub1",
           "width": 894,
           "height": 320
@@ -3459,6 +3997,29 @@ window.GEMS = {
               "created_at": "2026-11-02T22:30:57.863241+00:00",
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:30:57.863241+00:00",
+              "legend_key": [
+                {
+                  "label": "WT",
+                  "text": "Unmodified reference."
+                },
+                {
+                  "label": "TF/AA; 1 / 2",
+                  "text": "RYBP reader variant; independent edited clones."
+                },
+                {
+                  "label": "KO / null",
+                  "text": "Loss of the named protein."
+                },
+                {
+                  "label": "H2Aub1 / H2AK119ub1",
+                  "text": "H2A carrying one ubiquitin on lysine 119."
+                },
+                {
+                  "label": "kb / center",
+                  "text": "1,000 DNA bases / aligned target midpoint."
+                }
+              ],
+              "reading_note": "In b compare WT/KO and WT/reader-mutant heatmaps with their appropriate scales; c shows the named locus under reader mutation.",
               "short_label": "Figure 2b–c · endogenous RYBP-reader mutant",
               "width": 946,
               "height": 390
@@ -3495,6 +4056,25 @@ window.GEMS = {
               "created_at": "2026-11-02T22:31:02.481153+00:00",
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:31:02.481153+00:00",
+              "legend_key": [
+                {
+                  "label": "WT",
+                  "text": "Unmodified reference."
+                },
+                {
+                  "label": "Rybp T31A/F32A",
+                  "text": "Reader-mutant cells."
+                },
+                {
+                  "label": "H2Aub1 / H2AK119ub1",
+                  "text": "H2A carrying one ubiquitin on lysine 119."
+                },
+                {
+                  "label": "K / peak centre",
+                  "text": "1,000 DNA bases / aligned mark peak midpoint."
+                }
+              ],
+              "reading_note": "Compare WT/reader-mutant curves separately for H3K27me3 and H2AK119ub1 using each vertical axis.",
               "short_label": "Figure 4b lower row · reader-mutant H3K27me3 and H2AK119ub1",
               "width": 894,
               "height": 320
@@ -3535,6 +4115,17 @@ window.GEMS = {
             "created_at": "2026-11-02T22:30:58.440093+00:00",
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:30:58.440093+00:00",
+            "legend_key": [
+              {
+                "label": "TF/AA / WT",
+                "text": "RYBP reader variant / reference."
+              },
+              {
+                "label": "Log2 / −log10 p",
+                "text": "RNA fold-change scale / statistical significance; higher −log10 p means smaller p."
+              }
+            ],
+            "reading_note": "Positive horizontal values mean more RNA in the reader mutant; colored counts refer to the significantly changed genes.",
             "short_label": "Extended Data7i · reader-mutant RNA",
             "width": 409,
             "height": 376
@@ -3633,10 +4224,10 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1038/s41556-020-0484-1",
                 "source_sha256": "f5d7ea8de21b8469610dc054b560197bfb70dac534b061c43b2cb166c31cb3e8",
                 "box_normalized": [
-                  0.5648085963734051,
-                  0.16481294236602628,
-                  0.6856950973807925,
-                  0.34883720930232553
+                  0.55,
+                  0.16481,
+                  0.6857,
+                  0.34884
                 ],
                 "box_pixels": [
                   1009,
@@ -3648,7 +4239,7 @@ window.GEMS = {
                   1786,
                   2373
                 ],
-                "width": 216,
+                "width": 243,
                 "height": 437,
                 "caption": "Original rectangular source crop; no image content changed.",
                 "view": "Chromatin",
@@ -3657,8 +4248,34 @@ window.GEMS = {
                 "created_at": "2026-11-03T15:47:00.501096+00:00",
                 "derived_from_crop": "panels/reviewed-prc1/zhao20-fig2-bc.png",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "visual_reviewed_at": "2026-11-03T16:37:35.889202+00:00",
+                "verification": "Individually inspected against native PDF source page; original rectangular source content only.",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "TF/AA; 1 / 2",
+                    "text": "RYBP reader variant; independent edited clones."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  },
+                  {
+                    "label": "H2Aub1 / H2AK119ub1",
+                    "text": "H2A carrying one ubiquitin on lysine 119."
+                  }
+                ],
+                "reading_note": "Compare WT with both TF/AA clone columns using the accompanying shared orange H2AK119ub1 scale.",
+                "box_pdf_points": [
+                  327.4018005371094,
+                  130.34263004699707,
+                  408.1807538696289,
+                  275.88570514892575
+                ],
+                "render_dpi": 216
               },
               {
                 "paper_id": "zhao-2020",
@@ -3670,10 +4287,10 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1038/s41556-020-0484-1",
                 "source_sha256": "f5d7ea8de21b8469610dc054b560197bfb70dac534b061c43b2cb166c31cb3e8",
                 "box_normalized": [
-                  0.48421759570181333,
-                  0.3493427704752275,
-                  0.5305574210879785,
-                  0.36147623862487355
+                  0.48421,
+                  0.34934,
+                  0.542,
+                  0.363
                 ],
                 "box_pixels": [
                   865,
@@ -3685,8 +4302,8 @@ window.GEMS = {
                   1786,
                   2373
                 ],
-                "width": 83,
-                "height": 29,
+                "width": 104,
+                "height": 34,
                 "caption": "Original rectangular source crop; no image content changed.",
                 "view": "Chromatin",
                 "reviewed": true,
@@ -3694,9 +4311,23 @@ window.GEMS = {
                 "created_at": "2026-11-03T15:47:00.501096+00:00",
                 "derived_from_crop": "panels/reviewed-prc1/zhao20-fig2-bc.png",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
-                "panel_role": "shared_key"
+                "visual_reviewed_at": "2026-11-03T16:37:35.979610+00:00",
+                "verification": "Individually inspected against native PDF source page; original rectangular source content only.",
+                "panel_role": "shared_key",
+                "legend_key": [
+                  {
+                    "label": "0–4.0",
+                    "text": "Shared H2Aub1 enrichment scale."
+                  }
+                ],
+                "reading_note": "Apply this orange 0–4.0 scale to the TF/AA H2AK119ub1 heatmaps in Figure 2b.",
+                "box_pdf_points": [
+                  288.2385924328613,
+                  276.2811381628418,
+                  322.6395925292969,
+                  287.0843681030273
+                ],
+                "render_dpi": 216
               }
             ],
             "summary": [
@@ -3747,7 +4378,22 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/zhao20-fig4b-reader.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "Rybp T31A/F32A",
+                    "text": "Reader-mutant cells."
+                  },
+                  {
+                    "label": "K / peak centre",
+                    "text": "1,000 DNA bases / aligned H3K27me3 peak midpoint."
+                  }
+                ],
+                "reading_note": "Compare solid WT with dashed reader-mutant H3K27me3 around the same aligned peak centers."
               }
             ],
             "summary": [
@@ -3812,6 +4458,17 @@ window.GEMS = {
           "created_at": "2026-11-02T22:30:59.084514+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:59.084514+00:00",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated / 4-hydroxytamoxifen treatment removing PCGF2 in PCGF4-null cells."
+            },
+            {
+              "label": "Relative signal / kb",
+              "text": "Relative ChIP enrichment / thousands of DNA bases from domain center."
+            }
+          ],
+          "reading_note": "H contains RING1B/H2AK119ub1 and I contains SUZ12/H3K27me3. Compare dashed OHT with solid UNT within each named plot.",
           "short_label": "Figure 1H–I · canonical-subunit deletion",
           "width": 1093,
           "height": 255
@@ -3914,6 +4571,21 @@ window.GEMS = {
             "created_at": "2026-11-02T22:30:59.636426+00:00",
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:30:59.636426+00:00",
+            "legend_key": [
+              {
+                "label": "UNT / OHT",
+                "text": "Untreated versus 4-hydroxytamoxifen-treated cells. Left: RING1B removal in RING1A-null cells. Right: PCGF2 removal in PCGF4-null cells."
+              },
+              {
+                "label": "Log2 OHT/UNT / RPKM",
+                "text": "RNA fold change after treatment, on a base-2 log scale, versus untreated reads per kilobase per million mapped reads."
+              },
+              {
+                "label": "fl/fl / −/−",
+                "text": "Two conditional floxed alleles / loss of both copies of the named gene."
+              }
+            ],
+            "reading_note": "Use the right Pcgf4-null/Pcgf2-conditional comparison for 13 up and 7 down; the left RING1A/B-loss plot is a separate comparator.",
             "short_label": "Figure 1E · matched nuclear RNA and RING1A/B comparator",
             "width": 610,
             "height": 363
@@ -4068,7 +4740,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/fursova-fig1-hi.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen treatment removing PCGF2 in PCGF4-null cells."
+                  },
+                  {
+                    "label": "Relative signal / kb",
+                    "text": "Relative ChIP enrichment / thousands of DNA bases from domain center."
+                  }
+                ],
+                "reading_note": "In RING1B, dashed OHT is markedly below solid UNT at the domain center."
               }
             ],
             "summary": [
@@ -4086,31 +4769,31 @@ window.GEMS = {
               {
                 "paper_id": "fursova-2019",
                 "path": "panels/result-focus/fursova-fig1-ub.png",
-                "label": "Figure 1H–I · H2AK119ub1",
-                "short_label": "Figure 1H–I · H2AK119ub1",
+                "label": "Figure 1H · H2AK119ub1 (right; native shared axis)",
+                "short_label": "Figure 1H · H2AK119ub1 (right; native shared axis)",
                 "page": 4,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2019.03.024",
                 "source_sha256": "c4f7b3fff9bc3636e0e7d75aa3364c3702adf2ba4f774c097a92b48546714b95",
                 "box_normalized": [
-                  0.34084880636604775,
-                  0.5898876404494382,
-                  0.473474801061008,
-                  0.7150153217568949
+                  0.19126589275843006,
+                  0.5891868880374628,
+                  0.47374239911553345,
+                  0.7160493827160493
                 ],
                 "box_pixels": [
-                  617,
-                  1386,
+                  346,
+                  1384,
                   857,
-                  1680
+                  1682
                 ],
                 "source_image_size": [
                   1809,
                   2349
                 ],
-                "width": 240,
-                "height": 294,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 511,
+                "height": 298,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -4118,36 +4801,47 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/fursova-fig1-hi.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen treatment removing PCGF2 in PCGF4-null cells."
+                  },
+                  {
+                    "label": "Relative signal / kb",
+                    "text": "Relative ChIP enrichment / thousands of DNA bases from domain center."
+                  }
+                ],
+                "reading_note": "Use the right H2AK119ub1 plot; its UNT/OHT curves closely overlap. The left RING1B plot preserves the shared relative-signal axis."
               },
               {
                 "paper_id": "fursova-2019",
                 "path": "panels/result-focus/fursova-fig1-me3.png",
-                "label": "Figure 1H–I · H3K27me3",
-                "short_label": "Figure 1H–I · H3K27me3",
+                "label": "Figure 1I · H3K27me3 (right; native shared axis)",
+                "short_label": "Figure 1I · H3K27me3 (right; native shared axis)",
                 "page": 4,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2019.03.024",
                 "source_sha256": "c4f7b3fff9bc3636e0e7d75aa3364c3702adf2ba4f774c097a92b48546714b95",
                 "box_normalized": [
-                  0.6856763925729443,
-                  0.5898876404494382,
-                  0.8183023872679045,
-                  0.7150153217568949
+                  0.5362078496406855,
+                  0.5891868880374628,
+                  0.8192371475953566,
+                  0.7160493827160493
                 ],
                 "box_pixels": [
-                  1240,
-                  1386,
-                  1480,
-                  1680
+                  970,
+                  1384,
+                  1482,
+                  1682
                 ],
                 "source_image_size": [
                   1809,
                   2349
                 ],
-                "width": 240,
-                "height": 294,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 512,
+                "height": 298,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -4155,7 +4849,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/fursova-fig1-hi.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen treatment removing PCGF2 in PCGF4-null cells."
+                  },
+                  {
+                    "label": "Relative signal / kb",
+                    "text": "Relative ChIP enrichment / thousands of DNA bases from domain center."
+                  }
+                ],
+                "reading_note": "Use the right H3K27me3 plot; the orange UNT and dashed pale-orange OHT curves are close. The left SUZ12 plot preserves the shared relative-signal axis."
               }
             ],
             "summary": [
@@ -4205,7 +4910,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/fursova-fig1-hi.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen treatment removing PCGF2 in PCGF4-null cells."
+                  },
+                  {
+                    "label": "Relative signal / kb",
+                    "text": "Relative ChIP enrichment / thousands of DNA bases from domain center."
+                  }
+                ],
+                "reading_note": "In SUZ12, dashed OHT closely follows solid UNT at the domain center."
               }
             ],
             "summary": [
@@ -4252,6 +4968,21 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:30:59.636426+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:30:59.636426+00:00",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated versus 4-hydroxytamoxifen-treated cells. Left: RING1B removal in RING1A-null cells. Right: PCGF2 removal in PCGF4-null cells."
+                  },
+                  {
+                    "label": "Log2 OHT/UNT / RPKM",
+                    "text": "RNA fold change after treatment, on a base-2 log scale, versus untreated reads per kilobase per million mapped reads."
+                  },
+                  {
+                    "label": "fl/fl / −/−",
+                    "text": "Two conditional floxed alleles / loss of both copies of the named gene."
+                  }
+                ],
+                "reading_note": "Use the right Pcgf4-null/Pcgf2-conditional comparison for 13 up and 7 down; the left RING1A/B-loss plot is a separate comparator.",
                 "short_label": "Figure 1E · matched nuclear RNA and RING1A/B comparator",
                 "width": 610,
                 "height": 363
@@ -5127,6 +5858,17 @@ window.GEMS = {
           "created_at": "2026-11-02T22:31:00.219316+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:31:00.219316+00:00",
+          "legend_key": [
+            {
+              "label": "OHT/UNT",
+              "text": "After/before 4-hydroxytamoxifen-induced PCGF1/3/5/6 removal; log2 is the base-2 logarithm."
+            },
+            {
+              "label": "Retain / Down",
+              "text": "Promoters retaining RING1B (354) / promoters with reduced RING1B (1,717)."
+            }
+          ],
+          "reading_note": "Within each named plot compare Retain and Down boxes against the dashed zero line; the shared y-axis is log2 OHT/UNT.",
           "short_label": "Figure S6C · promoters retaining RING1B",
           "width": 797,
           "height": 379
@@ -5229,6 +5971,17 @@ window.GEMS = {
             "created_at": "2026-11-02T22:31:00.797425+00:00",
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:31:00.797425+00:00",
+            "legend_key": [
+              {
+                "label": "fl/fl / −/−",
+                "text": "Two conditional floxed alleles / both gene copies absent; labels name PCGF combinations or the RING1A/B comparator."
+              },
+              {
+                "label": "OHT/UNT",
+                "text": "RNA after/before 4-hydroxytamoxifen treatment, shown as a base-2 log ratio."
+              }
+            ],
+            "reading_note": "The first three violins remove the indicated PCGF combinations; the right red violin removes RING1A/B. All measure RNA at the same RING1B-retained promoter set.",
             "short_label": "Figure S6F · RNA from the same retained-promoter group",
             "width": 469,
             "height": 463
@@ -5282,10 +6035,10 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "PCGF1/3/5/6 conditional KO",
-        "result": "H2AK119ub1 ↓; RING1B retained, SUZ12 largely retained. H3K27me3 loss is smaller than in RING1B-loss promoters; RNA induction is smaller than after RING1A/B loss.",
+        "result": "H2AK119ub1 ↓; RING1B retained, SUZ12 largely retained. H3K27me3 loss is smaller than in promoters with reduced RING1B ChIP; RNA induction is smaller than after RING1B deletion in RING1A-null cells.",
         "timing": "72h post-induction",
         "scope": "354 promoters selected for retained RING1B",
-        "rna_result": "354 retained promoters: smaller RNA increase than after RING1A/B loss."
+        "rna_result": "354 retained promoters: smaller RNA increase than after RING1B deletion in RING1A-null cells."
       },
       "comparison_links": [],
       "presentation": {
@@ -5302,7 +6055,7 @@ window.GEMS = {
           },
           {
             "label": "H3K27me3",
-            "text": "smaller decrease than RING1B-loss promoters",
+            "text": "smaller decrease than promoters with reduced RING1B ChIP",
             "kind": "marks"
           },
           {
@@ -5312,7 +6065,7 @@ window.GEMS = {
           },
           {
             "label": "Nuclear RNA",
-            "text": "smaller induction than after RING1A/B loss",
+            "text": "smaller induction than after RING1B deletion in RING1A-null cells",
             "kind": "rna"
           }
         ],
@@ -5332,7 +6085,7 @@ window.GEMS = {
           },
           {
             "label": "H3K27me3",
-            "text": "smaller decrease than at RING1B-loss promoters",
+            "text": "smaller decrease than at promoters with reduced RING1B ChIP",
             "kind": "marks"
           },
           {
@@ -5349,7 +6102,7 @@ window.GEMS = {
         "rna": [
           {
             "label": "Nuclear RNA · 354 retained promoters",
-            "text": "less induction than after RING1A/B loss",
+            "text": "less induction than after RING1B deletion in RING1A-null cells",
             "kind": "rna"
           }
         ],
@@ -5396,7 +6149,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/fursova-s6c.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "OHT/UNT",
+                    "text": "After/before 4-hydroxytamoxifen-induced PCGF1/3/5/6 removal; log2 is the base-2 logarithm."
+                  },
+                  {
+                    "label": "Retain / Down",
+                    "text": "Promoters retaining RING1B (354) / promoters with reduced RING1B (1,717)."
+                  }
+                ],
+                "reading_note": "The RING1B Retain box centers near or above zero, while Down centers well below zero; these are outcome-selected promoter groups."
               }
             ],
             "summary": [
@@ -5406,7 +6170,7 @@ window.GEMS = {
                 "kind": "own_binding"
               }
             ],
-            "note": "Log2 OHT/UNT; 354 RING1B-retained promoters versus the RING1B-loss group.",
+            "note": "Log2 OHT/UNT; 354 RING1B-retained promoters versus the group with reduced RING1B ChIP.",
             "readout_label": "RING1B ChIP"
           },
           {
@@ -5415,31 +6179,31 @@ window.GEMS = {
               {
                 "paper_id": "fursova-2019",
                 "path": "panels/result-focus/fursova-s6c-ub.png",
-                "label": "Figure S6C · H2AK119ub1",
-                "short_label": "Figure S6C · H2AK119ub1",
+                "label": "Figure S6C · H2AK119ub1 (second plot); native shared axis",
+                "short_label": "Figure S6C · H2AK119ub1 (second plot); native shared axis",
                 "page": 12,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2019.03.024",
                 "source_sha256": "a838d2399d23f414890b4c69565b4598ceaeda70ce8f9549d19320f13e67e72a",
                 "box_normalized": [
-                  0.20147750167897915,
-                  0.35914489311163894,
-                  0.3089321692411014,
-                  0.5135391923990499
+                  0.0671892497200448,
+                  0.3590657165479018,
+                  0.5358342665173572,
+                  0.5150435471100554
                 ],
                 "box_pixels": [
-                  360,
+                  120,
                   907,
-                  552,
-                  1297
+                  957,
+                  1301
                 ],
                 "source_image_size": [
                   1786,
                   2526
                 ],
-                "width": 192,
-                "height": 390,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 837,
+                "height": 394,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -5447,7 +6211,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/fursova-s6c.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "OHT/UNT",
+                    "text": "After/before 4-hydroxytamoxifen-induced PCGF1/3/5/6 removal; log2 is the base-2 logarithm."
+                  },
+                  {
+                    "label": "Retain / Down",
+                    "text": "Promoters retaining RING1B (354) / promoters with reduced RING1B (1,717)."
+                  }
+                ],
+                "reading_note": "Use H2AK119ub1, second plot from the left. The Retain box is below zero, and the Down box is further below zero."
               }
             ],
             "summary": [
@@ -5457,7 +6232,7 @@ window.GEMS = {
                 "kind": "marks"
               }
             ],
-            "note": "Log2 OHT/UNT; 354 RING1B-retained promoters versus the RING1B-loss group.",
+            "note": "Log2 OHT/UNT; 354 RING1B-retained promoters versus the group with reduced RING1B ChIP.",
             "readout_label": "H2AK119ub1"
           },
           {
@@ -5466,31 +6241,31 @@ window.GEMS = {
               {
                 "paper_id": "fursova-2019",
                 "path": "panels/result-focus/fursova-s6c-me3.png",
-                "label": "Figure S6C · H3K27me3",
-                "short_label": "Figure S6C · H3K27me3",
+                "label": "Figure S6C · H3K27me3 (fourth plot); native shared axis",
+                "short_label": "Figure S6C · H3K27me3 (fourth plot); native shared axis",
                 "page": 12,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2019.03.024",
                 "source_sha256": "a838d2399d23f414890b4c69565b4598ceaeda70ce8f9549d19320f13e67e72a",
                 "box_normalized": [
-                  0.4231027535258563,
-                  0.35914489311163894,
-                  0.5352585627938213,
-                  0.5135391923990499
+                  0.0671892497200448,
+                  0.3590657165479018,
+                  0.5358342665173572,
+                  0.5150435471100554
                 ],
                 "box_pixels": [
-                  756,
+                  120,
                   907,
-                  956,
-                  1297
+                  957,
+                  1301
                 ],
                 "source_image_size": [
                   1786,
                   2526
                 ],
-                "width": 200,
-                "height": 390,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 837,
+                "height": 394,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -5498,17 +6273,28 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/fursova-s6c.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "OHT/UNT",
+                    "text": "After/before 4-hydroxytamoxifen-induced PCGF1/3/5/6 removal; log2 is the base-2 logarithm."
+                  },
+                  {
+                    "label": "Retain / Down",
+                    "text": "Promoters retaining RING1B (354) / promoters with reduced RING1B (1,717)."
+                  }
+                ],
+                "reading_note": "Use the far-right H3K27me3 boxes. Retain promoters have a smaller negative log2 OHT/UNT shift than Down promoters."
               }
             ],
             "summary": [
               {
                 "label": "H3K27me3",
-                "text": "smaller decrease than RING1B-loss promoters",
+                "text": "smaller decrease than promoters with reduced RING1B ChIP",
                 "kind": "marks"
               }
             ],
-            "note": "Log2 OHT/UNT; 354 RING1B-retained promoters versus the RING1B-loss group.",
+            "note": "Log2 OHT/UNT; 354 RING1B-retained promoters versus the group with reduced RING1B ChIP.",
             "readout_label": "H3K27me3"
           },
           {
@@ -5517,31 +6303,31 @@ window.GEMS = {
               {
                 "paper_id": "fursova-2019",
                 "path": "panels/result-focus/fursova-s6c-suz12.png",
-                "label": "Figure S6C · SUZ12",
-                "short_label": "Figure S6C · SUZ12",
+                "label": "Figure S6C · SUZ12 (third plot); native shared axis",
+                "short_label": "Figure S6C · SUZ12 (third plot); native shared axis",
                 "page": 12,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2019.03.024",
                 "source_sha256": "a838d2399d23f414890b4c69565b4598ceaeda70ce8f9549d19320f13e67e72a",
                 "box_normalized": [
-                  0.3122901276024177,
-                  0.35914489311163894,
-                  0.41974479516453994,
-                  0.5135391923990499
+                  0.0671892497200448,
+                  0.3590657165479018,
+                  0.5358342665173572,
+                  0.5150435471100554
                 ],
                 "box_pixels": [
-                  558,
+                  120,
                   907,
-                  750,
-                  1297
+                  957,
+                  1301
                 ],
                 "source_image_size": [
                   1786,
                   2526
                 ],
-                "width": 192,
-                "height": 390,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 837,
+                "height": 394,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
@@ -5549,7 +6335,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/reviewed-prc1/fursova-s6c.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+                "legend_key": [
+                  {
+                    "label": "OHT/UNT",
+                    "text": "After/before 4-hydroxytamoxifen-induced PCGF1/3/5/6 removal; log2 is the base-2 logarithm."
+                  },
+                  {
+                    "label": "Retain / Down",
+                    "text": "Promoters retaining RING1B (354) / promoters with reduced RING1B (1,717)."
+                  }
+                ],
+                "reading_note": "Use SUZ12, third plot from the left. Retain centers near zero, while Down has a negative log2 OHT/UNT shift."
               }
             ],
             "summary": [
@@ -5559,7 +6356,7 @@ window.GEMS = {
                 "kind": "other_binding"
               }
             ],
-            "note": "Log2 OHT/UNT; 354 RING1B-retained promoters versus the RING1B-loss group.",
+            "note": "Log2 OHT/UNT; 354 RING1B-retained promoters versus the group with reduced RING1B ChIP.",
             "readout_label": "SUZ12 ChIP"
           },
           {
@@ -5597,6 +6394,17 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:31:00.797425+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:31:00.797425+00:00",
+                "legend_key": [
+                  {
+                    "label": "fl/fl / −/−",
+                    "text": "Two conditional floxed alleles / both gene copies absent; labels name PCGF combinations or the RING1A/B comparator."
+                  },
+                  {
+                    "label": "OHT/UNT",
+                    "text": "RNA after/before 4-hydroxytamoxifen treatment, shown as a base-2 log ratio."
+                  }
+                ],
+                "reading_note": "The first three violins remove the indicated PCGF combinations; the right red violin removes RING1A/B. All measure RNA at the same RING1B-retained promoter set.",
                 "short_label": "Figure S6F · RNA from the same retained-promoter group",
                 "width": 469,
                 "height": 463
@@ -5605,7 +6413,7 @@ window.GEMS = {
             "summary": [
               {
                 "label": "Nuclear RNA",
-                "text": "smaller induction than after RING1A/B loss",
+                "text": "smaller induction than after RING1B deletion in RING1A-null cells",
                 "kind": "rna"
               }
             ],
@@ -5670,6 +6478,25 @@ window.GEMS = {
           "created_at": "2026-11-02T22:31:01.362593+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:31:01.362593+00:00",
+          "legend_key": [
+            {
+              "label": "FL",
+              "text": "Full-length PCGF1."
+            },
+            {
+              "label": "1–139 / 140–259",
+              "text": "Fragments spanning these amino-acid positions."
+            },
+            {
+              "label": "RING / RAWUL",
+              "text": "Named PCGF1 structural domains."
+            },
+            {
+              "label": "NM",
+              "text": "Stable binding not measurable."
+            }
+          ],
+          "reading_note": "Compare the full protein with its N- and C-terminal fragments.",
           "short_label": "Figure 9a–c · PCGF1 fragments and binding",
           "width": 886,
           "height": 385
@@ -6106,7 +6933,7 @@ window.GEMS = {
       ],
       "compact": {
         "perturbation": "PCGF1 full-length vs N (1–139) / C (140–259)",
-        "result": "N-fragment: near-full-length bound fraction, unquantifiable long-event component. C-fragment: long events retained.",
+        "result": "PCGF1 1–139: bound fraction similar to full length; long-event component not quantifiable. PCGF1 140–259: long events remain.",
         "function": "N fragment keeps the RING1B-binding region; C fragment keeps the KDM2B/BCOR-binding region.",
         "scope": "Endogenous PCGF1 remains"
       },
@@ -6758,10 +7585,10 @@ window.GEMS = {
           "source_url": "https://doi.org/10.1038/s41594-021-00661-y",
           "source_sha256": "d0cbf8576282ea9ee82cfd56ac2de270b8f7942d77d4a88f13af7f37584c112b",
           "box_normalized": [
-            0.245,
-            0.54,
-            0.9,
-            0.705
+            0.25,
+            0.53,
+            0.85,
+            0.715
           ],
           "box_pixels": [
             375,
@@ -6775,15 +7602,37 @@ window.GEMS = {
           ],
           "caption": "Original source crop; no image content changed.",
           "reviewed": true,
-          "review_status": "reviewed",
+          "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
           "verification": "Caller confirmed manual visual review against the source.",
           "created_at": "2026-11-02T22:23:35.778509+00:00",
           "checked": "2026-11-02",
-          "visual_reviewed_at": "2026-11-02T22:23:35.778509+00:00",
+          "visual_reviewed_at": "2026-11-03T16:37:15.797481+00:00",
           "view": "RNA",
+          "legend_key": [
+            {
+              "label": "IAA",
+              "text": "Auxin removes tagged RING1B; RING1A is already absent."
+            },
+            {
+              "label": "UNT",
+              "text": "Untreated."
+            },
+            {
+              "label": "Fold change",
+              "text": "4-hour auxin measurement divided by untreated."
+            }
+          ],
+          "reading_note": "Each gene is measured as the 4-hour-auxin/untreated ratio.",
           "short_label": "Figure 7F–H",
-          "width": 1002,
-          "height": 327
+          "width": 919,
+          "height": 367,
+          "box_pdf_points": [
+            153.0,
+            419.76000000000005,
+            520.1999999999999,
+            566.28
+          ],
+          "render_dpi": 180
         },
         {
           "paper_id": "dobrinic-2021",
@@ -6818,6 +7667,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:36.194430+00:00",
           "view": "RNA",
+          "legend_key": [
+            {
+              "label": "UNT",
+              "text": "Untreated."
+            },
+            {
+              "label": "IAA",
+              "text": "Auxin removes tagged RING1B; RING1A is already absent."
+            },
+            {
+              "label": "Nascent spots",
+              "text": "Active transcription sites per cell."
+            },
+            {
+              "label": "NBM simulation",
+              "text": "Negative-binomial model of independent allele activity."
+            }
+          ],
+          "reading_note": "Compare untreated with 4-hour auxin bars within each gene.",
           "short_label": "Extended Data Figure 9A",
           "width": 1010,
           "height": 416
@@ -6855,6 +7723,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:36.627100+00:00",
           "view": "Chromatin",
+          "legend_key": [
+            {
+              "label": "UNT",
+              "text": "Untreated."
+            },
+            {
+              "label": "IAA",
+              "text": "Auxin removes tagged RING1B; RING1A is already absent."
+            },
+            {
+              "label": "TSS",
+              "text": "Transcription start site."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "The 2/4/8-hour column groups are defined by RNA response, while colored curves show the separate ChIP sampling times.",
           "short_label": "Figure 3B–C; time-resolved chromatin profiles",
           "width": 619,
           "height": 547
@@ -6875,10 +7762,10 @@ window.GEMS = {
             "source_url": "https://doi.org/10.1038/s41594-021-00661-y",
             "source_sha256": "d0cbf8576282ea9ee82cfd56ac2de270b8f7942d77d4a88f13af7f37584c112b",
             "box_normalized": [
-              0.245,
-              0.54,
-              0.9,
-              0.705
+              0.25,
+              0.53,
+              0.85,
+              0.715
             ],
             "box_pixels": [
               375,
@@ -6892,15 +7779,37 @@ window.GEMS = {
             ],
             "caption": "Original source crop; no image content changed.",
             "reviewed": true,
-            "review_status": "reviewed",
+            "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
             "verification": "Caller confirmed manual visual review against the source.",
             "created_at": "2026-11-02T22:23:35.778509+00:00",
             "checked": "2026-11-02",
-            "visual_reviewed_at": "2026-11-02T22:23:35.778509+00:00",
+            "visual_reviewed_at": "2026-11-03T16:37:15.797481+00:00",
             "view": "RNA",
+            "legend_key": [
+              {
+                "label": "IAA",
+                "text": "Auxin removes tagged RING1B; RING1A is already absent."
+              },
+              {
+                "label": "UNT",
+                "text": "Untreated."
+              },
+              {
+                "label": "Fold change",
+                "text": "4-hour auxin measurement divided by untreated."
+              }
+            ],
+            "reading_note": "Each gene is measured as the 4-hour-auxin/untreated ratio.",
             "short_label": "Figure 7F–H",
-            "width": 1002,
-            "height": 327
+            "width": 919,
+            "height": 367,
+            "box_pdf_points": [
+              153.0,
+              419.76000000000005,
+              520.1999999999999,
+              566.28
+            ],
+            "render_dpi": 180
           },
           {
             "paper_id": "dobrinic-2021",
@@ -6935,6 +7844,25 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:23:36.194430+00:00",
             "view": "RNA",
+            "legend_key": [
+              {
+                "label": "UNT",
+                "text": "Untreated."
+              },
+              {
+                "label": "IAA",
+                "text": "Auxin removes tagged RING1B; RING1A is already absent."
+              },
+              {
+                "label": "Nascent spots",
+                "text": "Active transcription sites per cell."
+              },
+              {
+                "label": "NBM simulation",
+                "text": "Negative-binomial model of independent allele activity."
+              }
+            ],
+            "reading_note": "Compare untreated with 4-hour auxin bars within each gene.",
             "short_label": "Extended Data Figure 9A",
             "width": 1010,
             "height": 416
@@ -6977,6 +7905,25 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:36.627100+00:00",
               "view": "Chromatin",
+              "legend_key": [
+                {
+                  "label": "UNT",
+                  "text": "Untreated."
+                },
+                {
+                  "label": "IAA",
+                  "text": "Auxin removes tagged RING1B; RING1A is already absent."
+                },
+                {
+                  "label": "TSS",
+                  "text": "Transcription start site."
+                },
+                {
+                  "label": "kb",
+                  "text": "Thousands of DNA bases."
+                }
+              ],
+              "reading_note": "The 2/4/8-hour column groups are defined by RNA response, while colored curves show the separate ChIP sampling times.",
               "short_label": "Figure 3B–C",
               "width": 619,
               "height": 547
@@ -7114,10 +8061,10 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1038/s41594-021-00661-y",
                 "source_sha256": "d0cbf8576282ea9ee82cfd56ac2de270b8f7942d77d4a88f13af7f37584c112b",
                 "box_normalized": [
-                  0.245,
-                  0.54,
-                  0.9,
-                  0.705
+                  0.25,
+                  0.53,
+                  0.85,
+                  0.715
                 ],
                 "box_pixels": [
                   375,
@@ -7131,15 +8078,37 @@ window.GEMS = {
                 ],
                 "caption": "Original source crop; no image content changed.",
                 "reviewed": true,
-                "review_status": "reviewed",
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Caller confirmed manual visual review against the source.",
                 "created_at": "2026-11-02T22:23:35.778509+00:00",
                 "checked": "2026-11-02",
-                "visual_reviewed_at": "2026-11-02T22:23:35.778509+00:00",
+                "visual_reviewed_at": "2026-11-03T16:37:15.797481+00:00",
                 "view": "RNA",
+                "legend_key": [
+                  {
+                    "label": "IAA",
+                    "text": "Auxin removes tagged RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "UNT",
+                    "text": "Untreated."
+                  },
+                  {
+                    "label": "Fold change",
+                    "text": "4-hour auxin measurement divided by untreated."
+                  }
+                ],
+                "reading_note": "Each gene is measured as the 4-hour-auxin/untreated ratio.",
                 "short_label": "Figure 7F–H",
-                "width": 1002,
-                "height": 327
+                "width": 919,
+                "height": 367,
+                "box_pdf_points": [
+                  153.0,
+                  419.76000000000005,
+                  520.1999999999999,
+                  566.28
+                ],
+                "render_dpi": 180
               }
             ],
             "summary": [
@@ -7240,7 +8209,22 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-prc2-subtypes"
+          "observation_id": "ring-blackledge20-prc2-subtypes",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated / 4-hydroxytamoxifen-treated."
+            },
+            {
+              "label": "PRC1 CPM",
+              "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+            },
+            {
+              "label": "PRC1 CKO",
+              "text": "OHT deletes RING1B; RING1A is already absent."
+            }
+          ],
+          "reading_note": "Compare solid UNT with dashed OHT separately for SUZ12 and H3K27me3 in each cell system."
         },
         {
           "paper_id": "blackledge-2020",
@@ -7277,7 +8261,22 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-prc2-subtypes"
+          "observation_id": "ring-blackledge20-prc2-subtypes",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated / 4-hydroxytamoxifen-treated."
+            },
+            {
+              "label": "PRC1 CPM",
+              "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+            },
+            {
+              "label": "PCL2",
+              "text": "MTF2."
+            }
+          ],
+          "reading_note": "Compare solid UNT with dashed OHT within each subunit plot; each subplot has its own signal range."
         }
       ],
       "method_panels": [
@@ -7316,7 +8315,26 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-prc2-subtypes"
+          "observation_id": "ring-blackledge20-prc2-subtypes",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated / 4-hydroxytamoxifen-treated."
+            },
+            {
+              "label": "PRC1 CPM",
+              "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+            },
+            {
+              "label": "PRC1 CKO",
+              "text": "OHT deletes RING1B; RING1A is already absent."
+            },
+            {
+              "label": "HDAC1 / H4 / BRG1",
+              "text": "Loading controls for protein / histone / partner blots."
+            }
+          ],
+          "reading_note": "Compare UNT and OHT within each cell system; read the indicated protein against its loading control."
         }
       ],
       "rna": {
@@ -7361,7 +8379,26 @@ window.GEMS = {
             "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
             "checked": "2026-11-03",
             "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-            "observation_id": "ring-blackledge20-prc2-subtypes"
+            "observation_id": "ring-blackledge20-prc2-subtypes",
+            "legend_key": [
+              {
+                "label": "UNT / OHT",
+                "text": "Untreated / 4-hydroxytamoxifen-treated."
+              },
+              {
+                "label": "PRC1 CPM",
+                "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+              },
+              {
+                "label": "PRC1 CKO",
+                "text": "OHT deletes RING1B; RING1A is already absent."
+              },
+              {
+                "label": "RPKM / log2",
+                "text": "Length- and depth-normalized RNA; +1 log2 means twofold higher."
+              }
+            ],
+            "reading_note": "In A, compare OHT/UNT RNA change between RING1A/B removal (CKO) and catalytic inactivation (CPM); B compares the same genes across systems."
           }
         ],
         "chromatin_pairing": {
@@ -7403,7 +8440,22 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-blackledge20-prc2-subtypes"
+              "observation_id": "ring-blackledge20-prc2-subtypes",
+              "legend_key": [
+                {
+                  "label": "UNT / OHT",
+                  "text": "Untreated / 4-hydroxytamoxifen-treated."
+                },
+                {
+                  "label": "PRC1 CPM",
+                  "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                },
+                {
+                  "label": "PRC1 CKO",
+                  "text": "OHT deletes RING1B; RING1A is already absent."
+                }
+              ],
+              "reading_note": "Compare solid UNT with dashed OHT separately for SUZ12 and H3K27me3 in each cell system."
             },
             {
               "paper_id": "blackledge-2020",
@@ -7440,7 +8492,22 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-blackledge20-prc2-subtypes"
+              "observation_id": "ring-blackledge20-prc2-subtypes",
+              "legend_key": [
+                {
+                  "label": "UNT / OHT",
+                  "text": "Untreated / 4-hydroxytamoxifen-treated."
+                },
+                {
+                  "label": "PRC1 CPM",
+                  "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                },
+                {
+                  "label": "PCL2",
+                  "text": "MTF2."
+                }
+              ],
+              "reading_note": "Compare solid UNT with dashed OHT within each subunit plot; each subplot has its own signal range."
             }
           ],
           "linked_observation_id": "ring-blackledge20-prc2-subtypes",
@@ -7513,16 +8580,16 @@ window.GEMS = {
         "result": "SUZ12/H3K27me3 ↓↓; JARID2 nearly lost; AEBP2 strongly ↓. MTF2/EPOP retain more enrichment.",
         "timing": "72h post-induction",
         "function": "Disables H2A ubiquitination; RING proteins retained",
-        "rna_result": "2,828 ↑/399 ↓; protein-loss comparator: 3,240 ↑/739 ↓. Responses overlap but are not identical."
+        "rna_result": "RING1A/B catalytic mutants: 2,828 ↑ / 399 ↓; RING1B KO (RING1A−/−): 3,240 ↑ / 739 ↓."
       },
       "comparison_links": [
         {
           "observation_id": "ring-illingworth15-bulk-locus-rna",
-          "text": "Stable RING1B I53A with RING1A intact gives relatively few RNA changes. This stronger dual-paralogue mutation causes broad derepression."
+          "text": "Stable RING1B I53A with RING1A intact gives fewer RNA changes than combined RING1B I53A/D56K and RING1A I50A/D53K; assays and thresholds differ."
         },
         {
           "observation_id": "ring-blackledge20-partial-rna-subset",
-          "text": "The match to protein loss is incomplete: 241 targets are less derepressed after catalytic switching."
+          "text": "The match to RING1B deletion in RING1A-null cells is incomplete: 241 targets are less derepressed with the RING1A/B catalytic mutants."
         }
       ],
       "presentation": {
@@ -7546,7 +8613,7 @@ window.GEMS = {
           },
           {
             "label": "Total RNA",
-            "text": "2,828 ↑ / 399 ↓; protein loss: 3,240 ↑ / 739 ↓",
+            "text": "RING1A/B catalytic mutants: 2,828 ↑ / 399 ↓; RING1B KO (RING1A−/−): 3,240 ↑ / 739 ↓",
             "kind": "rna"
           }
         ],
@@ -7591,12 +8658,12 @@ window.GEMS = {
         ],
         "rna": [
           {
-            "label": "Catalytic switch · total RNA",
+            "label": "RING1A/B catalytic mutants",
             "text": "2,828 ↑ / 399 ↓",
             "kind": "rna"
           },
           {
-            "label": "Protein-loss comparator",
+            "label": "RING1B KO; RING1A−/−",
             "text": "3,240 ↑ / 739 ↓",
             "kind": "rna"
           },
@@ -7649,7 +8716,26 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig3-bc.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "PRC1 CKO",
+                    "text": "OHT deletes RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  }
+                ],
+                "reading_note": "Compare solid/dashed H3K27me3 curves within CPM and CKO."
               }
             ],
             "summary": [
@@ -7699,7 +8785,26 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig3-bc.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "PRC1 CKO",
+                    "text": "OHT deletes RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  }
+                ],
+                "reading_note": "Compare solid/dashed SUZ12 curves within CPM and CKO; companion 3G supplies AEBP2/JARID2."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -7736,7 +8841,22 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig3-gh.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  }
+                ],
+                "reading_note": "Compare untreated/treated profiles independently for JARID2 and AEBP2."
               }
             ],
             "summary": [
@@ -7792,7 +8912,26 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig3-gh.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "PCL2",
+                    "text": "MTF2."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  }
+                ],
+                "reading_note": "Compare untreated/treated PCL2 (MTF2) and EPOP profiles separately."
               }
             ],
             "summary": [
@@ -7818,10 +8957,10 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.molcel.2019.12.001",
                 "source_sha256": "ed3fb1cb34f71f37359a7037c5d8385ba88121460fd37a6bdc3205ea2f09932f",
                 "box_normalized": [
-                  0.13992042440318303,
-                  0.12002042900919306,
-                  0.6152254641909816,
-                  0.31001021450459654
+                  0.13992,
+                  0.12002,
+                  0.624,
+                  0.31001
                 ],
                 "box_pixels": [
                   253,
@@ -7833,8 +8972,8 @@ window.GEMS = {
                   1809,
                   2349
                 ],
-                "width": 860,
-                "height": 446,
+                "width": 876,
+                "height": 448,
                 "caption": "Original rectangular source crop; no image content changed.",
                 "view": "RNA",
                 "reviewed": true,
@@ -7842,18 +8981,49 @@ window.GEMS = {
                 "created_at": "2026-11-03T15:47:00.501096+00:00",
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig6-ab.png",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "visual_reviewed_at": "2026-11-03T16:37:35.787392+00:00",
+                "verification": "Individually inspected against native PDF source page; original rectangular source content only.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "PRC1 CKO",
+                    "text": "OHT deletes RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "RPKM / log2",
+                    "text": "Length- and depth-normalized RNA; +1 log2 means twofold higher."
+                  }
+                ],
+                "reading_note": "Left: RING1B deletion in RING1A-null cells; right: RING1A/B catalytic inactivation. Red points pass adjusted p<0.05 and >1.5-fold change.",
+                "box_pdf_points": [
+                  84.36980433105468,
+                  93.97398247436523,
+                  376.2632783203125,
+                  242.7334969744873
+                ],
+                "render_dpi": 216
               }
             ],
             "summary": [
               {
-                "label": "Total RNA",
-                "text": "2,828 ↑ / 399 ↓; protein loss: 3,240 ↑ / 739 ↓",
+                "label": "RING1A/B catalytic mutants",
+                "text": "2,828 ↑ / 399 ↓",
+                "kind": "rna"
+              },
+              {
+                "label": "RING1B KO; RING1A−/−",
+                "text": "3,240 ↑ / 739 ↓",
                 "kind": "rna"
               }
             ],
-            "note": "Calibrated total RNA; adjusted P<0.05, >1.5×.",
+            "note": "Calibrated total RNA-seq; 72h after the trigger. Adjusted P<0.05; >1.5×.",
             "readout_label": "Total RNA"
           }
         ]
@@ -7910,7 +9080,7 @@ window.GEMS = {
           "box_normalized": [
             0.08,
             0.11,
-            0.86,
+            0.91,
             0.39
           ],
           "box_pixels": [
@@ -7923,17 +9093,47 @@ window.GEMS = {
             1508,
             1958
           ],
-          "width": 1176,
-          "height": 549,
+          "width": 1503,
+          "height": 659,
           "caption": "Original rectangular source crop; no image content changed.",
           "view": "RNA",
           "reviewed": true,
           "review_status": "reviewed",
           "created_at": "2026-11-03T00:44:25.480942+00:00",
-          "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+          "verification": "Individually inspected against native PDF source page; original rectangular source content only.",
           "checked": "2026-11-03",
-          "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-partial-rna-subset"
+          "visual_reviewed_at": "2026-11-03T16:37:35.759009+00:00",
+          "observation_id": "ring-blackledge20-partial-rna-subset",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated / 4-hydroxytamoxifen-treated."
+            },
+            {
+              "label": "PRC1 CPM",
+              "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+            },
+            {
+              "label": "PRC1 CKO",
+              "text": "OHT deletes RING1B; RING1A is already absent."
+            },
+            {
+              "label": "Pcgf4 −/−; Pcgf2 fl/fl",
+              "text": "Pcgf4 absent; Pcgf2 deleted after OHT."
+            },
+            {
+              "label": "RPKM / log2",
+              "text": "Length- and depth-normalized RNA; +1 log2 means twofold higher."
+            }
+          ],
+          "reading_note": "RNA-defined groups: 241 targets respond less after RING1A/B catalytic inactivation than after RING1A/B removal; 2,241 are fully derepressed. B compares untreated/treated RNA within each group.",
+          "box_pdf_points": [
+            48.2388818359375,
+            86.12846252441406,
+            548.717280883789,
+            305.36454895019534
+          ],
+          "render_dpi": 216
         },
         {
           "paper_id": "blackledge-2020",
@@ -7970,7 +9170,26 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-partial-rna-subset"
+          "observation_id": "ring-blackledge20-partial-rna-subset",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated / 4-hydroxytamoxifen-treated."
+            },
+            {
+              "label": "PRC1 CPM",
+              "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+            },
+            {
+              "label": "PRC1 CKO",
+              "text": "OHT deletes RING1B; RING1A is already absent."
+            },
+            {
+              "label": "cRNA-seq / kb",
+              "text": "Calibrated RNA sequencing / 1,000 DNA bases."
+            }
+          ],
+          "reading_note": "C/D compare RNA in CKO and CPM at Oxtr/Pax9; E compares untreated/treated chromatin in CPM at those two loci."
         }
       ],
       "method_panels": [],
@@ -7993,7 +9212,7 @@ window.GEMS = {
             "box_normalized": [
               0.08,
               0.11,
-              0.86,
+              0.91,
               0.39
             ],
             "box_pixels": [
@@ -8006,17 +9225,47 @@ window.GEMS = {
               1508,
               1958
             ],
-            "width": 1176,
-            "height": 549,
+            "width": 1503,
+            "height": 659,
             "caption": "Original rectangular source crop; no image content changed.",
             "view": "RNA",
             "reviewed": true,
             "review_status": "reviewed",
             "created_at": "2026-11-03T00:44:25.480942+00:00",
-            "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+            "verification": "Individually inspected against native PDF source page; original rectangular source content only.",
             "checked": "2026-11-03",
-            "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-            "observation_id": "ring-blackledge20-partial-rna-subset"
+            "visual_reviewed_at": "2026-11-03T16:37:35.759009+00:00",
+            "observation_id": "ring-blackledge20-partial-rna-subset",
+            "legend_key": [
+              {
+                "label": "UNT / OHT",
+                "text": "Untreated / 4-hydroxytamoxifen-treated."
+              },
+              {
+                "label": "PRC1 CPM",
+                "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+              },
+              {
+                "label": "PRC1 CKO",
+                "text": "OHT deletes RING1B; RING1A is already absent."
+              },
+              {
+                "label": "Pcgf4 −/−; Pcgf2 fl/fl",
+                "text": "Pcgf4 absent; Pcgf2 deleted after OHT."
+              },
+              {
+                "label": "RPKM / log2",
+                "text": "Length- and depth-normalized RNA; +1 log2 means twofold higher."
+              }
+            ],
+            "reading_note": "RNA-defined groups: 241 targets respond less after RING1A/B catalytic inactivation than after RING1A/B removal; 2,241 are fully derepressed. B compares untreated/treated RNA within each group.",
+            "box_pdf_points": [
+              48.2388818359375,
+              86.12846252441406,
+              548.717280883789,
+              305.36454895019534
+            ],
+            "render_dpi": 216
           },
           {
             "paper_id": "blackledge-2020",
@@ -8053,7 +9302,26 @@ window.GEMS = {
             "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
             "checked": "2026-11-03",
             "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-            "observation_id": "ring-blackledge20-partial-rna-subset"
+            "observation_id": "ring-blackledge20-partial-rna-subset",
+            "legend_key": [
+              {
+                "label": "UNT / OHT",
+                "text": "Untreated / 4-hydroxytamoxifen-treated."
+              },
+              {
+                "label": "PRC1 CPM",
+                "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+              },
+              {
+                "label": "PRC1 CKO",
+                "text": "OHT deletes RING1B; RING1A is already absent."
+              },
+              {
+                "label": "cRNA-seq / kb",
+                "text": "Calibrated RNA sequencing / 1,000 DNA bases."
+              }
+            ],
+            "reading_note": "C/D compare RNA in CKO and CPM at Oxtr/Pax9; E compares untreated/treated chromatin in CPM at those two loci."
           }
         ],
         "chromatin_pairing": {
@@ -8095,7 +9363,26 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-blackledge20-partial-rna-subset"
+              "observation_id": "ring-blackledge20-partial-rna-subset",
+              "legend_key": [
+                {
+                  "label": "UNT / OHT",
+                  "text": "Untreated / 4-hydroxytamoxifen-treated."
+                },
+                {
+                  "label": "PRC1 CPM",
+                  "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                },
+                {
+                  "label": "PRC1 CKO",
+                  "text": "OHT deletes RING1B; RING1A is already absent."
+                },
+                {
+                  "label": "cRNA-seq / kb",
+                  "text": "Calibrated RNA sequencing / 1,000 DNA bases."
+                }
+              ],
+              "reading_note": "C/D compare RNA in CKO and CPM at Oxtr/Pax9; E compares untreated/treated chromatin in CPM at those two loci."
             }
           ],
           "linked_observation_id": "ring-blackledge20-partial-rna-subset",
@@ -8153,11 +9440,11 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "RING1B I53A/D56K; RING1A I50A/D53K",
-        "result": "241/2,482 targets show less RNA induction than after protein removal. Pax9 retains more RING1B/SUZ12/H3K27me3/PCGF2 than the fully induced example.",
+        "result": "241/2,482 targets show less RNA induction than after RING1B deletion in RING1A-null cells. Pax9 retains more RING1B/SUZ12/H3K27me3/PCGF2 than the fully induced example.",
         "timing": "72h post-induction",
         "function": "Disables H2A ubiquitination; RING proteins retained",
-        "scope": "Targets induced by protein removal",
-        "rna_result": "241/2,482 targets less induced than after protein loss; Pax9 partial, Oxtr full response."
+        "scope": "Targets induced by RING1B deletion in RING1A-null cells",
+        "rna_result": "241/2,482 targets less induced than after RING1B deletion in RING1A-null cells; Pax9 partial, Oxtr full response."
       },
       "comparison_links": [],
       "presentation": {
@@ -8185,10 +9472,10 @@ window.GEMS = {
             "display_label": "SUZ12"
           },
           {
-            "label": "RNA · protein-loss-responsive targets",
-            "text": "241/2,482 less induced after catalytic switching",
+            "label": "RNA · RING1A/B-loss-responsive targets",
+            "text": "241/2,482 less induced with the RING1A/B catalytic mutants",
             "kind": "rna",
-            "hierarchy_scope": "Protein-loss-responsive targets",
+            "hierarchy_scope": "RING1A/B-loss-responsive targets",
             "display_label": ""
           }
         ],
@@ -8203,7 +9490,7 @@ window.GEMS = {
           "other": "PRC2 proteins · ChIP",
           "rna": "RNA"
         },
-        "rna_hierarchy_scope": "Protein-loss-responsive targets"
+        "rna_hierarchy_scope": "RING1A/B-loss-responsive targets"
       },
       "detail_readouts": {
         "chromatin": [
@@ -8226,7 +9513,7 @@ window.GEMS = {
         "rna": [
           {
             "label": "241 / 2,482 targets",
-            "text": "less induced than after protein loss",
+            "text": "less induced than after RING1B deletion in RING1A-null cells",
             "kind": "rna"
           },
           {
@@ -8241,7 +9528,7 @@ window.GEMS = {
           }
         ],
         "chromatin_note": "Two displayed loci; RNA-defined classes.",
-        "rna_note": "Calibrated total RNA-seq; targets selected for induction after protein loss."
+        "rna_note": "Calibrated total RNA-seq; targets selected for induction after RING1B deletion in RING1A-null cells."
       },
       "result_evidence": {
         "readouts": [
@@ -8284,7 +9571,14 @@ window.GEMS = {
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
                 "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
-                "panel_role": "shared_key"
+                "panel_role": "shared_key",
+                "legend_key": [
+                  {
+                    "label": "5 kb",
+                    "text": "5,000 DNA bases."
+                  }
+                ],
+                "reading_note": "Use these original gene models to identify left Oxtr and right Pax9 for each companion chromatin track."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -8321,7 +9615,14 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig7-cde.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  }
+                ],
+                "reading_note": "Compare UNT/OHT RING1B at Oxtr on the left and Pax9 on the right using the same 0–600 range."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -8358,7 +9659,14 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig7-cde.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  }
+                ],
+                "reading_note": "Compare UNT/OHT PCGF2 at Oxtr on the left and Pax9 on the right using the same 0–500 range."
               }
             ],
             "summary": [
@@ -8410,7 +9718,14 @@ window.GEMS = {
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
                 "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
-                "panel_role": "shared_key"
+                "panel_role": "shared_key",
+                "legend_key": [
+                  {
+                    "label": "5 kb",
+                    "text": "5,000 DNA bases."
+                  }
+                ],
+                "reading_note": "Use these original gene models to identify left Oxtr and right Pax9 for each companion chromatin track."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -8447,7 +9762,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig7-cde.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "H3K27me3",
+                    "text": "H3 lysine 27 with three methyl groups."
+                  }
+                ],
+                "reading_note": "Compare UNT/OHT H3K27me3 at Oxtr on the left and Pax9 on the right using the same 0–200 range."
               }
             ],
             "summary": [
@@ -8499,7 +9825,14 @@ window.GEMS = {
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
                 "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
-                "panel_role": "shared_key"
+                "panel_role": "shared_key",
+                "legend_key": [
+                  {
+                    "label": "5 kb",
+                    "text": "5,000 DNA bases."
+                  }
+                ],
+                "reading_note": "Use these original gene models to identify left Oxtr and right Pax9 for each companion chromatin track."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -8536,7 +9869,14 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig7-cde.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  }
+                ],
+                "reading_note": "Compare UNT/OHT SUZ12 at Oxtr on the left and Pax9 on the right using the same 0–600 range."
               }
             ],
             "summary": [
@@ -8587,18 +9927,37 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig7-ab.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "PRC1 CKO",
+                    "text": "OHT deletes RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "Pcgf4 −/−; Pcgf2 fl/fl",
+                    "text": "Pcgf4 absent; Pcgf2 deleted after OHT."
+                  },
+                  {
+                    "label": "RPKM / log2",
+                    "text": "Length- and depth-normalized RNA; +1 log2 means twofold higher."
+                  }
+                ],
+                "reading_note": "Compare RING1A/B catalytic inactivation with RING1A/B removal within the two RNA-defined target groups."
               }
             ],
             "summary": [
               {
                 "label": "241 / 2,482 targets",
-                "text": "less induced than after protein loss",
+                "text": "less induced than after RING1B deletion in RING1A-null cells",
                 "kind": "rna"
               }
             ],
-            "note": "Targets selected for induction after protein loss.",
-            "readout_label": "RNA · protein-loss-responsive targets"
+            "note": "Targets selected for induction after RING1B deletion in RING1A-null cells.",
+            "readout_label": "RNA · RING1A/B-loss-responsive targets"
           }
         ]
       }
@@ -8676,7 +10035,30 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-illingworth15-bulk-locus-rna"
+          "observation_id": "ring-illingworth15-bulk-locus-rna",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference cells."
+            },
+            {
+              "label": "KO",
+              "text": "RING1B knockout."
+            },
+            {
+              "label": "I53A",
+              "text": "Indicated RING1B rescue genotype."
+            },
+            {
+              "label": "Ponceau / H2A",
+              "text": "Protein stain / histone loading control."
+            },
+            {
+              "label": "kDa",
+              "text": "Protein molecular-size unit."
+            }
+          ],
+          "reading_note": "Panel C measures H2AK119ub with Ponceau loading."
         },
         {
           "paper_id": "illingworth-2015",
@@ -8713,7 +10095,30 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-illingworth15-bulk-locus-rna"
+          "observation_id": "ring-illingworth15-bulk-locus-rna",
+          "legend_key": [
+            {
+              "label": "Ring1B +/+ / -/-",
+              "text": "Unmodified / RING1B-knockout cells."
+            },
+            {
+              "label": "Ring1B I53A/I53A",
+              "text": "Both RING1B copies carry the indicated substitution."
+            },
+            {
+              "label": "% input bound",
+              "text": "Recovered DNA relative to starting DNA."
+            },
+            {
+              "label": "Input",
+              "text": "Starting-DNA sequencing control."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "Panel A compares genotypes at named loci."
         }
       ],
       "method_panels": [],
@@ -8759,7 +10164,26 @@ window.GEMS = {
             "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
             "checked": "2026-11-03",
             "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-            "observation_id": "ring-illingworth15-bulk-locus-rna"
+            "observation_id": "ring-illingworth15-bulk-locus-rna",
+            "legend_key": [
+              {
+                "label": "WT / Ring1B -/-",
+                "text": "Unmodified / RING1B-knockout cells."
+              },
+              {
+                "label": "Ring1B I53A/I53A",
+                "text": "Both RING1B copies carry the indicated substitution."
+              },
+              {
+                "label": "Log2 expression",
+                "text": "Base-2 expression scale."
+              },
+              {
+                "label": "Rescued / non-rescued",
+                "text": "RNA repression restored / not restored by mutant RING1B."
+              }
+            ],
+            "reading_note": "A and B compare each mutant with WT."
           }
         ],
         "chromatin_pairing": {
@@ -8801,7 +10225,30 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-illingworth15-bulk-locus-rna"
+              "observation_id": "ring-illingworth15-bulk-locus-rna",
+              "legend_key": [
+                {
+                  "label": "Ring1B +/+ / -/-",
+                  "text": "Unmodified / RING1B-knockout cells."
+                },
+                {
+                  "label": "Ring1B I53A/I53A",
+                  "text": "Both RING1B copies carry the indicated substitution."
+                },
+                {
+                  "label": "% input bound",
+                  "text": "Recovered DNA relative to starting DNA."
+                },
+                {
+                  "label": "Input",
+                  "text": "Starting-DNA sequencing control."
+                },
+                {
+                  "label": "kb",
+                  "text": "Thousands of DNA bases."
+                }
+              ],
+              "reading_note": "Panel A compares genotypes at named loci."
             },
             {
               "paper_id": "illingworth-2015",
@@ -8838,7 +10285,30 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-illingworth15-bulk-locus-rna"
+              "observation_id": "ring-illingworth15-bulk-locus-rna",
+              "legend_key": [
+                {
+                  "label": "WT",
+                  "text": "Unmodified reference cells."
+                },
+                {
+                  "label": "KO",
+                  "text": "RING1B knockout."
+                },
+                {
+                  "label": "I53A",
+                  "text": "Indicated RING1B rescue genotype."
+                },
+                {
+                  "label": "Ponceau / H2A",
+                  "text": "Protein stain / histone loading control."
+                },
+                {
+                  "label": "kDa",
+                  "text": "Protein molecular-size unit."
+                }
+              ],
+              "reading_note": "Panel C measures H2AK119ub with Ponceau loading."
             }
           ],
           "linked_observation_id": "ring-illingworth15-bulk-locus-rna",
@@ -8894,7 +10364,7 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "RING1B I53A KI vs RING1B KO",
-        "result": "Bulk H2AK119ub1 ↓; bulk H3K27me3 retained, but target-site RING1B/H3K27me3 ↓. RNA: 55 ↑/25 ↓ versus 721 ↑/285 ↓ after KO.",
+        "result": "Bulk H2AK119ub1 ↓; bulk H3K27me3 retained, but target-site RING1B/H3K27me3 ↓. RNA: I53A 55 ↑/25 ↓; RING1B KO 721 ↑/285 ↓.",
         "function": "Reduced H2A ubiquitination activity; RING1A intact",
         "scope": "Expression microarrays",
         "rna_result": "I53A: 55 ↑/25 ↓; RING1B KO: 721 ↑/285 ↓ (>2×, adjusted P<0.05)."
@@ -8902,7 +10372,7 @@ window.GEMS = {
       "comparison_links": [
         {
           "observation_id": "ring-blackledge20-prc2-subtypes",
-          "text": "Dual-paralogue catalytic inactivation causes broad RNA derepression and strong PRC2 loss. Here, stable I53A with RING1A intact gives fewer expression changes; assay and thresholds also differ."
+          "text": "RING1A/B catalytic inactivation gives broad RNA increases and lower SUZ12/JARID2/AEBP2 ChIP. Stable RING1B I53A with RING1A intact gives fewer RNA changes; assays and thresholds differ."
         },
         {
           "observation_id": "ring-blackledge20-ring1b-only-residual",
@@ -8933,7 +10403,7 @@ window.GEMS = {
           },
           {
             "label": "Expression microarrays",
-            "text": "I53A: 55 ↑ / 25 ↓; KO: 721 ↑ / 285 ↓",
+            "text": "RING1B I53A: 55 ↑ / 25 ↓; RING1B KO: 721 ↑ / 285 ↓",
             "kind": "rna"
           }
         ],
@@ -9021,7 +10491,22 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/illingworth-fig3-ab.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "Ring1B +/+ / -/-",
+                    "text": "Unmodified / RING1B-knockout cells."
+                  },
+                  {
+                    "label": "Ring1B I53A/I53A",
+                    "text": "Both RING1B copies carry the indicated substitution."
+                  },
+                  {
+                    "label": "% input bound",
+                    "text": "Recovered DNA relative to starting DNA."
+                  }
+                ],
+                "reading_note": "Compare genotype colors within each named RING1B ChIP locus."
               }
             ],
             "summary": [
@@ -9072,7 +10557,30 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/illingworth-fig1-cd.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "KO",
+                    "text": "RING1B knockout."
+                  },
+                  {
+                    "label": "I53A",
+                    "text": "Indicated RING1B rescue genotype."
+                  },
+                  {
+                    "label": "Ponceau",
+                    "text": "Total-protein loading stain."
+                  },
+                  {
+                    "label": "kDa",
+                    "text": "Protein molecular-size unit."
+                  }
+                ],
+                "reading_note": "Compare WT, knockout and I53A lanes with Ponceau as the loading reference."
               }
             ],
             "summary": [
@@ -9123,7 +10631,30 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/illingworth-fig1-cd.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "KO",
+                    "text": "RING1B knockout."
+                  },
+                  {
+                    "label": "I53A",
+                    "text": "Indicated RING1B rescue genotype."
+                  },
+                  {
+                    "label": "H2A",
+                    "text": "Histone loading control."
+                  },
+                  {
+                    "label": "kDa",
+                    "text": "Protein molecular-size unit."
+                  }
+                ],
+                "reading_note": "Compare the H3K27me3 row across the three lane labels, retaining H2A and RING1B controls."
               }
             ],
             "summary": [
@@ -9149,10 +10680,10 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1101/gad.268151.115",
                 "source_sha256": "f8b38012b7ff87aa911a0fff02d0bd62f0f825365b2baeb16a0f37618a6f1bbc",
                 "box_normalized": [
-                  0.30065359477124187,
-                  0.0797979797979798,
-                  0.46339869281045754,
-                  0.22525252525252526
+                  0.13,
+                  0.085,
+                  0.465,
+                  0.235
                 ],
                 "box_pixels": [
                   552,
@@ -9164,17 +10695,39 @@ window.GEMS = {
                   1836,
                   2376
                 ],
-                "width": 299,
-                "height": 345,
+                "width": 514,
+                "height": 298,
                 "caption": "Original rectangular source crop; no image content changed.",
                 "view": "Chromatin",
                 "reviewed": true,
-                "review_status": "reviewed",
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "created_at": "2026-11-03T15:47:00.501096+00:00",
                 "derived_from_crop": "panels/coverage-ring/illingworth-fig3-ab.png",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "visual_reviewed_at": "2026-11-03T16:37:15.826226+00:00",
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "Ring1B +/+ / -/-",
+                    "text": "Unmodified / RING1B-knockout cells."
+                  },
+                  {
+                    "label": "Ring1B I53A/I53A",
+                    "text": "Both RING1B copies carry the indicated substitution."
+                  },
+                  {
+                    "label": "% input bound",
+                    "text": "Recovered DNA relative to starting DNA."
+                  }
+                ],
+                "reading_note": "Read the H3K27me3 plot on the right, using the shared genotype key and input-normalized axis.",
+                "box_pdf_points": [
+                  79.56,
+                  67.32000000000001,
+                  284.58000000000004,
+                  186.11999999999998
+                ],
+                "render_dpi": 180
               },
               {
                 "paper_id": "illingworth-2015",
@@ -9212,7 +10765,18 @@ window.GEMS = {
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
                 "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
-                "panel_role": "shared_key"
+                "panel_role": "shared_key",
+                "legend_key": [
+                  {
+                    "label": "Ring1B +/+ / -/-",
+                    "text": "Unmodified / RING1B-knockout cells."
+                  },
+                  {
+                    "label": "Ring1B I53A/I53A",
+                    "text": "Both RING1B copies carry the indicated substitution."
+                  }
+                ],
+                "reading_note": "This native genotype key accompanies the Figure 3A ChIP bars."
               }
             ],
             "summary": [
@@ -9263,13 +10827,28 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/illingworth-fig2-abcd.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "WT / Ring1B -/-",
+                    "text": "Unmodified / RING1B-knockout cells."
+                  },
+                  {
+                    "label": "Ring1B I53A/I53A",
+                    "text": "Both RING1B copies carry the indicated substitution."
+                  },
+                  {
+                    "label": "Log2 expression",
+                    "text": "Base-2 expression scale."
+                  }
+                ],
+                "reading_note": "Read A as the RING1B-knockout comparison and B as the RING1B-I53A comparison."
               }
             ],
             "summary": [
               {
                 "label": "Expression microarrays",
-                "text": "I53A: 55 ↑ / 25 ↓; KO: 721 ↑ / 285 ↓",
+                "text": "RING1B I53A: 55 ↑ / 25 ↓; RING1B KO: 721 ↑ / 285 ↓",
                 "kind": "rna"
               }
             ],
@@ -9354,7 +10933,30 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+          "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+          "legend_key": [
+            {
+              "label": "Ring1A -/- / dKO",
+              "text": "RING1A knockout / RING1A–RING1B double knockout."
+            },
+            {
+              "label": "dKO Ring1B WT / mutants",
+              "text": "Double knockout rescued with normal / indicated mutant RING1B."
+            },
+            {
+              "label": "FLAG / IP",
+              "text": "Detection tag / antibody pull-down."
+            },
+            {
+              "label": "Lamin B",
+              "text": "Loading control."
+            },
+            {
+              "label": "FISH / μm",
+              "text": "Fluorescent DNA probes / micrometres."
+            }
+          ],
+          "reading_note": "Panel D measures retained rescue-protein binding and H2AK119ub at selected loci."
         },
         {
           "paper_id": "endoh-2012",
@@ -9391,7 +10993,26 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+          "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+          "legend_key": [
+            {
+              "label": "Ring1A -/- / dKO",
+              "text": "RING1A knockout / RING1A–RING1B double knockout."
+            },
+            {
+              "label": "dKO Ring1B WT / mutants",
+              "text": "Double knockout rescued with normal / indicated mutant RING1B."
+            },
+            {
+              "label": "8WG16 RNAP",
+              "text": "Antibody detecting RNA polymerase II."
+            },
+            {
+              "label": "% input",
+              "text": "Recovered DNA relative to starting DNA."
+            }
+          ],
+          "reading_note": "Compare mutant and WT rescue within each locus."
         },
         {
           "paper_id": "endoh-2012",
@@ -9428,7 +11049,22 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+          "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+          "legend_key": [
+            {
+              "label": "Ring1A -/- / dKO",
+              "text": "RING1A knockout / RING1A–RING1B double knockout."
+            },
+            {
+              "label": "dKO Ring1B WT / mutants",
+              "text": "Double knockout rescued with normal / indicated mutant RING1B."
+            },
+            {
+              "label": "Over H3",
+              "text": "Mark signal normalized to total histone H3."
+            }
+          ],
+          "reading_note": "Compare double-knockout cells rescued with WT or mutant RING1B at each locus."
         }
       ],
       "method_panels": [],
@@ -9474,7 +11110,22 @@ window.GEMS = {
             "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
             "checked": "2026-11-03",
             "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-            "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+            "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+            "legend_key": [
+              {
+                "label": "Ring1A -/- / dKO",
+                "text": "RING1A knockout / RING1A–RING1B double knockout."
+              },
+              {
+                "label": "dKO Ring1B WT / mutants",
+                "text": "Double knockout rescued with normal / indicated mutant RING1B."
+              },
+              {
+                "label": "Normalized to Gapdh",
+                "text": "RNA scaled to the Gapdh reference."
+              }
+            ],
+            "reading_note": "Compare mutant rescue bars with WT rescue within each gene."
           }
         ],
         "chromatin_pairing": {
@@ -9516,7 +11167,30 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+              "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+              "legend_key": [
+                {
+                  "label": "Ring1A -/- / dKO",
+                  "text": "RING1A knockout / RING1A–RING1B double knockout."
+                },
+                {
+                  "label": "dKO Ring1B WT / mutants",
+                  "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                },
+                {
+                  "label": "FLAG / IP",
+                  "text": "Detection tag / antibody pull-down."
+                },
+                {
+                  "label": "Lamin B",
+                  "text": "Loading control."
+                },
+                {
+                  "label": "FISH / μm",
+                  "text": "Fluorescent DNA probes / micrometres."
+                }
+              ],
+              "reading_note": "Panel D measures retained rescue-protein binding and H2AK119ub at selected loci."
             },
             {
               "paper_id": "endoh-2012",
@@ -9553,7 +11227,26 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+              "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+              "legend_key": [
+                {
+                  "label": "Ring1A -/- / dKO",
+                  "text": "RING1A knockout / RING1A–RING1B double knockout."
+                },
+                {
+                  "label": "dKO Ring1B WT / mutants",
+                  "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                },
+                {
+                  "label": "8WG16 RNAP",
+                  "text": "Antibody detecting RNA polymerase II."
+                },
+                {
+                  "label": "% input",
+                  "text": "Recovered DNA relative to starting DNA."
+                }
+              ],
+              "reading_note": "Compare mutant and WT rescue within each locus."
             },
             {
               "paper_id": "endoh-2012",
@@ -9590,7 +11283,22 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+              "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+              "legend_key": [
+                {
+                  "label": "Ring1A -/- / dKO",
+                  "text": "RING1A knockout / RING1A–RING1B double knockout."
+                },
+                {
+                  "label": "dKO Ring1B WT / mutants",
+                  "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                },
+                {
+                  "label": "Over H3",
+                  "text": "Mark signal normalized to total histone H3."
+                }
+              ],
+              "reading_note": "Compare double-knockout cells rescued with WT or mutant RING1B at each locus."
             }
           ],
           "linked_observation_id": "ring-endoh12-retained-binding-incomplete-rna",
@@ -9654,7 +11362,7 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "RING1B WT/I53S/I53A rescue; RING1A−/−",
-        "result": "Mutants/MEL18 remain bound; Hoxb distances shift toward WT, while RNA repression remains partial. Local H2AK119ub1/H3K27me3 stay low; H3K4me3/PolII stay high.",
+        "result": "I53S/I53A RING1B and MEL18 remain bound; Hoxb distances approach WT-rescue values. Target RNA remains above WT rescue; H2AK119ub1/H3K27me3 lower, H3K4me3/PolII higher.",
         "timing": "2d post-induction",
         "function": "Impaired ubiquitin transfer from E2 to H2A; mutant proteins retain MEL18 binding",
         "scope": "Selected loci; inducer dose unstated",
@@ -9791,7 +11499,30 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+                "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+                "legend_key": [
+                  {
+                    "label": "Ring1A -/- / dKO",
+                    "text": "RING1A knockout / RING1A–RING1B double knockout."
+                  },
+                  {
+                    "label": "dKO Ring1B WT / mutants",
+                    "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                  },
+                  {
+                    "label": "FLAG / IP",
+                    "text": "Detection tag / antibody pull-down."
+                  },
+                  {
+                    "label": "Lamin B",
+                    "text": "Loading control."
+                  },
+                  {
+                    "label": "FISH / μm",
+                    "text": "Fluorescent DNA probes / micrometres."
+                  }
+                ],
+                "reading_note": "Panel D measures retained rescue-protein binding and H2AK119ub at selected loci."
               }
             ],
             "summary": [
@@ -9842,7 +11573,30 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+                "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+                "legend_key": [
+                  {
+                    "label": "Ring1A -/- / dKO",
+                    "text": "RING1A knockout / RING1A–RING1B double knockout."
+                  },
+                  {
+                    "label": "dKO Ring1B WT / mutants",
+                    "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                  },
+                  {
+                    "label": "FLAG / IP",
+                    "text": "Detection tag / antibody pull-down."
+                  },
+                  {
+                    "label": "Lamin B",
+                    "text": "Loading control."
+                  },
+                  {
+                    "label": "FISH / μm",
+                    "text": "Fluorescent DNA probes / micrometres."
+                  }
+                ],
+                "reading_note": "Panel D measures retained rescue-protein binding and H2AK119ub at selected loci."
               }
             ],
             "summary": [
@@ -9893,7 +11647,30 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+                "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+                "legend_key": [
+                  {
+                    "label": "Ring1A -/- / dKO",
+                    "text": "RING1A knockout / RING1A–RING1B double knockout."
+                  },
+                  {
+                    "label": "dKO Ring1B WT / mutants",
+                    "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                  },
+                  {
+                    "label": "FLAG / IP",
+                    "text": "Detection tag / antibody pull-down."
+                  },
+                  {
+                    "label": "Lamin B",
+                    "text": "Loading control."
+                  },
+                  {
+                    "label": "FISH / μm",
+                    "text": "Fluorescent DNA probes / micrometres."
+                  }
+                ],
+                "reading_note": "Panel D measures retained rescue-protein binding and H2AK119ub at selected loci."
               },
               {
                 "paper_id": "endoh-2012",
@@ -9930,7 +11707,22 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+                "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+                "legend_key": [
+                  {
+                    "label": "Ring1A -/- / dKO",
+                    "text": "RING1A knockout / RING1A–RING1B double knockout."
+                  },
+                  {
+                    "label": "dKO Ring1B WT / mutants",
+                    "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                  },
+                  {
+                    "label": "Over H3",
+                    "text": "Mark signal normalized to total histone H3."
+                  }
+                ],
+                "reading_note": "Compare double-knockout cells rescued with WT or mutant RING1B at each locus."
               }
             ],
             "summary": [
@@ -9981,7 +11773,26 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+                "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+                "legend_key": [
+                  {
+                    "label": "Ring1A -/- / dKO",
+                    "text": "RING1A knockout / RING1A–RING1B double knockout."
+                  },
+                  {
+                    "label": "dKO Ring1B WT / mutants",
+                    "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                  },
+                  {
+                    "label": "8WG16 RNAP",
+                    "text": "Antibody detecting RNA polymerase II."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Recovered DNA relative to starting DNA."
+                  }
+                ],
+                "reading_note": "Compare mutant and WT rescue within each locus."
               }
             ],
             "summary": [
@@ -10032,7 +11843,26 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+                "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+                "legend_key": [
+                  {
+                    "label": "Ring1A -/- / dKO",
+                    "text": "RING1A knockout / RING1A–RING1B double knockout."
+                  },
+                  {
+                    "label": "dKO Ring1B WT / mutants",
+                    "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                  },
+                  {
+                    "label": "8WG16 RNAP",
+                    "text": "Antibody detecting RNA polymerase II."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Recovered DNA relative to starting DNA."
+                  }
+                ],
+                "reading_note": "Compare mutant and WT rescue within each locus."
               }
             ],
             "summary": [
@@ -10083,7 +11913,22 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-endoh12-retained-binding-incomplete-rna"
+                "observation_id": "ring-endoh12-retained-binding-incomplete-rna",
+                "legend_key": [
+                  {
+                    "label": "Ring1A -/- / dKO",
+                    "text": "RING1A knockout / RING1A–RING1B double knockout."
+                  },
+                  {
+                    "label": "dKO Ring1B WT / mutants",
+                    "text": "Double knockout rescued with normal / indicated mutant RING1B."
+                  },
+                  {
+                    "label": "Normalized to Gapdh",
+                    "text": "RNA scaled to the Gapdh reference."
+                  }
+                ],
+                "reading_note": "Compare mutant rescue bars with WT rescue within each gene."
               }
             ],
             "summary": [
@@ -10174,7 +12019,18 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+          "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+          "legend_key": [
+            {
+              "label": "WT / Ring1b I53A",
+              "text": "Wild-type cells versus cells carrying the RING1B I53A catalytic mutation."
+            },
+            {
+              "label": "H2Aub1 / PRM",
+              "text": "H2Aub1 denotes H2AK119ub1. PRM is the paper’s per-million mapped-read ChIP signal; log2 ratios compare mutant with WT."
+            }
+          ],
+          "reading_note": "Read the H2Aub1 WT/I53A heatmap pair at upper left and scatter B at upper right; 95% of plotted peaks have negative mutant/WT ratios."
         },
         {
           "paper_id": "zhao-2024",
@@ -10211,7 +12067,22 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+          "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+          "legend_key": [
+            {
+              "label": "WT / Ring1b I53A",
+              "text": "Wild-type cells versus cells carrying the RING1B I53A catalytic mutation."
+            },
+            {
+              "label": "H2Aub1 / PRM",
+              "text": "H2Aub1 denotes H2AK119ub1. PRM is the paper’s per-million mapped-read ChIP signal; log2 ratios compare mutant with WT."
+            },
+            {
+              "label": "TSS / solid and dashed lines",
+              "text": "TSS is the transcription start site; solid lines are WT and dashed lines are RING1B-I53A."
+            }
+          ],
+          "reading_note": "The x-axes identify Down-regulated Genes (381). In lower-center J, H3K27me3 solid WT and dashed I53A profiles are close; lower-right K shows similarly close JARID2 profiles. G–I show higher mutant CBX7/PHC1/PCGF2."
         },
         {
           "paper_id": "zhao-2024",
@@ -10223,32 +12094,47 @@ window.GEMS = {
           "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
           "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
           "box_normalized": [
-            0.14,
-            0.52,
-            0.6,
-            0.81
+            0.13997760358342665,
+            0.5201900237529691,
+            0.5951847704367301,
+            0.8099762470308789
           ],
           "box_pixels": [
-            208,
-            1095,
-            893,
-            1705
+            250,
+            1314,
+            1063,
+            2046
           ],
           "source_image_size": [
-            1489,
-            2105
+            1786,
+            2526
           ],
-          "width": 685,
-          "height": 610,
-          "caption": "Original rectangular source crop; no image content changed.",
+          "width": 813,
+          "height": 732,
+          "caption": "Single native-source rectangular crop; no data alteration or stitching.",
           "view": "Chromatin",
           "reviewed": true,
           "review_status": "reviewed",
           "created_at": "2026-11-03T00:44:25.480942+00:00",
-          "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+          "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+          "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+          "legend_key": [
+            {
+              "label": "WT / Ring1b I53A",
+              "text": "Wild-type cells versus cells carrying the RING1B I53A catalytic mutation."
+            },
+            {
+              "label": "H2Aub1 / PRM",
+              "text": "H2Aub1 denotes H2AK119ub1. PRM is the paper’s per-million mapped-read ChIP signal; log2 ratios compare mutant with WT."
+            },
+            {
+              "label": "TSS / solid and dashed lines",
+              "text": "TSS is the transcription start site; solid lines are WT and dashed lines are RING1B-I53A."
+            }
+          ],
+          "reading_note": "The x-axes identify Up-regulated Genes (957). Lower-left N shows H3K27me3 and lower-right O shows JARID2; in both, dashed I53A lies below solid WT. Upper-right M shows similar CBX7 profiles."
         }
       ],
       "method_panels": [],
@@ -10269,32 +12155,43 @@ window.GEMS = {
             "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
             "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
             "box_normalized": [
-              0.11,
-              0.125,
-              0.35,
-              0.285
+              0.11000552791597568,
+              0.1251596424010217,
+              0.34991708126036486,
+              0.27884206045125587
             ],
             "box_pixels": [
-              166,
-              245,
-              528,
-              558
+              199,
+              294,
+              633,
+              655
             ],
             "source_image_size": [
-              1508,
-              1958
+              1809,
+              2349
             ],
-            "width": 362,
-            "height": 313,
-            "caption": "Original rectangular source crop; no image content changed.",
+            "width": 434,
+            "height": 361,
+            "caption": "Single native-source rectangular crop; no data alteration or stitching.",
             "view": "RNA",
             "reviewed": true,
             "review_status": "reviewed",
             "created_at": "2026-11-03T00:44:25.480942+00:00",
-            "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+            "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
             "checked": "2026-11-03",
             "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-            "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+            "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+            "legend_key": [
+              {
+                "label": "Log2 fold change / P-value",
+                "text": "RNA abundance in RING1B-I53A cells divided by WT, on a base-2 log scale; the vertical axis is minus log10 P."
+              },
+              {
+                "label": "Down / Up",
+                "text": "381 lower-RNA and 957 higher-RNA genes, respectively."
+              }
+            ],
+            "reading_note": "The lower-left and lower-right sides of the volcano are labeled Down 381 and Up 957, respectively; the horizontal axis compares RING1B-I53A RNA with WT."
           }
         ],
         "chromatin_pairing": {
@@ -10336,7 +12233,22 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+              "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+              "legend_key": [
+                {
+                  "label": "WT / Ring1b I53A",
+                  "text": "Wild-type cells versus cells carrying the RING1B I53A catalytic mutation."
+                },
+                {
+                  "label": "H2Aub1 / PRM",
+                  "text": "H2Aub1 denotes H2AK119ub1. PRM is the paper’s per-million mapped-read ChIP signal; log2 ratios compare mutant with WT."
+                },
+                {
+                  "label": "TSS / solid and dashed lines",
+                  "text": "TSS is the transcription start site; solid lines are WT and dashed lines are RING1B-I53A."
+                }
+              ],
+              "reading_note": "The x-axes identify Down-regulated Genes (381). In lower-center J, H3K27me3 solid WT and dashed I53A profiles are close; lower-right K shows similarly close JARID2 profiles. G–I show higher mutant CBX7/PHC1/PCGF2."
             },
             {
               "paper_id": "zhao-2024",
@@ -10348,32 +12260,47 @@ window.GEMS = {
               "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
               "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
               "box_normalized": [
-                0.14,
-                0.52,
-                0.6,
-                0.81
+                0.13997760358342665,
+                0.5201900237529691,
+                0.5951847704367301,
+                0.8099762470308789
               ],
               "box_pixels": [
-                208,
-                1095,
-                893,
-                1705
+                250,
+                1314,
+                1063,
+                2046
               ],
               "source_image_size": [
-                1489,
-                2105
+                1786,
+                2526
               ],
-              "width": 685,
-              "height": 610,
-              "caption": "Original rectangular source crop; no image content changed.",
+              "width": 813,
+              "height": 732,
+              "caption": "Single native-source rectangular crop; no data alteration or stitching.",
               "view": "Chromatin",
               "reviewed": true,
               "review_status": "reviewed",
               "created_at": "2026-11-03T00:44:25.480942+00:00",
-              "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+              "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+              "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+              "legend_key": [
+                {
+                  "label": "WT / Ring1b I53A",
+                  "text": "Wild-type cells versus cells carrying the RING1B I53A catalytic mutation."
+                },
+                {
+                  "label": "H2Aub1 / PRM",
+                  "text": "H2Aub1 denotes H2AK119ub1. PRM is the paper’s per-million mapped-read ChIP signal; log2 ratios compare mutant with WT."
+                },
+                {
+                  "label": "TSS / solid and dashed lines",
+                  "text": "TSS is the transcription start site; solid lines are WT and dashed lines are RING1B-I53A."
+                }
+              ],
+              "reading_note": "The x-axes identify Up-regulated Genes (957). Lower-left N shows H3K27me3 and lower-right O shows JARID2; in both, dashed I53A lies below solid WT. Upper-right M shows similar CBX7 profiles."
             }
           ],
           "linked_observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
@@ -10435,7 +12362,7 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "RING1B I53A KI",
-        "result": "H2AK119ub1 ↓. Lower-RNA promoters gain CBX7/PHC1/PCGF2; higher-RNA promoters lack that CBX7 gain. RNA: 381 ↓, 957 ↑.",
+        "result": "H2AK119ub1 ↓. Lower-RNA promoters gain CBX7/PHC1/PCGF2; promoters of RNA-increased genes lack that CBX7 gain. RNA: 381 ↓, 957 ↑.",
         "function": "Reduced H2A ubiquitination activity; no RING1A edit reported",
         "scope": "RNA-defined promoter groups",
         "rna_result": "381 ↓/957 ↑ (>2×, unadjusted P<0.05); ChIP uses these RNA-defined groups."
@@ -10445,7 +12372,7 @@ window.GEMS = {
         "readouts": [
           {
             "label": "CBX7 / PHC1 / PCGF2 ChIP",
-            "text": "↑ at lower-RNA promoters; no comparable CBX7 gain at higher-RNA promoters",
+            "text": "↑ at promoters of RNA-decreased genes; no comparable CBX7 gain at promoters of RNA-increased genes",
             "kind": "own_binding"
           },
           {
@@ -10455,12 +12382,12 @@ window.GEMS = {
           },
           {
             "label": "H3K27me3",
-            "text": "little mean change in lower-RNA group; ↓ in higher-RNA group",
+            "text": "little mean change in RNA-decreased group; ↓ in RNA-increased group",
             "kind": "marks"
           },
           {
             "label": "JARID2 ChIP",
-            "text": "little mean change in lower-RNA group; ↓ in higher-RNA group",
+            "text": "little mean change in RNA-decreased group; ↓ in RNA-increased group",
             "kind": "other_binding"
           },
           {
@@ -10486,22 +12413,22 @@ window.GEMS = {
           },
           {
             "label": "H3K27me3",
-            "text": "lower-RNA promoters: little mean change; higher-RNA: ↓",
+            "text": "promoters of RNA-decreased genes: little mean change; RNA-increased: ↓",
             "kind": "marks"
           },
           {
             "label": "CBX7 / PHC1 / PCGF2 ChIP",
-            "text": "↑ at many targets; gain at lower-RNA promoters",
+            "text": "↑ at many targets; gain at promoters of RNA-decreased genes",
             "kind": "own_binding"
           },
           {
-            "label": "CBX7 · higher-RNA promoters",
+            "label": "CBX7 · promoters of RNA-increased genes",
             "text": "no comparable gain",
             "kind": "own_binding"
           },
           {
             "label": "JARID2 ChIP",
-            "text": "lower-RNA promoters: little mean change; higher-RNA: ↓",
+            "text": "promoters of RNA-decreased genes: little mean change; RNA-increased: ↓",
             "kind": "other_binding"
           }
         ],
@@ -10555,7 +12482,22 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / Ring1b I53A",
+                    "text": "Wild-type cells versus cells carrying the RING1B I53A catalytic mutation."
+                  },
+                  {
+                    "label": "H2Aub1 / PRM",
+                    "text": "H2Aub1 denotes H2AK119ub1. PRM is the paper’s per-million mapped-read ChIP signal; log2 ratios compare mutant with WT."
+                  },
+                  {
+                    "label": "TSS / solid and dashed lines",
+                    "text": "TSS is the transcription start site; solid lines are WT and dashed lines are RING1B-I53A."
+                  }
+                ],
+                "reading_note": "The x-axes identify Down-regulated Genes (381). In lower-center J, H3K27me3 solid WT and dashed I53A profiles are close; lower-right K shows similarly close JARID2 profiles. G–I show higher mutant CBX7/PHC1/PCGF2."
               },
               {
                 "paper_id": "zhao-2024",
@@ -10567,42 +12509,57 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.14,
-                  0.52,
-                  0.6,
-                  0.81
+                  0.13997760358342665,
+                  0.5201900237529691,
+                  0.5951847704367301,
+                  0.8099762470308789
                 ],
                 "box_pixels": [
-                  208,
-                  1095,
-                  893,
-                  1705
+                  250,
+                  1314,
+                  1063,
+                  2046
                 ],
                 "source_image_size": [
-                  1489,
-                  2105
+                  1786,
+                  2526
                 ],
-                "width": 685,
-                "height": 610,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 813,
+                "height": 732,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
                 "created_at": "2026-11-03T00:44:25.480942+00:00",
-                "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / Ring1b I53A",
+                    "text": "Wild-type cells versus cells carrying the RING1B I53A catalytic mutation."
+                  },
+                  {
+                    "label": "H2Aub1 / PRM",
+                    "text": "H2Aub1 denotes H2AK119ub1. PRM is the paper’s per-million mapped-read ChIP signal; log2 ratios compare mutant with WT."
+                  },
+                  {
+                    "label": "TSS / solid and dashed lines",
+                    "text": "TSS is the transcription start site; solid lines are WT and dashed lines are RING1B-I53A."
+                  }
+                ],
+                "reading_note": "The x-axes identify Up-regulated Genes (957). Lower-left N shows H3K27me3 and lower-right O shows JARID2; in both, dashed I53A lies below solid WT. Upper-right M shows similar CBX7 profiles."
               }
             ],
             "summary": [
               {
                 "label": "CBX7 / PHC1 / PCGF2 ChIP",
-                "text": "↑ at lower-RNA promoters; no comparable CBX7 gain at higher-RNA promoters",
+                "text": "↑ at promoters of RNA-decreased genes; no comparable CBX7 gain at promoters of RNA-increased genes",
                 "kind": "own_binding"
               }
             ],
-            "note": "Fig 4G–I: 381 lower-RNA promoters; S5M: 957 higher-RNA promoters.",
+            "note": "Fig 4G–I: 381 promoters of RNA-decreased genes; S5M: 957 promoters of RNA-increased genes.",
             "readout_label": "CBX7 / PHC1 / PCGF2 ChIP"
           },
           {
@@ -10643,7 +12600,18 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / Ring1b I53A",
+                    "text": "Wild-type cells versus cells carrying the RING1B I53A catalytic mutation."
+                  },
+                  {
+                    "label": "H2Aub1 / PRM",
+                    "text": "H2Aub1 denotes H2AK119ub1. PRM is the paper’s per-million mapped-read ChIP signal; log2 ratios compare mutant with WT."
+                  }
+                ],
+                "reading_note": "Read the H2Aub1 WT/I53A heatmap pair at upper left and scatter B at upper right; 95% of plotted peaks have negative mutant/WT ratios."
               }
             ],
             "summary": [
@@ -10661,87 +12629,118 @@ window.GEMS = {
             "panels": [
               {
                 "paper_id": "zhao-2024",
-                "path": "panels/coverage-ring/zhao-fig4-fk.png",
-                "label": "Figure 4F–K — chromatin at the 381 lower-RNA genes",
-                "short_label": "Figure 4F–K — chromatin at the 381 lower-RNA genes",
+                "path": "panels/detail-focus/zhao24-fig4j.png",
+                "label": "Figure 4J · H3K27me3 · Down-regulated Genes (381)",
+                "short_label": "Figure 4J · H3K27me3 · Down-regulated Genes (381)",
                 "page": 9,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.11,
-                  0.28,
-                  0.88,
-                  0.58
+                  0.3819789939192924,
+                  0.41890166028097064,
+                  0.6158098396904367,
+                  0.5721583652618135
                 ],
                 "box_pixels": [
-                  166,
-                  548,
-                  1327,
-                  1136
+                  691,
+                  984,
+                  1114,
+                  1344
                 ],
                 "source_image_size": [
-                  1508,
-                  1958
+                  1809,
+                  2349
                 ],
-                "width": 1161,
-                "height": 588,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 423,
+                "height": 360,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
                 "created_at": "2026-11-03T00:44:25.480942+00:00",
-                "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+                "verification": "Individually visually inspected against the native PDF page; molecule, RNA-stratum label, WT/I53A legend and axes retained.",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+                "visual_reviewed_at": "2026-11-03",
+                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+                "reading_note": "381 RNA-decreased genes. Compare solid WT with dashed RING1B-I53A; mean profiles are close.",
+                "legend_key": [
+                  {
+                    "label": "RNA group",
+                    "text": "381 genes with less RNA in I53A cells than WT."
+                  },
+                  {
+                    "label": "WT / Ring1b I53A",
+                    "text": "Solid: wild type; dashed: RING1B-I53A cells."
+                  },
+                  {
+                    "label": "TSS / reads density",
+                    "text": "Transcription start site / mean ChIP sequencing signal."
+                  }
+                ]
               },
               {
                 "paper_id": "zhao-2024",
-                "path": "panels/coverage-ring/zhao-s5-lmno.png",
-                "label": "Figure S5L–O — chromatin at the 957 higher-RNA genes",
-                "short_label": "Figure S5L–O — chromatin at the 957 higher-RNA genes",
+                "path": "panels/detail-focus/zhao24-s5n.png",
+                "label": "Figure S5N–O · H3K27me3 (left, N) · higher-RNA genes (957)",
+                "short_label": "Figure S5N–O · H3K27me3 (left, N) · higher-RNA genes (957)",
                 "page": 32,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.14,
-                  0.52,
-                  0.6,
-                  0.81
+                  0.13997760358342665,
+                  0.6619160728424386,
+                  0.5951847704367301,
+                  0.8099762470308789
                 ],
                 "box_pixels": [
-                  208,
-                  1095,
-                  893,
-                  1705
+                  250,
+                  1672,
+                  1063,
+                  2046
                 ],
                 "source_image_size": [
-                  1489,
-                  2105
+                  1786,
+                  2526
                 ],
-                "width": 685,
-                "height": 610,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 813,
+                "height": 374,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
                 "created_at": "2026-11-03T00:44:25.480942+00:00",
-                "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+                "verification": "Individually visually inspected against the native PDF page; molecule, RNA-stratum label, WT/I53A legend and axes retained.",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+                "visual_reviewed_at": "2026-11-03",
+                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+                "reading_note": "957 RNA-increased genes. For H3K27me3 (left N), dashed I53A is below solid WT; horizontal axis: distance to TSS.",
+                "legend_key": [
+                  {
+                    "label": "RNA group",
+                    "text": "957 genes with more RNA in I53A cells than WT."
+                  },
+                  {
+                    "label": "WT / Ring1b I53A",
+                    "text": "Solid: wild type; dashed: RING1B-I53A cells."
+                  },
+                  {
+                    "label": "TSS / reads density",
+                    "text": "Transcription start site / mean ChIP sequencing signal."
+                  }
+                ],
+                "crop_note": "The native N legend extends into the N/O inter-panel space; the full two-plot row preserves it without stitching or partial neighboring data."
               }
             ],
             "summary": [
               {
                 "label": "H3K27me3",
-                "text": "little mean change in lower-RNA group; ↓ in higher-RNA group",
+                "text": "little mean change in RNA-decreased group; ↓ in RNA-increased group",
                 "kind": "marks"
               }
             ],
-            "note": "Fig 4J versus S5N · RNA-defined promoter groups.",
+            "note": "RNA-seq groups: 381 RNA-decreased genes (left); 957 RNA-increased genes (right). Compare curves within each plot; y-axis scales differ.",
             "readout_label": "H3K27me3"
           },
           {
@@ -10749,87 +12748,118 @@ window.GEMS = {
             "panels": [
               {
                 "paper_id": "zhao-2024",
-                "path": "panels/coverage-ring/zhao-fig4-fk.png",
-                "label": "Figure 4F–K — chromatin at the 381 lower-RNA genes",
-                "short_label": "Figure 4F–K — chromatin at the 381 lower-RNA genes",
+                "path": "panels/detail-focus/zhao24-fig4k.png",
+                "label": "Figure 4K · JARID2 · Down-regulated Genes (381)",
+                "short_label": "Figure 4K · JARID2 · Down-regulated Genes (381)",
                 "page": 9,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.11,
-                  0.28,
-                  0.88,
-                  0.58
+                  0.6218905472636815,
+                  0.41890166028097064,
+                  0.875069098949696,
+                  0.5721583652618135
                 ],
                 "box_pixels": [
-                  166,
-                  548,
-                  1327,
-                  1136
+                  1125,
+                  984,
+                  1583,
+                  1344
                 ],
                 "source_image_size": [
-                  1508,
-                  1958
+                  1809,
+                  2349
                 ],
-                "width": 1161,
-                "height": 588,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 458,
+                "height": 360,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
                 "created_at": "2026-11-03T00:44:25.480942+00:00",
-                "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+                "verification": "Individually visually inspected against the native PDF page; molecule, RNA-stratum label, WT/I53A legend and axes retained.",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+                "visual_reviewed_at": "2026-11-03",
+                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+                "reading_note": "381 RNA-decreased genes. Compare solid WT with dashed RING1B-I53A; mean profiles are close.",
+                "legend_key": [
+                  {
+                    "label": "RNA group",
+                    "text": "381 genes with less RNA in I53A cells than WT."
+                  },
+                  {
+                    "label": "WT / Ring1b I53A",
+                    "text": "Solid: wild type; dashed: RING1B-I53A cells."
+                  },
+                  {
+                    "label": "TSS / reads density",
+                    "text": "Transcription start site / mean ChIP sequencing signal."
+                  }
+                ]
               },
               {
                 "paper_id": "zhao-2024",
-                "path": "panels/coverage-ring/zhao-s5-lmno.png",
-                "label": "Figure S5L–O — chromatin at the 957 higher-RNA genes",
-                "short_label": "Figure S5L–O — chromatin at the 957 higher-RNA genes",
+                "path": "panels/detail-focus/zhao24-s5o.png",
+                "label": "Figure S5N–O · JARID2 (right, O) · higher-RNA genes (957)",
+                "short_label": "Figure S5N–O · JARID2 (right, O) · higher-RNA genes (957)",
                 "page": 32,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.14,
-                  0.52,
-                  0.6,
-                  0.81
+                  0.13997760358342665,
+                  0.6619160728424386,
+                  0.5951847704367301,
+                  0.8099762470308789
                 ],
                 "box_pixels": [
-                  208,
-                  1095,
-                  893,
-                  1705
+                  250,
+                  1672,
+                  1063,
+                  2046
                 ],
                 "source_image_size": [
-                  1489,
-                  2105
+                  1786,
+                  2526
                 ],
-                "width": 685,
-                "height": 610,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 813,
+                "height": 374,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "Chromatin",
                 "reviewed": true,
                 "review_status": "reviewed",
                 "created_at": "2026-11-03T00:44:25.480942+00:00",
-                "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+                "verification": "Individually visually inspected against the native PDF page; molecule, RNA-stratum label, WT/I53A legend and axes retained.",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+                "visual_reviewed_at": "2026-11-03",
+                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+                "reading_note": "957 RNA-increased genes. For JARID2 (right O), dashed I53A is below solid WT; horizontal axis: distance to TSS.",
+                "legend_key": [
+                  {
+                    "label": "RNA group",
+                    "text": "957 genes with more RNA in I53A cells than WT."
+                  },
+                  {
+                    "label": "WT / Ring1b I53A",
+                    "text": "Solid: wild type; dashed: RING1B-I53A cells."
+                  },
+                  {
+                    "label": "TSS / reads density",
+                    "text": "Transcription start site / mean ChIP sequencing signal."
+                  }
+                ],
+                "crop_note": "The native N legend extends into the N/O inter-panel space; the full two-plot row preserves it without stitching or partial neighboring data."
               }
             ],
             "summary": [
               {
                 "label": "JARID2 ChIP",
-                "text": "little mean change in lower-RNA group; ↓ in higher-RNA group",
+                "text": "little mean change in RNA-decreased group; ↓ in RNA-increased group",
                 "kind": "other_binding"
               }
             ],
-            "note": "Fig 4K versus S5O · RNA-defined promoter groups.",
+            "note": "RNA-seq groups: 381 RNA-decreased genes (left); 957 RNA-increased genes (right). Compare curves within each plot; y-axis scales differ.",
             "readout_label": "JARID2 ChIP"
           },
           {
@@ -10845,32 +12875,43 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.molcel.2024.02.017",
                 "source_sha256": "a393ea064d2bd43dcd381f63d0171ea313c06ef8d0e4d7095b9a0c7da1f501bf",
                 "box_normalized": [
-                  0.11,
-                  0.125,
-                  0.35,
-                  0.285
+                  0.11000552791597568,
+                  0.1251596424010217,
+                  0.34991708126036486,
+                  0.27884206045125587
                 ],
                 "box_pixels": [
-                  166,
-                  245,
-                  528,
-                  558
+                  199,
+                  294,
+                  633,
+                  655
                 ],
                 "source_image_size": [
-                  1508,
-                  1958
+                  1809,
+                  2349
                 ],
-                "width": 362,
-                "height": 313,
-                "caption": "Original rectangular source crop; no image content changed.",
+                "width": 434,
+                "height": 361,
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "view": "RNA",
                 "reviewed": true,
                 "review_status": "reviewed",
                 "created_at": "2026-11-03T00:44:25.480942+00:00",
-                "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin"
+                "observation_id": "ring-zhao24-i53a-rna-defined-chromatin",
+                "legend_key": [
+                  {
+                    "label": "Log2 fold change / P-value",
+                    "text": "RNA abundance in RING1B-I53A cells divided by WT, on a base-2 log scale; the vertical axis is minus log10 P."
+                  },
+                  {
+                    "label": "Down / Up",
+                    "text": "381 lower-RNA and 957 higher-RNA genes, respectively."
+                  }
+                ],
+                "reading_note": "The lower-left and lower-right sides of the volcano are labeled Down 381 and Up 957, respectively; the horizontal axis compares RING1B-I53A RNA with WT."
               }
             ],
             "summary": [
@@ -10954,6 +12995,25 @@ window.GEMS = {
           "reviewed_at": "2026-11-03T00:41:50.035409+00:00",
           "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
           "view": "rna",
+          "legend_key": [
+            {
+              "label": "RING1A/B-dKO",
+              "text": "Tamoxifen deletes RING1B in cells already lacking RING1A."
+            },
+            {
+              "label": "ERT2 / +/+ / −/−",
+              "text": "Tamoxifen-responsive recombination / intact / deleted gene copies."
+            },
+            {
+              "label": "PRCa / PRCr / active",
+              "text": "Baseline Polycomb-bound active / repressed genes; active genes without Polycomb."
+            },
+            {
+              "label": "DM",
+              "text": "Cell-to-cell variability adjusted for RNA mean and gene length."
+            }
+          ],
+          "reading_note": "Compare gray untreated and red RING1A/B-deleted single-cell RNA distributions within each baseline gene class; printed DM measures corrected variability.",
           "short_label": "Figure 6",
           "width": 1326,
           "height": 1604
@@ -10994,6 +13054,17 @@ window.GEMS = {
           "reviewed_at": "2026-11-03T00:41:50.035420+00:00",
           "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
           "view": "rna",
+          "legend_key": [
+            {
+              "label": "PRCa / PRCr / active",
+              "text": "Baseline Polycomb-bound active / repressed genes; active genes without Polycomb."
+            },
+            {
+              "label": "DM",
+              "text": "Cell-to-cell variability adjusted for RNA mean and gene length."
+            }
+          ],
+          "reading_note": "Compare active and baseline Polycomb-active genes for RNA mean and corrected variability changes; native-source tick glyphs are not reliably readable.",
           "short_label": "Figure S5B–C",
           "width": 1116,
           "height": 421
@@ -11040,6 +13111,25 @@ window.GEMS = {
             "reviewed_at": "2026-11-03T00:41:50.035409+00:00",
             "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
             "view": "rna",
+            "legend_key": [
+              {
+                "label": "RING1A/B-dKO",
+                "text": "Tamoxifen deletes RING1B in cells already lacking RING1A."
+              },
+              {
+                "label": "ERT2 / +/+ / −/−",
+                "text": "Tamoxifen-responsive recombination / intact / deleted gene copies."
+              },
+              {
+                "label": "PRCa / PRCr / active",
+                "text": "Baseline Polycomb-bound active / repressed genes; active genes without Polycomb."
+              },
+              {
+                "label": "DM",
+                "text": "Cell-to-cell variability adjusted for RNA mean and gene length."
+              }
+            ],
+            "reading_note": "Compare gray untreated and red RING1A/B-deleted single-cell RNA distributions within each baseline gene class; printed DM measures corrected variability.",
             "short_label": "Figure 6",
             "width": 1326,
             "height": 1604
@@ -11080,6 +13170,17 @@ window.GEMS = {
             "reviewed_at": "2026-11-03T00:41:50.035420+00:00",
             "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
             "view": "rna",
+            "legend_key": [
+              {
+                "label": "PRCa / PRCr / active",
+                "text": "Baseline Polycomb-bound active / repressed genes; active genes without Polycomb."
+              },
+              {
+                "label": "DM",
+                "text": "Cell-to-cell variability adjusted for RNA mean and gene length."
+              }
+            ],
+            "reading_note": "Compare active and baseline Polycomb-active genes for RNA mean and corrected variability changes; native-source tick glyphs are not reliably readable.",
             "short_label": "Figure S5B–C",
             "width": 1116,
             "height": 421
@@ -11218,6 +13319,25 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035409+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "rna",
+                "legend_key": [
+                  {
+                    "label": "RING1A/B-dKO",
+                    "text": "Tamoxifen deletes RING1B in cells already lacking RING1A."
+                  },
+                  {
+                    "label": "ERT2 / +/+ / −/−",
+                    "text": "Tamoxifen-responsive recombination / intact / deleted gene copies."
+                  },
+                  {
+                    "label": "PRCa / PRCr / active",
+                    "text": "Baseline Polycomb-bound active / repressed genes; active genes without Polycomb."
+                  },
+                  {
+                    "label": "DM",
+                    "text": "Cell-to-cell variability adjusted for RNA mean and gene length."
+                  }
+                ],
+                "reading_note": "Compare gray untreated and red RING1A/B-deleted single-cell RNA distributions within each baseline gene class; printed DM measures corrected variability.",
                 "short_label": "Figure 6",
                 "width": 1326,
                 "height": 1604
@@ -11258,6 +13378,17 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035420+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "rna",
+                "legend_key": [
+                  {
+                    "label": "PRCa / PRCr / active",
+                    "text": "Baseline Polycomb-bound active / repressed genes; active genes without Polycomb."
+                  },
+                  {
+                    "label": "DM",
+                    "text": "Cell-to-cell variability adjusted for RNA mean and gene length."
+                  }
+                ],
+                "reading_note": "Compare active and baseline Polycomb-active genes for RNA mean and corrected variability changes; native-source tick glyphs are not reliably readable.",
                 "short_label": "Figure S5B–C",
                 "width": 1116,
                 "height": 421
@@ -11744,6 +13875,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:34.738031+00:00",
           "view": "RNA",
+          "legend_key": [
+            {
+              "label": "IAA",
+              "text": "Auxin removes tagged RING1B; RING1A is already absent."
+            },
+            {
+              "label": "TRP",
+              "text": "Triptolide; blocks new transcription initiation."
+            },
+            {
+              "label": "DMSO",
+              "text": "Solvent control."
+            },
+            {
+              "label": "50′ / 2h",
+              "text": "50 minutes / two hours."
+            }
+          ],
+          "reading_note": "Compare DMSO + IAA with TRP + IAA to read the effect of blocking initiation before RING1B removal.",
           "short_label": "Figure 5C–D",
           "width": 1056,
           "height": 367
@@ -11782,6 +13932,25 @@ window.GEMS = {
           "visual_reviewed_at": "2026-11-02T22:23:35.231601+00:00",
           "view": "Related Chromatin",
           "notes": "Auxin-only: not the exact triptolide+auxin condition.",
+          "legend_key": [
+            {
+              "label": "UNT",
+              "text": "Untreated."
+            },
+            {
+              "label": "IAA",
+              "text": "Auxin removes tagged RING1B; RING1A is already absent."
+            },
+            {
+              "label": "Pol II / Ser5P / Ser2P",
+              "text": "Polymerase / phosphate at tail serine 5 or 2."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "Compare untreated and 2-hour auxin tracks within each named gene and each polymerase measurement.",
           "short_label": "Figure 5A; auxin-only comparison",
           "width": 1056,
           "height": 446
@@ -11825,6 +13994,25 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:23:34.738031+00:00",
             "view": "RNA",
+            "legend_key": [
+              {
+                "label": "IAA",
+                "text": "Auxin removes tagged RING1B; RING1A is already absent."
+              },
+              {
+                "label": "TRP",
+                "text": "Triptolide; blocks new transcription initiation."
+              },
+              {
+                "label": "DMSO",
+                "text": "Solvent control."
+              },
+              {
+                "label": "50′ / 2h",
+                "text": "50 minutes / two hours."
+              }
+            ],
+            "reading_note": "Compare DMSO + IAA with TRP + IAA to read the effect of blocking initiation before RING1B removal.",
             "short_label": "Figure 5C–D",
             "width": 1056,
             "height": 367
@@ -12012,6 +14200,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:34.738031+00:00",
                 "view": "RNA",
+                "legend_key": [
+                  {
+                    "label": "IAA",
+                    "text": "Auxin removes tagged RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "TRP",
+                    "text": "Triptolide; blocks new transcription initiation."
+                  },
+                  {
+                    "label": "DMSO",
+                    "text": "Solvent control."
+                  },
+                  {
+                    "label": "50′ / 2h",
+                    "text": "50 minutes / two hours."
+                  }
+                ],
+                "reading_note": "Compare DMSO + IAA with TRP + IAA to read the effect of blocking initiation before RING1B removal.",
                 "short_label": "Figure 5C–D",
                 "width": 1056,
                 "height": 367
@@ -12103,6 +14310,21 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:32:03.923896+00:00",
           "view": "RNA",
+          "legend_key": [
+            {
+              "label": "IAA",
+              "text": "Auxin removes tagged RING1B; RING1A is already absent."
+            },
+            {
+              "label": "log2 RPKM",
+              "text": "Base-2 reads per kilobase per million mapped reads."
+            },
+            {
+              "label": "log2 fold change",
+              "text": "Base-2 treated-to-untreated ratio."
+            }
+          ],
+          "reading_note": "Each plot compares auxin-treated RNA with untreated RNA at the indicated time.",
           "short_label": "Figure 2A; nuclear RNA time course",
           "width": 1117,
           "height": 347
@@ -12140,6 +14362,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:32:04.469025+00:00",
           "view": "RNA",
+          "legend_key": [
+            {
+              "label": "UNT",
+              "text": "Untreated."
+            },
+            {
+              "label": "IAA",
+              "text": "Auxin removes tagged RING1B; RING1A is already absent."
+            },
+            {
+              "label": "log2 RPKM",
+              "text": "Base-2 reads per kilobase per million mapped reads."
+            },
+            {
+              "label": "log2 FC",
+              "text": "Base-2 RNA fold change."
+            }
+          ],
+          "reading_note": "The 2/4/8-hour row groups are defined by earliest RNA derepression.",
           "short_label": "Figure 2D; nuclear RNA by response group",
           "width": 296,
           "height": 582
@@ -12177,6 +14418,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:36.627100+00:00",
           "view": "Chromatin",
+          "legend_key": [
+            {
+              "label": "UNT",
+              "text": "Untreated."
+            },
+            {
+              "label": "IAA",
+              "text": "Auxin removes tagged RING1B; RING1A is already absent."
+            },
+            {
+              "label": "TSS",
+              "text": "Transcription start site."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "The 2/4/8-hour column groups are defined by RNA response, while colored curves show the separate ChIP sampling times.",
           "short_label": "Figure 3B–C; time-resolved chromatin profiles",
           "width": 619,
           "height": 547
@@ -12238,6 +14498,21 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:32:03.923896+00:00",
             "view": "RNA",
+            "legend_key": [
+              {
+                "label": "IAA",
+                "text": "Auxin removes tagged RING1B; RING1A is already absent."
+              },
+              {
+                "label": "log2 RPKM",
+                "text": "Base-2 reads per kilobase per million mapped reads."
+              },
+              {
+                "label": "log2 fold change",
+                "text": "Base-2 treated-to-untreated ratio."
+              }
+            ],
+            "reading_note": "Each plot compares auxin-treated RNA with untreated RNA at the indicated time.",
             "short_label": "Figure 2A; nuclear RNA time course",
             "width": 1117,
             "height": 347
@@ -12275,6 +14550,25 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:32:04.469025+00:00",
             "view": "RNA",
+            "legend_key": [
+              {
+                "label": "UNT",
+                "text": "Untreated."
+              },
+              {
+                "label": "IAA",
+                "text": "Auxin removes tagged RING1B; RING1A is already absent."
+              },
+              {
+                "label": "log2 RPKM",
+                "text": "Base-2 reads per kilobase per million mapped reads."
+              },
+              {
+                "label": "log2 FC",
+                "text": "Base-2 RNA fold change."
+              }
+            ],
+            "reading_note": "The 2/4/8-hour row groups are defined by earliest RNA derepression.",
             "short_label": "Figure 2D; nuclear RNA by response group",
             "width": 296,
             "height": 582
@@ -12317,6 +14611,25 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:36.627100+00:00",
               "view": "Chromatin",
+              "legend_key": [
+                {
+                  "label": "UNT",
+                  "text": "Untreated."
+                },
+                {
+                  "label": "IAA",
+                  "text": "Auxin removes tagged RING1B; RING1A is already absent."
+                },
+                {
+                  "label": "TSS",
+                  "text": "Transcription start site."
+                },
+                {
+                  "label": "kb",
+                  "text": "Thousands of DNA bases."
+                }
+              ],
+              "reading_note": "The 2/4/8-hour column groups are defined by RNA response, while colored curves show the separate ChIP sampling times.",
               "short_label": "Figure 3B–C; time-resolved chromatin profiles",
               "width": 619,
               "height": 547
@@ -12519,6 +14832,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:36.627100+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "UNT",
+                    "text": "Untreated."
+                  },
+                  {
+                    "label": "IAA",
+                    "text": "Auxin removes tagged RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "TSS",
+                    "text": "Transcription start site."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "The 2/4/8-hour column groups are defined by RNA response, while colored curves show the separate ChIP sampling times.",
                 "short_label": "Figure 3B–C; time-resolved chromatin profiles",
                 "width": 619,
                 "height": 547
@@ -12570,6 +14902,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:36.627100+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "UNT",
+                    "text": "Untreated."
+                  },
+                  {
+                    "label": "IAA",
+                    "text": "Auxin removes tagged RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "TSS",
+                    "text": "Transcription start site."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "The 2/4/8-hour column groups are defined by RNA response, while colored curves show the separate ChIP sampling times.",
                 "short_label": "Figure 3B–C; time-resolved chromatin profiles",
                 "width": 619,
                 "height": 547
@@ -12621,6 +14972,21 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:32:03.923896+00:00",
                 "view": "RNA",
+                "legend_key": [
+                  {
+                    "label": "IAA",
+                    "text": "Auxin removes tagged RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "log2 RPKM",
+                    "text": "Base-2 reads per kilobase per million mapped reads."
+                  },
+                  {
+                    "label": "log2 fold change",
+                    "text": "Base-2 treated-to-untreated ratio."
+                  }
+                ],
+                "reading_note": "Each plot compares auxin-treated RNA with untreated RNA at the indicated time.",
                 "short_label": "Figure 2A; nuclear RNA time course",
                 "width": 1117,
                 "height": 347
@@ -12713,7 +15079,26 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-canonical-variant-binding"
+          "observation_id": "ring-blackledge20-canonical-variant-binding",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated / 4-hydroxytamoxifen-treated."
+            },
+            {
+              "label": "PRC1 CPM",
+              "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+            },
+            {
+              "label": "% input",
+              "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+            },
+            {
+              "label": "kb / center",
+              "text": "1,000 DNA bases / aligned target midpoint."
+            }
+          ],
+          "reading_note": "Compare UNT/OHT for PCGF2 in B/C and for PHC1 at each locus in D."
         },
         {
           "paper_id": "blackledge-2020",
@@ -12750,7 +15135,26 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-canonical-variant-binding"
+          "observation_id": "ring-blackledge20-canonical-variant-binding",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated / 4-hydroxytamoxifen-treated."
+            },
+            {
+              "label": "PRC1 CPM",
+              "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+            },
+            {
+              "label": "LFC OHT/UNT",
+              "text": "Log2 treated/untreated signal; zero is unchanged."
+            },
+            {
+              "label": "kb / center",
+              "text": "1,000 DNA bases / aligned target midpoint."
+            }
+          ],
+          "reading_note": "Compare UNT/OHT within each protein pair using its own color scale; the RING1B third column is treated/untreated fold change."
         }
       ],
       "method_panels": [
@@ -12789,7 +15193,26 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-canonical-variant-binding"
+          "observation_id": "ring-blackledge20-canonical-variant-binding",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated / 4-hydroxytamoxifen-treated."
+            },
+            {
+              "label": "PRC1 CPM",
+              "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+            },
+            {
+              "label": "PRC1 CKO",
+              "text": "OHT deletes RING1B; RING1A is already absent."
+            },
+            {
+              "label": "HDAC1 / H4 / BRG1",
+              "text": "Loading controls for protein / histone / partner blots."
+            }
+          ],
+          "reading_note": "Compare UNT and OHT within each cell system; read the indicated protein against its loading control."
         }
       ],
       "rna": {
@@ -12834,7 +15257,26 @@ window.GEMS = {
             "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
             "checked": "2026-11-03",
             "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-            "observation_id": "ring-blackledge20-canonical-variant-binding"
+            "observation_id": "ring-blackledge20-canonical-variant-binding",
+            "legend_key": [
+              {
+                "label": "UNT / OHT",
+                "text": "Untreated / 4-hydroxytamoxifen-treated."
+              },
+              {
+                "label": "PRC1 CPM",
+                "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+              },
+              {
+                "label": "PRC1 CKO",
+                "text": "OHT deletes RING1B; RING1A is already absent."
+              },
+              {
+                "label": "RPKM / log2",
+                "text": "Length- and depth-normalized RNA; +1 log2 means twofold higher."
+              }
+            ],
+            "reading_note": "In A, compare OHT/UNT RNA change between RING1A/B removal (CKO) and catalytic inactivation (CPM); B compares the same genes across systems."
           }
         ],
         "chromatin_pairing": {
@@ -12876,7 +15318,26 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-blackledge20-canonical-variant-binding"
+              "observation_id": "ring-blackledge20-canonical-variant-binding",
+              "legend_key": [
+                {
+                  "label": "UNT / OHT",
+                  "text": "Untreated / 4-hydroxytamoxifen-treated."
+                },
+                {
+                  "label": "PRC1 CPM",
+                  "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                },
+                {
+                  "label": "% input",
+                  "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                },
+                {
+                  "label": "kb / center",
+                  "text": "1,000 DNA bases / aligned target midpoint."
+                }
+              ],
+              "reading_note": "Compare UNT/OHT for PCGF2 in B/C and for PHC1 at each locus in D."
             },
             {
               "paper_id": "blackledge-2020",
@@ -12913,7 +15374,26 @@ window.GEMS = {
               "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-              "observation_id": "ring-blackledge20-canonical-variant-binding"
+              "observation_id": "ring-blackledge20-canonical-variant-binding",
+              "legend_key": [
+                {
+                  "label": "UNT / OHT",
+                  "text": "Untreated / 4-hydroxytamoxifen-treated."
+                },
+                {
+                  "label": "PRC1 CPM",
+                  "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                },
+                {
+                  "label": "LFC OHT/UNT",
+                  "text": "Log2 treated/untreated signal; zero is unchanged."
+                },
+                {
+                  "label": "kb / center",
+                  "text": "1,000 DNA bases / aligned target midpoint."
+                }
+              ],
+              "reading_note": "Compare UNT/OHT within each protein pair using its own color scale; the RING1B third column is treated/untreated fold change."
             }
           ],
           "linked_observation_id": "ring-blackledge20-canonical-variant-binding",
@@ -12980,7 +15460,7 @@ window.GEMS = {
         "result": "PCGF2/PHC1 ↓↓; PCGF1/6 much less affected. Lower-level RING1B binding remains.",
         "timing": "72h post-induction",
         "function": "Disables H2A ubiquitination; RING proteins retained",
-        "rna_result": "2,828 ↑/399 ↓; protein-loss comparator: 3,240 ↑/739 ↓. Responses overlap but are not identical."
+        "rna_result": "RING1A/B catalytic mutants: 2,828 ↑ / 399 ↓; RING1B KO (RING1A−/−): 3,240 ↑ / 739 ↓."
       },
       "comparison_links": [],
       "presentation": {
@@ -13020,7 +15500,7 @@ window.GEMS = {
           },
           {
             "label": "Total RNA",
-            "text": "2,828 ↑ / 399 ↓; protein loss: 3,240 ↑ / 739 ↓",
+            "text": "RING1A/B catalytic mutants: 2,828 ↑ / 399 ↓; RING1B KO (RING1A−/−): 3,240 ↑ / 739 ↓",
             "kind": "rna"
           }
         ],
@@ -13070,12 +15550,12 @@ window.GEMS = {
         ],
         "rna": [
           {
-            "label": "Catalytic switch · total RNA",
+            "label": "RING1A/B catalytic mutants",
             "text": "2,828 ↑ / 399 ↓",
             "kind": "rna"
           },
           {
-            "label": "Protein-loss comparator",
+            "label": "RING1B KO; RING1A−/−",
             "text": "3,240 ↑ / 739 ↓",
             "kind": "rna"
           },
@@ -13128,7 +15608,26 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig2-cde.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "PRC1 CKO",
+                    "text": "OHT deletes RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "HDAC1 / H4",
+                    "text": "Protein / histone loading controls."
+                  }
+                ],
+                "reading_note": "Compare UNT/OHT RING1B against HDAC1 and H2AK119ub1 against H4; the bars quantify the mark/H4 ratio."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -13165,7 +15664,26 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig2-cde.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "IP / Input / Control IP",
+                    "text": "RING1B pull-down / starting material / negative-control pull-down."
+                  },
+                  {
+                    "label": "cPRC1 / vPRC1",
+                    "text": "Canonical / variant PRC1 partners."
+                  }
+                ],
+                "reading_note": "Compare the RING1B IP lanes before/after OHT alongside input and control IP for each partner."
               }
             ],
             "summary": [
@@ -13216,7 +15734,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig5-a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen; OHT switches RING1B to the catalytic mutant."
+                  },
+                  {
+                    "label": "LFC OHT/UNT",
+                    "text": "Log2 treated/untreated signal; zero is unchanged."
+                  }
+                ],
+                "reading_note": "Compare UNT/OHT RING1B signal and the separate OHT/UNT fold-change column; their color scales differ."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -13254,7 +15783,14 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig5-a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:51:01.009993+00:00",
-                "verification": "Native Figure 5A horizontal coordinate key visually inspected: −10 kb, center, 10 kb. No vertical row identifiers appear in the source panel."
+                "verification": "Native Figure 5A horizontal coordinate key visually inspected: −10 kb, center, 10 kb. No vertical row identifiers appear in the source panel.",
+                "legend_key": [
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  }
+                ],
+                "reading_note": "Apply this target-centered coordinate key to the accompanying Figure 5A protein heatmaps."
               }
             ],
             "summary": [
@@ -13305,7 +15841,22 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig4-bcd.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  }
+                ],
+                "reading_note": "Compare untreated/treated PCGF2 profiles; PHC1 is shown in companion 4D."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -13342,7 +15893,22 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig4-bcd.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  }
+                ],
+                "reading_note": "Compare blue/red PHC1 bars at each named locus; PCGF2 is shown in companion 4B."
               }
             ],
             "summary": [
@@ -13398,7 +15964,14 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig5-a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen; OHT switches RING1B to the catalytic mutant."
+                  }
+                ],
+                "reading_note": "Compare UNT and OHT PCGF1 columns using the 0–1.5 scale; use the accompanying coordinate key."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -13435,7 +16008,14 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig5-a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen; OHT switches RING1B to the catalytic mutant."
+                  }
+                ],
+                "reading_note": "Compare UNT and OHT PCGF6 columns using the 0–1.5 scale; use the accompanying coordinate key."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -13473,7 +16053,14 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig5-a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:51:01.009993+00:00",
-                "verification": "Native Figure 5A horizontal coordinate key visually inspected: −10 kb, center, 10 kb. No vertical row identifiers appear in the source panel."
+                "verification": "Native Figure 5A horizontal coordinate key visually inspected: −10 kb, center, 10 kb. No vertical row identifiers appear in the source panel.",
+                "legend_key": [
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  }
+                ],
+                "reading_note": "Apply this target-centered coordinate key to the accompanying Figure 5A protein heatmaps."
               }
             ],
             "summary": [
@@ -13524,7 +16111,26 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig2-cde.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "PRC1 CKO",
+                    "text": "OHT deletes RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "HDAC1 / H4",
+                    "text": "Protein / histone loading controls."
+                  }
+                ],
+                "reading_note": "Compare UNT/OHT RING1B against HDAC1 and H2AK119ub1 against H4; the bars quantify the mark/H4 ratio."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -13561,7 +16167,18 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig5-a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen; OHT switches RING1B to the catalytic mutant."
+                  },
+                  {
+                    "label": "H2Aub1 / H2AK119ub1",
+                    "text": "H2A carrying one ubiquitin on lysine 119."
+                  }
+                ],
+                "reading_note": "Compare untreated/treated H2AK119ub1 columns using the 0–0.8 signal scale."
               },
               {
                 "paper_id": "blackledge-2020",
@@ -13599,7 +16216,14 @@ window.GEMS = {
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig5-a.png",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T15:51:01.009993+00:00",
-                "verification": "Native Figure 5A horizontal coordinate key visually inspected: −10 kb, center, 10 kb. No vertical row identifiers appear in the source panel."
+                "verification": "Native Figure 5A horizontal coordinate key visually inspected: −10 kb, center, 10 kb. No vertical row identifiers appear in the source panel.",
+                "legend_key": [
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  }
+                ],
+                "reading_note": "Apply this target-centered coordinate key to the accompanying Figure 5A protein heatmaps."
               }
             ],
             "summary": [
@@ -13625,10 +16249,10 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.molcel.2019.12.001",
                 "source_sha256": "ed3fb1cb34f71f37359a7037c5d8385ba88121460fd37a6bdc3205ea2f09932f",
                 "box_normalized": [
-                  0.13992042440318303,
-                  0.12002042900919306,
-                  0.6152254641909816,
-                  0.31001021450459654
+                  0.13992,
+                  0.12002,
+                  0.624,
+                  0.31001
                 ],
                 "box_pixels": [
                   253,
@@ -13640,8 +16264,8 @@ window.GEMS = {
                   1809,
                   2349
                 ],
-                "width": 860,
-                "height": 446,
+                "width": 876,
+                "height": 448,
                 "caption": "Original rectangular source crop; no image content changed.",
                 "view": "RNA",
                 "reviewed": true,
@@ -13649,18 +16273,49 @@ window.GEMS = {
                 "created_at": "2026-11-03T15:47:00.501096+00:00",
                 "derived_from_crop": "panels/coverage-ring/blackledge-fig6-ab.png",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T15:48:12.867142+00:00",
-                "verification": "Native-PDF rectangle visually inspected against the source crop; selected data, conditions, axes and legends checked. Shared legend/locus-key rectangles are separately identified."
+                "visual_reviewed_at": "2026-11-03T16:37:35.787392+00:00",
+                "verification": "Individually inspected against native PDF source page; original rectangular source content only.",
+                "legend_key": [
+                  {
+                    "label": "UNT / OHT",
+                    "text": "Untreated / 4-hydroxytamoxifen-treated."
+                  },
+                  {
+                    "label": "PRC1 CPM",
+                    "text": "OHT inactivates RING1B catalysis; RING1A is already catalytically inactive. Proteins remain."
+                  },
+                  {
+                    "label": "PRC1 CKO",
+                    "text": "OHT deletes RING1B; RING1A is already absent."
+                  },
+                  {
+                    "label": "RPKM / log2",
+                    "text": "Length- and depth-normalized RNA; +1 log2 means twofold higher."
+                  }
+                ],
+                "reading_note": "Left: RING1B deletion in RING1A-null cells; right: RING1A/B catalytic inactivation. Red points pass adjusted p<0.05 and >1.5-fold change.",
+                "box_pdf_points": [
+                  84.36980433105468,
+                  93.97398247436523,
+                  376.2632783203125,
+                  242.7334969744873
+                ],
+                "render_dpi": 216
               }
             ],
             "summary": [
               {
-                "label": "Total RNA",
-                "text": "2,828 ↑ / 399 ↓; protein loss: 3,240 ↑ / 739 ↓",
+                "label": "RING1A/B catalytic mutants",
+                "text": "2,828 ↑ / 399 ↓",
+                "kind": "rna"
+              },
+              {
+                "label": "RING1B KO; RING1A−/−",
+                "text": "3,240 ↑ / 739 ↓",
                 "kind": "rna"
               }
             ],
-            "note": "Calibrated total RNA; adjusted P<0.05, >1.5×.",
+            "note": "Calibrated total RNA-seq; 72h after the trigger. Adjusted P<0.05; >1.5×.",
             "readout_label": "Total RNA"
           }
         ]
@@ -13739,7 +16394,22 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-ring1b-only-residual"
+          "observation_id": "ring-blackledge20-ring1b-only-residual",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "H2Aub1 / H2AK119ub1",
+              "text": "H2A carrying one ubiquitin on lysine 119."
+            },
+            {
+              "label": "kb / center",
+              "text": "1,000 DNA bases / aligned target midpoint."
+            }
+          ],
+          "reading_note": "Compare WT with the two RING1B mutants within each H2AK119ub1 display; the mutants retain RING1A."
         }
       ],
       "method_panels": [
@@ -13778,7 +16448,26 @@ window.GEMS = {
           "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-          "observation_id": "ring-blackledge20-ring1b-only-residual"
+          "observation_id": "ring-blackledge20-ring1b-only-residual",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "PRC1 µM",
+              "text": "Purified ligase-complex concentration."
+            },
+            {
+              "label": "H2Aub1 / H2AK119ub1",
+              "text": "H2A carrying one ubiquitin on lysine 119."
+            },
+            {
+              "label": "H3 / kDa",
+              "text": "Loading control / protein mass in thousands of daltons."
+            }
+          ],
+          "reading_note": "Compare WT, I53A and I53A/D56K at matched purified-complex concentrations; H3 controls reaction loading."
         }
       ],
       "rna": {
@@ -13832,7 +16521,7 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "RING1B I53A vs I53A/D56K KI",
-        "result": "Both retain cellular H2AK119ub1; double mutant retains less. Purified I53A retains activity; double-mutant activity is undetected in that assay.",
+        "result": "Cellular H2AK119ub1 retained with I53A or I53A/D56K; lower with I53A/D56K. Purified I53A retains activity; I53A/D56K activity undetected.",
         "function": "I53A retains H2A ubiquitination activity; I53A/D56K: undetectable in vitro. RING1A intact"
       },
       "comparison_links": [],
@@ -13913,7 +16602,26 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-blackledge20-ring1b-only-residual"
+                "observation_id": "ring-blackledge20-ring1b-only-residual",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "PRC1 µM",
+                    "text": "Purified ligase-complex concentration."
+                  },
+                  {
+                    "label": "H2Aub1 / H2AK119ub1",
+                    "text": "H2A carrying one ubiquitin on lysine 119."
+                  },
+                  {
+                    "label": "H3 / kDa",
+                    "text": "Loading control / protein mass in thousands of daltons."
+                  }
+                ],
+                "reading_note": "Compare WT, I53A and I53A/D56K at matched purified-complex concentrations; H3 controls reaction loading."
               }
             ],
             "summary": [
@@ -13964,7 +16672,22 @@ window.GEMS = {
                 "verification": "Direct visual review against the stated native PDF page; axes, conditions and legends checked.",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:52:38.221173+00:00",
-                "observation_id": "ring-blackledge20-ring1b-only-residual"
+                "observation_id": "ring-blackledge20-ring1b-only-residual",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "H2Aub1 / H2AK119ub1",
+                    "text": "H2A carrying one ubiquitin on lysine 119."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "1,000 DNA bases / aligned target midpoint."
+                  }
+                ],
+                "reading_note": "Compare WT with the two RING1B mutants within each H2AK119ub1 display; the mutants retain RING1A."
               }
             ],
             "summary": [
@@ -14055,7 +16778,18 @@ window.GEMS = {
           "width": 1304,
           "height": 1067,
           "view": "Chromatin",
-          "short_label": "Figure 6A–C — selected-region 5C in RING1B-I53A and knockout cells"
+          "short_label": "Figure 6A–C — selected-region 5C in RING1B-I53A and knockout cells",
+          "legend_key": [
+            {
+              "label": "ESC / Ring1b-KO",
+              "text": "Reference stem cells / RING1B-deleted cells."
+            },
+            {
+              "label": "Difference",
+              "text": "Reference minus indicated-mutant contact signal."
+            }
+          ],
+          "reading_note": "Compare each reference contact matrix with I53A and Ring1b-KO matrices; separate difference maps show reference-minus-mutant signal."
         },
         {
           "paper_id": "kundu-2017",
@@ -14093,7 +16827,22 @@ window.GEMS = {
           "width": 1304,
           "height": 382,
           "view": "Chromatin",
-          "short_label": "Figure 6D — selected-locus protein ChIP in RING1B-I53A cells"
+          "short_label": "Figure 6D — selected-locus protein ChIP in RING1B-I53A cells",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "% input",
+              "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+            },
+            {
+              "label": "GD",
+              "text": "Gene-desert negative control."
+            }
+          ],
+          "reading_note": "Compare WT and I53A at each locus separately for PHC1, RING1B, CBX7 and KDM2B."
         }
       ],
       "method_panels": [],
@@ -14159,7 +16908,7 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "RING1B I53A vs RING1B KO",
-        "result": "Selected 5C domains weaken but persist in I53A; stronger loss after KO. PHC1/CBX7/RING1B ChIP ↓; KDM2B retained.",
+        "result": "Selected 5C domains weaken but persist with RING1B I53A; greater loss after RING1B deletion. PHC1/CBX7/RING1B ChIP ↓; KDM2B retained.",
         "function": "Reduced H2A ubiquitination activity; RING1A intact",
         "scope": "Provided lines; isogenicity unverified"
       },
@@ -14179,7 +16928,7 @@ window.GEMS = {
           {
             "label": "5C · HoxA/Pax6/Nkx2.2–Pax1",
             "display_group": "structure",
-            "text": "domains weakened but retained; stronger loss in KO",
+            "text": "domains weakened but retained; greater loss after RING1B deletion",
             "kind": "interaction"
           }
         ],
@@ -14247,7 +16996,22 @@ window.GEMS = {
                 "width": 1304,
                 "height": 382,
                 "view": "Chromatin",
-                "short_label": "Figure 6D — selected-locus protein ChIP in RING1B-I53A cells"
+                "short_label": "Figure 6D — selected-locus protein ChIP in RING1B-I53A cells",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "GD",
+                    "text": "Gene-desert negative control."
+                  }
+                ],
+                "reading_note": "Compare WT and I53A at each locus separately for PHC1, RING1B, CBX7 and KDM2B."
               }
             ],
             "summary": [
@@ -14299,7 +17063,22 @@ window.GEMS = {
                 "width": 1304,
                 "height": 382,
                 "view": "Chromatin",
-                "short_label": "Figure 6D — selected-locus protein ChIP in RING1B-I53A cells"
+                "short_label": "Figure 6D — selected-locus protein ChIP in RING1B-I53A cells",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "GD",
+                    "text": "Gene-desert negative control."
+                  }
+                ],
+                "reading_note": "Compare WT and I53A at each locus separately for PHC1, RING1B, CBX7 and KDM2B."
               }
             ],
             "summary": [
@@ -14351,13 +17130,24 @@ window.GEMS = {
                 "width": 1304,
                 "height": 1067,
                 "view": "Chromatin",
-                "short_label": "Figure 6A–C — selected-region 5C in RING1B-I53A and knockout cells"
+                "short_label": "Figure 6A–C — selected-region 5C in RING1B-I53A and knockout cells",
+                "legend_key": [
+                  {
+                    "label": "ESC / Ring1b-KO",
+                    "text": "Reference stem cells / RING1B-deleted cells."
+                  },
+                  {
+                    "label": "Difference",
+                    "text": "Reference minus indicated-mutant contact signal."
+                  }
+                ],
+                "reading_note": "Compare each reference contact matrix with I53A and Ring1b-KO matrices; separate difference maps show reference-minus-mutant signal."
               }
             ],
             "summary": [
               {
                 "label": "5C · HoxA/Pax6/Nkx2.2–Pax1",
-                "text": "domains weakened but retained; stronger loss in KO",
+                "text": "domains weakened but retained; greater loss after RING1B deletion",
                 "kind": "interaction"
               }
             ],
@@ -14427,6 +17217,29 @@ window.GEMS = {
             "width": 1161,
             "height": 1625,
             "view": "rna",
+            "legend_key": [
+              {
+                "label": "Parental",
+                "text": "RING1A-null cells carrying conditional RING1B."
+              },
+              {
+                "label": "OHT - / +",
+                "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+              },
+              {
+                "label": "WT / I53S",
+                "text": "Introduced normal / indicated mutant RING1B rescue."
+              },
+              {
+                "label": "log2 FC / -log10 p",
+                "text": "Base-2 RNA ratio / statistical-evidence scale."
+              },
+              {
+                "label": "EED -/-",
+                "text": "Separate EED-knockout experiment."
+              }
+            ],
+            "reading_note": "Use panel B for the 72-hour OHT responses.",
             "short_label": "Figure 2"
           }
         ],
@@ -14444,10 +17257,10 @@ window.GEMS = {
               "source_url": "https://doi.org/10.1016/j.molcel.2019.11.021",
               "source_sha256": "f73d7ccae72552a80919586a16d380ca15faa2f183d404e695a293a3d59ba83b",
               "box_normalized": [
-                0.135,
-                0.105,
-                0.9,
-                0.66
+                0.14,
+                0.12,
+                0.87,
+                0.62
               ],
               "box_pixels": [
                 204,
@@ -14461,16 +17274,46 @@ window.GEMS = {
               ],
               "caption": "Original source crop; no image content changed.",
               "reviewed": true,
-              "review_status": "reviewed",
+              "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
               "verification": "Original source and final crop visually inspected; corrected boundaries retain selected labels, axes and genotype keys.",
               "created_at": "2026-11-03T00:51:19.854274+00:00",
               "checked": "2026-11-03",
-              "visual_reviewed_at": "2026-11-03T00:53:20.672081+00:00",
+              "visual_reviewed_at": "2026-11-03T16:37:15.918154+00:00",
               "reviewed_by": "root",
-              "width": 1153,
-              "height": 1086,
+              "width": 1101,
+              "height": 980,
               "view": "chromatin",
-              "short_label": "Figure 4A–F"
+              "legend_key": [
+                {
+                  "label": "Parental",
+                  "text": "RING1A-null cells carrying conditional RING1B."
+                },
+                {
+                  "label": "OHT - / +",
+                  "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+                },
+                {
+                  "label": "WT / I53S",
+                  "text": "Introduced normal / indicated mutant RING1B rescue."
+                },
+                {
+                  "label": "CPMK / CPKM",
+                  "text": "ChIP counts per million mapped reads per kilobase."
+                },
+                {
+                  "label": "Log2 FC",
+                  "text": "Base-2 signal ratio to parental cells without OHT."
+                }
+              ],
+              "reading_note": "Compare the I53S 72-hour condition with the WT 72-hour condition separately for MTF2 and JARID2.",
+              "short_label": "Figure 4A–F",
+              "box_pdf_points": [
+                84.41804321289064,
+                93.95832275390624,
+                524.5978399658203,
+                485.45133422851563
+              ],
+              "render_dpi": 180
             }
           ]
         },
@@ -14511,10 +17354,10 @@ window.GEMS = {
           "source_url": "https://doi.org/10.1016/j.molcel.2019.11.021",
           "source_sha256": "f73d7ccae72552a80919586a16d380ca15faa2f183d404e695a293a3d59ba83b",
           "box_normalized": [
-            0.135,
-            0.105,
-            0.9,
-            0.66
+            0.14,
+            0.12,
+            0.87,
+            0.62
           ],
           "box_pixels": [
             204,
@@ -14528,16 +17371,46 @@ window.GEMS = {
           ],
           "caption": "Original source crop; no image content changed.",
           "reviewed": true,
-          "review_status": "reviewed",
+          "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
           "verification": "Original source and final crop visually inspected; corrected boundaries retain selected labels, axes and genotype keys.",
           "created_at": "2026-11-03T00:51:19.854274+00:00",
           "checked": "2026-11-03",
-          "visual_reviewed_at": "2026-11-03T00:53:20.672081+00:00",
+          "visual_reviewed_at": "2026-11-03T16:37:15.918154+00:00",
           "reviewed_by": "root",
-          "width": 1153,
-          "height": 1086,
+          "width": 1101,
+          "height": 980,
           "view": "chromatin",
-          "short_label": "Figure 4A–F"
+          "legend_key": [
+            {
+              "label": "Parental",
+              "text": "RING1A-null cells carrying conditional RING1B."
+            },
+            {
+              "label": "OHT - / +",
+              "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+            },
+            {
+              "label": "WT / I53S",
+              "text": "Introduced normal / indicated mutant RING1B rescue."
+            },
+            {
+              "label": "CPMK / CPKM",
+              "text": "ChIP counts per million mapped reads per kilobase."
+            },
+            {
+              "label": "Log2 FC",
+              "text": "Base-2 signal ratio to parental cells without OHT."
+            }
+          ],
+          "reading_note": "Compare the I53S 72-hour condition with the WT 72-hour condition separately for MTF2 and JARID2.",
+          "short_label": "Figure 4A–F",
+          "box_pdf_points": [
+            84.41804321289064,
+            93.95832275390624,
+            524.5978399658203,
+            485.45133422851563
+          ],
+          "render_dpi": 180
         },
         {
           "paper_id": "tamburri-2020",
@@ -14575,6 +17448,29 @@ window.GEMS = {
           "width": 1266,
           "height": 1586,
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "Parental",
+              "text": "RING1A-null cells carrying conditional RING1B."
+            },
+            {
+              "label": "OHT - / +",
+              "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+            },
+            {
+              "label": "WT / I53S",
+              "text": "Introduced normal / indicated mutant RING1B rescue."
+            },
+            {
+              "label": "F/HA; exo / endo",
+              "text": "FLAG/HA tags; introduced / native RING1B."
+            },
+            {
+              "label": "VINCULIN / H2A",
+              "text": "Protein / histone loading controls."
+            }
+          ],
+          "reading_note": "Read the I53S minus/plus OHT pair in panel B.",
           "short_label": "Figure 1A–G"
         }
       ],
@@ -14609,7 +17505,7 @@ window.GEMS = {
         "result": "JARID2 nearly lost; MTF2 less reduced. H2AK119ub1 near background; I53S protein retained.",
         "timing": "72h post-induction",
         "function": "Impaired H2A ubiquitination; mutant RING1B and tested partners retained",
-        "rna_result": "I53S: 1,755 ↑/119 ↓; protein loss: 2,194 ↑/218 ↓. Upregulated sets share 1,513 genes."
+        "rna_result": "I53S: 1,755 ↑/119 ↓; RING1B KO (RING1A−/−): 2,194 ↑/218 ↓. Upregulated sets share 1,513 genes."
       },
       "comparison_links": [],
       "presentation": {
@@ -14636,7 +17532,7 @@ window.GEMS = {
           },
           {
             "label": "Poly(A) RNA",
-            "text": "I53S: 1,755 ↑ / 119 ↓; protein loss: 2,194 ↑ / 218 ↓",
+            "text": "I53S: 1,755 ↑ / 119 ↓; RING1B KO (RING1A−/−): 2,194 ↑ / 218 ↓",
             "kind": "rna"
           }
         ],
@@ -14677,7 +17573,7 @@ window.GEMS = {
             "kind": "rna"
           },
           {
-            "label": "Protein-loss comparator",
+            "label": "RING1B KO; RING1A−/−",
             "text": "2,194 ↑ / 218 ↓",
             "kind": "rna"
           },
@@ -14730,6 +17626,29 @@ window.GEMS = {
                 "width": 1266,
                 "height": 1586,
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Parental",
+                    "text": "RING1A-null cells carrying conditional RING1B."
+                  },
+                  {
+                    "label": "OHT - / +",
+                    "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+                  },
+                  {
+                    "label": "WT / I53S",
+                    "text": "Introduced normal / indicated mutant RING1B rescue."
+                  },
+                  {
+                    "label": "F/HA; exo / endo",
+                    "text": "FLAG/HA tags; introduced / native RING1B."
+                  },
+                  {
+                    "label": "VINCULIN / H2A",
+                    "text": "Protein / histone loading controls."
+                  }
+                ],
+                "reading_note": "Read the I53S minus/plus OHT pair in panel B.",
                 "short_label": "Figure 1A–G"
               }
             ],
@@ -14782,6 +17701,29 @@ window.GEMS = {
                 "width": 1266,
                 "height": 1586,
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Parental",
+                    "text": "RING1A-null cells carrying conditional RING1B."
+                  },
+                  {
+                    "label": "OHT - / +",
+                    "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+                  },
+                  {
+                    "label": "WT / I53S",
+                    "text": "Introduced normal / indicated mutant RING1B rescue."
+                  },
+                  {
+                    "label": "F/HA; exo / endo",
+                    "text": "FLAG/HA tags; introduced / native RING1B."
+                  },
+                  {
+                    "label": "VINCULIN / H2A",
+                    "text": "Protein / histone loading controls."
+                  }
+                ],
+                "reading_note": "Read the I53S minus/plus OHT pair in panel B.",
                 "short_label": "Figure 1A–G"
               }
             ],
@@ -14808,10 +17750,10 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.molcel.2019.11.021",
                 "source_sha256": "f73d7ccae72552a80919586a16d380ca15faa2f183d404e695a293a3d59ba83b",
                 "box_normalized": [
-                  0.135,
-                  0.105,
-                  0.9,
-                  0.66
+                  0.14,
+                  0.12,
+                  0.87,
+                  0.62
                 ],
                 "box_pixels": [
                   204,
@@ -14825,16 +17767,46 @@ window.GEMS = {
                 ],
                 "caption": "Original source crop; no image content changed.",
                 "reviewed": true,
-                "review_status": "reviewed",
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Original source and final crop visually inspected; corrected boundaries retain selected labels, axes and genotype keys.",
                 "created_at": "2026-11-03T00:51:19.854274+00:00",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T00:53:20.672081+00:00",
+                "visual_reviewed_at": "2026-11-03T16:37:15.918154+00:00",
                 "reviewed_by": "root",
-                "width": 1153,
-                "height": 1086,
+                "width": 1101,
+                "height": 980,
                 "view": "chromatin",
-                "short_label": "Figure 4A–F"
+                "legend_key": [
+                  {
+                    "label": "Parental",
+                    "text": "RING1A-null cells carrying conditional RING1B."
+                  },
+                  {
+                    "label": "OHT - / +",
+                    "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+                  },
+                  {
+                    "label": "WT / I53S",
+                    "text": "Introduced normal / indicated mutant RING1B rescue."
+                  },
+                  {
+                    "label": "CPMK / CPKM",
+                    "text": "ChIP counts per million mapped reads per kilobase."
+                  },
+                  {
+                    "label": "Log2 FC",
+                    "text": "Base-2 signal ratio to parental cells without OHT."
+                  }
+                ],
+                "reading_note": "Compare the I53S 72-hour condition with the WT 72-hour condition separately for MTF2 and JARID2.",
+                "short_label": "Figure 4A–F",
+                "box_pdf_points": [
+                  84.41804321289064,
+                  93.95832275390624,
+                  524.5978399658203,
+                  485.45133422851563
+                ],
+                "render_dpi": 180
               }
             ],
             "summary": [
@@ -14860,10 +17832,10 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.molcel.2019.11.021",
                 "source_sha256": "f73d7ccae72552a80919586a16d380ca15faa2f183d404e695a293a3d59ba83b",
                 "box_normalized": [
-                  0.135,
-                  0.105,
-                  0.9,
-                  0.66
+                  0.14,
+                  0.12,
+                  0.87,
+                  0.62
                 ],
                 "box_pixels": [
                   204,
@@ -14877,16 +17849,46 @@ window.GEMS = {
                 ],
                 "caption": "Original source crop; no image content changed.",
                 "reviewed": true,
-                "review_status": "reviewed",
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Original source and final crop visually inspected; corrected boundaries retain selected labels, axes and genotype keys.",
                 "created_at": "2026-11-03T00:51:19.854274+00:00",
                 "checked": "2026-11-03",
-                "visual_reviewed_at": "2026-11-03T00:53:20.672081+00:00",
+                "visual_reviewed_at": "2026-11-03T16:37:15.918154+00:00",
                 "reviewed_by": "root",
-                "width": 1153,
-                "height": 1086,
+                "width": 1101,
+                "height": 980,
                 "view": "chromatin",
-                "short_label": "Figure 4A–F"
+                "legend_key": [
+                  {
+                    "label": "Parental",
+                    "text": "RING1A-null cells carrying conditional RING1B."
+                  },
+                  {
+                    "label": "OHT - / +",
+                    "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+                  },
+                  {
+                    "label": "WT / I53S",
+                    "text": "Introduced normal / indicated mutant RING1B rescue."
+                  },
+                  {
+                    "label": "CPMK / CPKM",
+                    "text": "ChIP counts per million mapped reads per kilobase."
+                  },
+                  {
+                    "label": "Log2 FC",
+                    "text": "Base-2 signal ratio to parental cells without OHT."
+                  }
+                ],
+                "reading_note": "Compare the I53S 72-hour condition with the WT 72-hour condition separately for MTF2 and JARID2.",
+                "short_label": "Figure 4A–F",
+                "box_pdf_points": [
+                  84.41804321289064,
+                  93.95832275390624,
+                  524.5978399658203,
+                  485.45133422851563
+                ],
+                "render_dpi": 180
               }
             ],
             "summary": [
@@ -14938,17 +17940,40 @@ window.GEMS = {
                 "width": 1161,
                 "height": 1625,
                 "view": "rna",
+                "legend_key": [
+                  {
+                    "label": "Parental",
+                    "text": "RING1A-null cells carrying conditional RING1B."
+                  },
+                  {
+                    "label": "OHT - / +",
+                    "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+                  },
+                  {
+                    "label": "WT / I53S",
+                    "text": "Introduced normal / indicated mutant RING1B rescue."
+                  },
+                  {
+                    "label": "log2 FC / -log10 p",
+                    "text": "Base-2 RNA ratio / statistical-evidence scale."
+                  },
+                  {
+                    "label": "EED -/-",
+                    "text": "Separate EED-knockout experiment."
+                  }
+                ],
+                "reading_note": "Use panel B for the 72-hour OHT responses.",
                 "short_label": "Figure 2"
               }
             ],
             "summary": [
               {
                 "label": "Poly(A) RNA",
-                "text": "I53S: 1,755 ↑ / 119 ↓; protein loss: 2,194 ↑ / 218 ↓",
+                "text": "I53S: 1,755 ↑ / 119 ↓; RING1B KO (RING1A−/−): 2,194 ↑ / 218 ↓",
                 "kind": "rna"
               }
             ],
-            "note": "Fig 2B · 72h I53S/protein-loss comparisons. Panel G is a separate EED experiment.",
+            "note": "Fig 2B · 72h I53S rescue versus RING1B deletion; RING1A absent in both. Panel G is a separate EED experiment.",
             "readout_label": "Poly(A) RNA"
           }
         ]
@@ -15013,6 +18038,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:29.720838+00:00",
           "view": "RNA + Chromatin",
+          "legend_key": [
+            {
+              "label": "WT / 23KRA",
+              "text": "Normal / compaction-defective CBX2 rescue."
+            },
+            {
+              "label": "−dox / +dox",
+              "text": "Without / with doxycycline-induced CBX2 expression."
+            },
+            {
+              "label": "% input",
+              "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+            },
+            {
+              "label": "* / **",
+              "text": "p<0.05 / p<0.01."
+            }
+          ],
+          "reading_note": "Compare −dox/+dox within each CBX2 construct: A is RNA, B CBX2 binding, C RING1B binding; WT and 23KRA use different subplot scales.",
           "short_label": "Figure 2A–C",
           "width": 1025,
           "height": 1278
@@ -15050,6 +18094,29 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:30.037863+00:00",
           "view": "Chromatin",
+          "legend_key": [
+            {
+              "label": "WT / 23KRA",
+              "text": "Normal / compaction-defective CBX2 rescue."
+            },
+            {
+              "label": "−dox / +dox",
+              "text": "Without / with doxycycline-induced CBX2 expression."
+            },
+            {
+              "label": "% input",
+              "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+            },
+            {
+              "label": "H2Aub1 / H2AK119ub1",
+              "text": "H2A carrying one ubiquitin on lysine 119."
+            },
+            {
+              "label": "H3K27me3",
+              "text": "H3 lysine 27 with three methyl groups."
+            }
+          ],
+          "reading_note": "Compare −dox/+dox within WT and 23KRA for CBX7, H2AK119ub1 and H3K27me3 at the named loci.",
           "short_label": "Figure S5A–C",
           "width": 765,
           "height": 1139
@@ -15093,6 +18160,25 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:23:29.720838+00:00",
             "view": "RNA",
+            "legend_key": [
+              {
+                "label": "WT / 23KRA",
+                "text": "Normal / compaction-defective CBX2 rescue."
+              },
+              {
+                "label": "−dox / +dox",
+                "text": "Without / with doxycycline-induced CBX2 expression."
+              },
+              {
+                "label": "% input",
+                "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+              },
+              {
+                "label": "* / **",
+                "text": "p<0.05 / p<0.01."
+              }
+            ],
+            "reading_note": "Compare −dox/+dox within each CBX2 construct: A is RNA, B CBX2 binding, C RING1B binding; WT and 23KRA use different subplot scales.",
             "short_label": "Figure 2A–C",
             "width": 1025,
             "height": 1278
@@ -15135,6 +18221,25 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:29.720838+00:00",
               "view": "Chromatin",
+              "legend_key": [
+                {
+                  "label": "WT / 23KRA",
+                  "text": "Normal / compaction-defective CBX2 rescue."
+                },
+                {
+                  "label": "−dox / +dox",
+                  "text": "Without / with doxycycline-induced CBX2 expression."
+                },
+                {
+                  "label": "% input",
+                  "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                },
+                {
+                  "label": "* / **",
+                  "text": "p<0.05 / p<0.01."
+                }
+              ],
+              "reading_note": "Compare −dox/+dox within each CBX2 construct: A is RNA, B CBX2 binding, C RING1B binding; WT and 23KRA use different subplot scales.",
               "short_label": "Figure 2A–C",
               "width": 1025,
               "height": 1278
@@ -15172,6 +18277,29 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:30.037863+00:00",
               "view": "Chromatin",
+              "legend_key": [
+                {
+                  "label": "WT / 23KRA",
+                  "text": "Normal / compaction-defective CBX2 rescue."
+                },
+                {
+                  "label": "−dox / +dox",
+                  "text": "Without / with doxycycline-induced CBX2 expression."
+                },
+                {
+                  "label": "% input",
+                  "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                },
+                {
+                  "label": "H2Aub1 / H2AK119ub1",
+                  "text": "H2A carrying one ubiquitin on lysine 119."
+                },
+                {
+                  "label": "H3K27me3",
+                  "text": "H3 lysine 27 with three methyl groups."
+                }
+              ],
+              "reading_note": "Compare −dox/+dox within WT and 23KRA for CBX7, H2AK119ub1 and H3K27me3 at the named loci.",
               "short_label": "Figure S5A–C",
               "width": 765,
               "height": 1139
@@ -15339,6 +18467,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:29.720838+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / 23KRA",
+                    "text": "Normal / compaction-defective CBX2 rescue."
+                  },
+                  {
+                    "label": "−dox / +dox",
+                    "text": "Without / with doxycycline-induced CBX2 expression."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "* / **",
+                    "text": "p<0.05 / p<0.01."
+                  }
+                ],
+                "reading_note": "Compare −dox/+dox within each CBX2 construct: A is RNA, B CBX2 binding, C RING1B binding; WT and 23KRA use different subplot scales.",
                 "short_label": "Figure 2A–C",
                 "width": 1025,
                 "height": 1278
@@ -15376,6 +18523,29 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:30.037863+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / 23KRA",
+                    "text": "Normal / compaction-defective CBX2 rescue."
+                  },
+                  {
+                    "label": "−dox / +dox",
+                    "text": "Without / with doxycycline-induced CBX2 expression."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "H2Aub1 / H2AK119ub1",
+                    "text": "H2A carrying one ubiquitin on lysine 119."
+                  },
+                  {
+                    "label": "H3K27me3",
+                    "text": "H3 lysine 27 with three methyl groups."
+                  }
+                ],
+                "reading_note": "Compare −dox/+dox within WT and 23KRA for CBX7, H2AK119ub1 and H3K27me3 at the named loci.",
                 "short_label": "Figure S5A–C",
                 "width": 765,
                 "height": 1139
@@ -15427,6 +18597,29 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:30.037863+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / 23KRA",
+                    "text": "Normal / compaction-defective CBX2 rescue."
+                  },
+                  {
+                    "label": "−dox / +dox",
+                    "text": "Without / with doxycycline-induced CBX2 expression."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "H2Aub1 / H2AK119ub1",
+                    "text": "H2A carrying one ubiquitin on lysine 119."
+                  },
+                  {
+                    "label": "H3K27me3",
+                    "text": "H3 lysine 27 with three methyl groups."
+                  }
+                ],
+                "reading_note": "Compare −dox/+dox within WT and 23KRA for CBX7, H2AK119ub1 and H3K27me3 at the named loci.",
                 "short_label": "Figure S5A–C",
                 "width": 765,
                 "height": 1139
@@ -15478,6 +18671,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:29.720838+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / 23KRA",
+                    "text": "Normal / compaction-defective CBX2 rescue."
+                  },
+                  {
+                    "label": "−dox / +dox",
+                    "text": "Without / with doxycycline-induced CBX2 expression."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "* / **",
+                    "text": "p<0.05 / p<0.01."
+                  }
+                ],
+                "reading_note": "Compare −dox/+dox within each CBX2 construct: A is RNA, B CBX2 binding, C RING1B binding; WT and 23KRA use different subplot scales.",
                 "short_label": "Figure 2A–C",
                 "width": 1025,
                 "height": 1278
@@ -15884,7 +19096,7 @@ window.GEMS = {
       "importance": "key",
       "compact": {
         "perturbation": "CBX7 tracking; RING1A/B or PCGF2/4 loss",
-        "result": "Bound fraction: 29% → 44% or 40%; slow fitted lifetime: 7.3 s → 10.6 s or 10.9 s.",
+        "result": "CBX7 bound fraction: WT 29%, RING1A/B loss 44%, PCGF2/4 loss 40%. Slow fitted lifetime: 7.3 s, 10.6 s, 10.9 s, respectively.",
         "function": "Exogenous Halo-CBX7",
         "scope": "Different backgrounds; RING1B-deletion clock unstated"
       },
@@ -15957,6 +19169,17 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:32.338207+00:00",
           "view": "RNA",
+          "legend_key": [
+            {
+              "label": "WT / CaPS",
+              "text": "Wild type / CBX7 bearing the CBX2 compaction-and-phase-separation domain."
+            },
+            {
+              "label": "Log2 CaPS/WT / CPM",
+              "text": "Base-2 log RNA ratio / counts per million."
+            }
+          ],
+          "reading_note": "The vertical axis is RNA CaPS/WT log2 fold change; most points cluster near zero, with only a few colored significant points.",
           "short_label": "Figure 2B",
           "width": 421,
           "height": 303
@@ -15971,32 +19194,43 @@ window.GEMS = {
           "source_url": "https://doi.org/10.1016/j.molcel.2021.09.018",
           "source_sha256": "b6bc33c89dc5b7d245069830a412ef3f0140d61841614d4e9b89335da596e622",
           "box_normalized": [
-            0.622,
-            0.381,
-            0.9,
-            0.613
+            0.6220043572984749,
+            0.3808922558922559,
+            0.8997821350762527,
+            0.6300505050505051
           ],
           "box_pixels": [
-            952,
-            754,
-            1377,
-            1214
+            1142,
+            905,
+            1652,
+            1497
           ],
           "source_image_size": [
-            1530,
-            1980
+            1836,
+            2376
           ],
-          "caption": "Original source crop; no image content changed.",
+          "caption": "Single native-source rectangular crop; no data alteration or stitching.",
           "reviewed": true,
           "review_status": "reviewed",
-          "verification": "Caller confirmed manual visual review against the source.",
+          "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
           "created_at": "2026-11-02T22:23:32.810984+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:32.810984+00:00",
           "view": "Chromatin",
+          "legend_key": [
+            {
+              "label": "WT / CaPS",
+              "text": "Wild type / CBX7 bearing the CBX2 compaction-and-phase-separation domain."
+            },
+            {
+              "label": "kb / center",
+              "text": "Thousands of DNA bases from the ChIP peak center."
+            }
+          ],
+          "reading_note": "Compare WT/CaPS within the RING1B middle block and H3K27me3 right block; each molecule has its own color scale below.",
           "short_label": "Figure 2E",
-          "width": 425,
-          "height": 460
+          "width": 510,
+          "height": 592
         },
         {
           "paper_id": "jaensch-2021",
@@ -16031,6 +19265,17 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:33.323220+00:00",
           "view": "Chromatin",
+          "legend_key": [
+            {
+              "label": "WT / CaPS / mCaPS",
+              "text": "Wild type / CBX7 bearing CBX2’s compaction-and-phase-separation domain / charge-reduced mutant domain."
+            },
+            {
+              "label": "kb / center",
+              "text": "Thousands of DNA bases from the CUT&RUN peak center."
+            }
+          ],
+          "reading_note": "Compare WT/CaPS in RING1B at left and H3K27me3 at right. mCaPS is an additional RING1B condition; scales differ by molecule.",
           "short_label": "Figure S2E",
           "width": 413,
           "height": 614
@@ -16074,6 +19319,17 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:23:32.338207+00:00",
             "view": "RNA",
+            "legend_key": [
+              {
+                "label": "WT / CaPS",
+                "text": "Wild type / CBX7 bearing the CBX2 compaction-and-phase-separation domain."
+              },
+              {
+                "label": "Log2 CaPS/WT / CPM",
+                "text": "Base-2 log RNA ratio / counts per million."
+              }
+            ],
+            "reading_note": "The vertical axis is RNA CaPS/WT log2 fold change; most points cluster near zero, with only a few colored significant points.",
             "short_label": "Figure 2B",
             "width": 421,
             "height": 303
@@ -16093,32 +19349,43 @@ window.GEMS = {
               "source_url": "https://doi.org/10.1016/j.molcel.2021.09.018",
               "source_sha256": "b6bc33c89dc5b7d245069830a412ef3f0140d61841614d4e9b89335da596e622",
               "box_normalized": [
-                0.622,
-                0.381,
-                0.9,
-                0.613
+                0.6220043572984749,
+                0.3808922558922559,
+                0.8997821350762527,
+                0.6300505050505051
               ],
               "box_pixels": [
-                952,
-                754,
-                1377,
-                1214
+                1142,
+                905,
+                1652,
+                1497
               ],
               "source_image_size": [
-                1530,
-                1980
+                1836,
+                2376
               ],
-              "caption": "Original source crop; no image content changed.",
+              "caption": "Single native-source rectangular crop; no data alteration or stitching.",
               "reviewed": true,
               "review_status": "reviewed",
-              "verification": "Caller confirmed manual visual review against the source.",
+              "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
               "created_at": "2026-11-02T22:23:32.810984+00:00",
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:32.810984+00:00",
               "view": "Chromatin",
+              "legend_key": [
+                {
+                  "label": "WT / CaPS",
+                  "text": "Wild type / CBX7 bearing the CBX2 compaction-and-phase-separation domain."
+                },
+                {
+                  "label": "kb / center",
+                  "text": "Thousands of DNA bases from the ChIP peak center."
+                }
+              ],
+              "reading_note": "Compare WT/CaPS within the RING1B middle block and H3K27me3 right block; each molecule has its own color scale below.",
               "short_label": "Figure 2E",
-              "width": 425,
-              "height": 460
+              "width": 510,
+              "height": 592
             },
             {
               "paper_id": "jaensch-2021",
@@ -16153,6 +19420,17 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:33.323220+00:00",
               "view": "Chromatin",
+              "legend_key": [
+                {
+                  "label": "WT / CaPS / mCaPS",
+                  "text": "Wild type / CBX7 bearing CBX2’s compaction-and-phase-separation domain / charge-reduced mutant domain."
+                },
+                {
+                  "label": "kb / center",
+                  "text": "Thousands of DNA bases from the CUT&RUN peak center."
+                }
+              ],
+              "reading_note": "Compare WT/CaPS in RING1B at left and H3K27me3 at right. mCaPS is an additional RING1B condition; scales differ by molecule.",
               "short_label": "Figure S2E",
               "width": 413,
               "height": 614
@@ -16299,32 +19577,43 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.molcel.2021.09.018",
                 "source_sha256": "b6bc33c89dc5b7d245069830a412ef3f0140d61841614d4e9b89335da596e622",
                 "box_normalized": [
-                  0.622,
-                  0.381,
-                  0.9,
-                  0.613
+                  0.6220043572984749,
+                  0.3808922558922559,
+                  0.8997821350762527,
+                  0.6300505050505051
                 ],
                 "box_pixels": [
-                  952,
-                  754,
-                  1377,
-                  1214
+                  1142,
+                  905,
+                  1652,
+                  1497
                 ],
                 "source_image_size": [
-                  1530,
-                  1980
+                  1836,
+                  2376
                 ],
-                "caption": "Original source crop; no image content changed.",
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "reviewed": true,
                 "review_status": "reviewed",
-                "verification": "Caller confirmed manual visual review against the source.",
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
                 "created_at": "2026-11-02T22:23:32.810984+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:32.810984+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / CaPS",
+                    "text": "Wild type / CBX7 bearing the CBX2 compaction-and-phase-separation domain."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "Thousands of DNA bases from the ChIP peak center."
+                  }
+                ],
+                "reading_note": "Compare WT/CaPS within the RING1B middle block and H3K27me3 right block; each molecule has its own color scale below.",
                 "short_label": "Figure 2E",
-                "width": 425,
-                "height": 460
+                "width": 510,
+                "height": 592
               },
               {
                 "paper_id": "jaensch-2021",
@@ -16359,6 +19648,17 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:33.323220+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / CaPS / mCaPS",
+                    "text": "Wild type / CBX7 bearing CBX2’s compaction-and-phase-separation domain / charge-reduced mutant domain."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "Thousands of DNA bases from the CUT&RUN peak center."
+                  }
+                ],
+                "reading_note": "Compare WT/CaPS in RING1B at left and H3K27me3 at right. mCaPS is an additional RING1B condition; scales differ by molecule.",
                 "short_label": "Figure S2E",
                 "width": 413,
                 "height": 614
@@ -16387,32 +19687,43 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.molcel.2021.09.018",
                 "source_sha256": "b6bc33c89dc5b7d245069830a412ef3f0140d61841614d4e9b89335da596e622",
                 "box_normalized": [
-                  0.622,
-                  0.381,
-                  0.9,
-                  0.613
+                  0.6220043572984749,
+                  0.3808922558922559,
+                  0.8997821350762527,
+                  0.6300505050505051
                 ],
                 "box_pixels": [
-                  952,
-                  754,
-                  1377,
-                  1214
+                  1142,
+                  905,
+                  1652,
+                  1497
                 ],
                 "source_image_size": [
-                  1530,
-                  1980
+                  1836,
+                  2376
                 ],
-                "caption": "Original source crop; no image content changed.",
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "reviewed": true,
                 "review_status": "reviewed",
-                "verification": "Caller confirmed manual visual review against the source.",
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
                 "created_at": "2026-11-02T22:23:32.810984+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:32.810984+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / CaPS",
+                    "text": "Wild type / CBX7 bearing the CBX2 compaction-and-phase-separation domain."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "Thousands of DNA bases from the ChIP peak center."
+                  }
+                ],
+                "reading_note": "Compare WT/CaPS within the RING1B middle block and H3K27me3 right block; each molecule has its own color scale below.",
                 "short_label": "Figure 2E",
-                "width": 425,
-                "height": 460
+                "width": 510,
+                "height": 592
               },
               {
                 "paper_id": "jaensch-2021",
@@ -16447,6 +19758,17 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:33.323220+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT / CaPS / mCaPS",
+                    "text": "Wild type / CBX7 bearing CBX2’s compaction-and-phase-separation domain / charge-reduced mutant domain."
+                  },
+                  {
+                    "label": "kb / center",
+                    "text": "Thousands of DNA bases from the CUT&RUN peak center."
+                  }
+                ],
+                "reading_note": "Compare WT/CaPS in RING1B at left and H3K27me3 at right. mCaPS is an additional RING1B condition; scales differ by molecule.",
                 "short_label": "Figure S2E",
                 "width": 413,
                 "height": 614
@@ -16498,6 +19820,17 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:32.338207+00:00",
                 "view": "RNA",
+                "legend_key": [
+                  {
+                    "label": "WT / CaPS",
+                    "text": "Wild type / CBX7 bearing the CBX2 compaction-and-phase-separation domain."
+                  },
+                  {
+                    "label": "Log2 CaPS/WT / CPM",
+                    "text": "Base-2 log RNA ratio / counts per million."
+                  }
+                ],
+                "reading_note": "The vertical axis is RNA CaPS/WT log2 fold change; most points cluster near zero, with only a few colored significant points.",
                 "short_label": "Figure 2B",
                 "width": 421,
                 "height": 303
@@ -17006,6 +20339,21 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:30.560086+00:00",
           "view": "RNA",
+          "legend_key": [
+            {
+              "label": "WT / KO",
+              "text": "Reference / PHC1-deleted cells."
+            },
+            {
+              "label": "log10 FPKM",
+              "text": "Length- and depth-normalized RNA on a base-10 log scale."
+            },
+            {
+              "label": "Orange / blue",
+              "text": "PRC1-bound genes / Hox genes."
+            }
+          ],
+          "reading_note": "Compare each gene’s WT and Phc1-KO RNA coordinates; blue Hox and orange PRC1-bound genes are highlighted subsets.",
           "short_label": "Figure 1C",
           "width": 407,
           "height": 309
@@ -17043,6 +20391,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:31.142736+00:00",
           "view": "Chromatin",
+          "legend_key": [
+            {
+              "label": "Phc1-KO",
+              "text": "PHC1-deleted cells."
+            },
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "% input",
+              "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+            },
+            {
+              "label": "GD",
+              "text": "Gene-desert negative control."
+            }
+          ],
+          "reading_note": "Compare WT and Phc1-KO at each locus within each ChIP assay; each assay uses its own vertical scale.",
           "short_label": "Figure 1D",
           "width": 1153,
           "height": 273
@@ -17080,6 +20447,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:31.793758+00:00",
           "view": "Chromatin",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "KO / null",
+              "text": "Loss of the named protein."
+            },
+            {
+              "label": "% input",
+              "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+            },
+            {
+              "label": "GD",
+              "text": "Gene-desert negative control."
+            }
+          ],
+          "reading_note": "Compare colors within each assay using the shared genotype legend; not every genotype was tested in every subplot.",
           "short_label": "Figure S5A",
           "width": 1385,
           "height": 1168
@@ -17123,6 +20509,21 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:23:30.560086+00:00",
             "view": "RNA",
+            "legend_key": [
+              {
+                "label": "WT / KO",
+                "text": "Reference / PHC1-deleted cells."
+              },
+              {
+                "label": "log10 FPKM",
+                "text": "Length- and depth-normalized RNA on a base-10 log scale."
+              },
+              {
+                "label": "Orange / blue",
+                "text": "PRC1-bound genes / Hox genes."
+              }
+            ],
+            "reading_note": "Compare each gene’s WT and Phc1-KO RNA coordinates; blue Hox and orange PRC1-bound genes are highlighted subsets.",
             "short_label": "Figure 1C",
             "width": 407,
             "height": 309
@@ -17165,6 +20566,25 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:31.142736+00:00",
               "view": "Chromatin",
+              "legend_key": [
+                {
+                  "label": "Phc1-KO",
+                  "text": "PHC1-deleted cells."
+                },
+                {
+                  "label": "WT",
+                  "text": "Unmodified reference."
+                },
+                {
+                  "label": "% input",
+                  "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                },
+                {
+                  "label": "GD",
+                  "text": "Gene-desert negative control."
+                }
+              ],
+              "reading_note": "Compare WT and Phc1-KO at each locus within each ChIP assay; each assay uses its own vertical scale.",
               "short_label": "Figure 1D",
               "width": 1153,
               "height": 273
@@ -17202,6 +20622,25 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:31.793758+00:00",
               "view": "Chromatin",
+              "legend_key": [
+                {
+                  "label": "WT",
+                  "text": "Unmodified reference."
+                },
+                {
+                  "label": "KO / null",
+                  "text": "Loss of the named protein."
+                },
+                {
+                  "label": "% input",
+                  "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                },
+                {
+                  "label": "GD",
+                  "text": "Gene-desert negative control."
+                }
+              ],
+              "reading_note": "Compare colors within each assay using the shared genotype legend; not every genotype was tested in every subplot.",
               "short_label": "Figure S5A",
               "width": 1385,
               "height": 1168
@@ -17398,6 +20837,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:31.142736+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "Phc1-KO",
+                    "text": "PHC1-deleted cells."
+                  },
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "GD",
+                    "text": "Gene-desert negative control."
+                  }
+                ],
+                "reading_note": "Compare WT and Phc1-KO at each locus within each ChIP assay; each assay uses its own vertical scale.",
                 "short_label": "Figure 1D",
                 "width": 1153,
                 "height": 273
@@ -17449,6 +20907,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:31.142736+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "Phc1-KO",
+                    "text": "PHC1-deleted cells."
+                  },
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "GD",
+                    "text": "Gene-desert negative control."
+                  }
+                ],
+                "reading_note": "Compare WT and Phc1-KO at each locus within each ChIP assay; each assay uses its own vertical scale.",
                 "short_label": "Figure 1D",
                 "width": 1153,
                 "height": 273
@@ -17500,6 +20977,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:31.142736+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "Phc1-KO",
+                    "text": "PHC1-deleted cells."
+                  },
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "GD",
+                    "text": "Gene-desert negative control."
+                  }
+                ],
+                "reading_note": "Compare WT and Phc1-KO at each locus within each ChIP assay; each assay uses its own vertical scale.",
                 "short_label": "Figure 1D",
                 "width": 1153,
                 "height": 273
@@ -17551,6 +21047,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:31.793758+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "KO / null",
+                    "text": "Loss of the named protein."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+                  },
+                  {
+                    "label": "GD",
+                    "text": "Gene-desert negative control."
+                  }
+                ],
+                "reading_note": "Compare colors within each assay using the shared genotype legend; not every genotype was tested in every subplot.",
                 "short_label": "Figure S5A",
                 "width": 1385,
                 "height": 1168
@@ -17602,6 +21117,21 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:30.560086+00:00",
                 "view": "RNA",
+                "legend_key": [
+                  {
+                    "label": "WT / KO",
+                    "text": "Reference / PHC1-deleted cells."
+                  },
+                  {
+                    "label": "log10 FPKM",
+                    "text": "Length- and depth-normalized RNA on a base-10 log scale."
+                  },
+                  {
+                    "label": "Orange / blue",
+                    "text": "PRC1-bound genes / Hox genes."
+                  }
+                ],
+                "reading_note": "Compare each gene’s WT and Phc1-KO RNA coordinates; blue Hox and orange PRC1-bound genes are highlighted subsets.",
                 "short_label": "Figure 1C",
                 "width": 407,
                 "height": 309
@@ -17661,25 +21191,25 @@ window.GEMS = {
           "source_url": "https://doi.org/10.1016/j.cell.2014.05.004",
           "source_sha256": "a52582f19722e0a72c0ef5ef1592daed62bb06ccc1d7fa141296bc162d389aa8",
           "box_normalized": [
-            0.1,
-            0.1,
-            0.95,
-            0.68
+            0.10005527915975677,
+            0.10004257130693912,
+            0.9502487562189055,
+            0.6649638143891018
           ],
           "box_pixels": [
-            151,
-            196,
-            1433,
-            1331
+            181,
+            235,
+            1719,
+            1562
           ],
           "source_image_size": [
-            1508,
-            1958
+            1809,
+            2349
           ],
-          "caption": "Original source crop; no image content changed.",
+          "caption": "Single native-source rectangular crop; no data alteration or stitching.",
           "reviewed": true,
           "review_status": "reviewed",
-          "verification": "Source page and crop visually inspected by coverage_question_audit",
+          "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
           "created_at": "2026-11-03T00:40:14.129553+00:00",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:41:50.035421+00:00",
@@ -17687,9 +21217,24 @@ window.GEMS = {
           "reviewed_at": "2026-11-03T00:41:50.035421+00:00",
           "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "OHT / CGI / Bio-CAP",
+              "text": "Treatment deleting KDM2B’s CxxC domain / CpG island / nonmethylated-DNA profiling."
+            },
+            {
+              "label": "ΔRING1B / ΔSUZ12 / log2 change",
+              "text": "Targets with reduced named-protein occupancy / base-2 log treated-to-control ratio."
+            },
+            {
+              "label": "cor / R²",
+              "text": "Correlation / squared correlation."
+            }
+          ],
+          "reading_note": "B/F show RING1B and SUZ12 occupancy changes; E compares selected RING1B-loss and unchanged groups. G/H show RNA changes and their weak correlation with RING1B change.",
           "short_label": "Figure 6A–H",
-          "width": 1282,
-          "height": 1135
+          "width": 1538,
+          "height": 1327
         },
         {
           "paper_id": "blackledge-2014",
@@ -17727,6 +21272,17 @@ window.GEMS = {
           "reviewed_at": "2026-11-03T00:41:50.035416+00:00",
           "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "FL/FL / ΔCxxC",
+              "text": "Conditional floxed Kdm2b control / KDM2B missing its CpG-binding CxxC domain."
+            },
+            {
+              "label": "% input / NTS / Rel. expression",
+              "text": "Percent input DNA recovered / no-template PCR control / relative RNA abundance."
+            }
+          ],
+          "reading_note": "I contains five named ChIP assays and groups loci by RING1B loss; J gives RNA at those selected loci. Compare blue control with red CxxC-deletion bars.",
           "short_label": "Figure 6I–J",
           "width": 1282,
           "height": 568
@@ -17769,6 +21325,25 @@ window.GEMS = {
           "reviewed_at": "2026-11-03T00:41:50.035422+00:00",
           "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "OHT / UNT / FL/FL",
+              "text": "4-hydroxytamoxifen / untreated / conditional floxed Kdm2b alleles."
+            },
+            {
+              "label": "ΔCxxC / LF / SF",
+              "text": "Deleted CpG-binding CxxC domain / long KDM2B isoform / short isoform."
+            },
+            {
+              "label": "Bio-CAP / % input",
+              "text": "Nonmethylated-DNA profiling / ChIP recovery as percentage of input DNA."
+            },
+            {
+              "label": "JmjC / PHD / Fbox / LRR",
+              "text": "JmjC catalytic domain / PHD zinc finger / F-box / leucine-rich repeats."
+            }
+          ],
+          "reading_note": "F compares KDM2B binding before/after OHT; G gives KDM2B and PCGF1 ChIP-qPCR with blue control and red CxxC-deletion bars. D/E document the domain deletion and retained protein.",
           "short_label": "Figure 5D–G",
           "width": 1327,
           "height": 666
@@ -17783,25 +21358,25 @@ window.GEMS = {
           "source_url": "https://doi.org/10.1016/j.cell.2014.05.004",
           "source_sha256": "7a4b65a0f6b046202d3606cb0dd3731ac08355f67c21ded31abd061cc4103b2b",
           "box_normalized": [
-            0.08,
-            0.23,
-            0.95,
-            0.56
+            0.08015478164731896,
+            0.26479352916134524,
+            0.9502487562189055,
+            0.5598126862494679
           ],
           "box_pixels": [
-            121,
-            450,
-            1433,
-            1096
+            145,
+            622,
+            1719,
+            1315
           ],
           "source_image_size": [
-            1508,
-            1958
+            1809,
+            2349
           ],
-          "caption": "Original source crop; no image content changed.",
+          "caption": "Single native-source rectangular crop; no data alteration or stitching.",
           "reviewed": true,
           "review_status": "reviewed",
-          "verification": "Source page and crop visually inspected by coverage_question_audit",
+          "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
           "created_at": "2026-11-03T00:39:28.889752+00:00",
           "checked": "2026-11-03",
           "visual_reviewed_at": "2026-11-03T00:41:50.035418+00:00",
@@ -17809,9 +21384,20 @@ window.GEMS = {
           "reviewed_at": "2026-11-03T00:41:50.035418+00:00",
           "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "UNT / hr / ΔCxxC",
+              "text": "Untreated / hours after treatment / deletion of KDM2B’s CpG-binding CxxC domain."
+            },
+            {
+              "label": "Score / Cov (%)",
+              "text": "Mass-spectrometry identification score / percentage of protein sequence covered by peptides."
+            }
+          ],
+          "reading_note": "C shows PCGF1/RING1B/SUZ12 protein bands after OHT with LAMIN B control; D lists proteins recovered with WT and CxxC-deleted KDM2B.",
           "short_label": "Figure S5C–D",
-          "width": 1312,
-          "height": 646
+          "width": 1574,
+          "height": 693
         }
       ],
       "mutation_details": [
@@ -17836,35 +21422,50 @@ window.GEMS = {
             "source_url": "https://doi.org/10.1016/j.cell.2014.05.004",
             "source_sha256": "a52582f19722e0a72c0ef5ef1592daed62bb06ccc1d7fa141296bc162d389aa8",
             "box_normalized": [
-              0.1,
-              0.1,
-              0.95,
-              0.68
+              0.10005527915975677,
+              0.10004257130693912,
+              0.9502487562189055,
+              0.6649638143891018
             ],
             "box_pixels": [
-              151,
-              196,
-              1433,
-              1331
+              181,
+              235,
+              1719,
+              1562
             ],
             "source_image_size": [
-              1508,
-              1958
+              1809,
+              2349
             ],
-            "caption": "Original source crop; no image content changed.",
+            "caption": "Single native-source rectangular crop; no data alteration or stitching.",
             "reviewed": true,
             "review_status": "reviewed",
-            "verification": "Source page and crop visually inspected by coverage_question_audit",
+            "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
             "created_at": "2026-11-03T00:40:14.129553+00:00",
             "checked": "2026-11-03",
             "visual_reviewed_at": "2026-11-03T00:41:50.035421+00:00",
             "reviewed_by": "coverage_question_audit",
             "reviewed_at": "2026-11-03T00:41:50.035421+00:00",
             "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
-            "view": "rna",
+            "view": "chromatin",
+            "legend_key": [
+              {
+                "label": "OHT / CGI / Bio-CAP",
+                "text": "Treatment deleting KDM2B’s CxxC domain / CpG island / nonmethylated-DNA profiling."
+              },
+              {
+                "label": "ΔRING1B / ΔSUZ12 / log2 change",
+                "text": "Targets with reduced named-protein occupancy / base-2 log treated-to-control ratio."
+              },
+              {
+                "label": "cor / R²",
+                "text": "Correlation / squared correlation."
+              }
+            ],
+            "reading_note": "B/F show RING1B and SUZ12 occupancy changes; E compares selected RING1B-loss and unchanged groups. G/H show RNA changes and their weak correlation with RING1B change.",
             "short_label": "Figure 6A–H",
-            "width": 1282,
-            "height": 1135
+            "width": 1538,
+            "height": 1327
           },
           {
             "paper_id": "blackledge-2014",
@@ -17902,6 +21503,17 @@ window.GEMS = {
             "reviewed_at": "2026-11-03T00:41:50.035416+00:00",
             "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
             "view": "rna",
+            "legend_key": [
+              {
+                "label": "FL/FL / ΔCxxC",
+                "text": "Conditional floxed Kdm2b control / KDM2B missing its CpG-binding CxxC domain."
+              },
+              {
+                "label": "% input / NTS / Rel. expression",
+                "text": "Percent input DNA recovered / no-template PCR control / relative RNA abundance."
+              }
+            ],
+            "reading_note": "I contains five named ChIP assays and groups loci by RING1B loss; J gives RNA at those selected loci. Compare blue control with red CxxC-deletion bars.",
             "short_label": "Figure 6I–J",
             "width": 1282,
             "height": 568
@@ -17922,25 +21534,25 @@ window.GEMS = {
               "source_url": "https://doi.org/10.1016/j.cell.2014.05.004",
               "source_sha256": "a52582f19722e0a72c0ef5ef1592daed62bb06ccc1d7fa141296bc162d389aa8",
               "box_normalized": [
-                0.1,
-                0.1,
-                0.95,
-                0.68
+                0.10005527915975677,
+                0.10004257130693912,
+                0.9502487562189055,
+                0.6649638143891018
               ],
               "box_pixels": [
-                151,
-                196,
-                1433,
-                1331
+                181,
+                235,
+                1719,
+                1562
               ],
               "source_image_size": [
-                1508,
-                1958
+                1809,
+                2349
               ],
-              "caption": "Original source crop; no image content changed.",
+              "caption": "Single native-source rectangular crop; no data alteration or stitching.",
               "reviewed": true,
               "review_status": "reviewed",
-              "verification": "Source page and crop visually inspected by coverage_question_audit",
+              "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
               "created_at": "2026-11-03T00:40:14.129553+00:00",
               "checked": "2026-11-03",
               "visual_reviewed_at": "2026-11-03T00:41:50.035421+00:00",
@@ -17948,9 +21560,24 @@ window.GEMS = {
               "reviewed_at": "2026-11-03T00:41:50.035421+00:00",
               "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
               "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "OHT / CGI / Bio-CAP",
+                  "text": "Treatment deleting KDM2B’s CxxC domain / CpG island / nonmethylated-DNA profiling."
+                },
+                {
+                  "label": "ΔRING1B / ΔSUZ12 / log2 change",
+                  "text": "Targets with reduced named-protein occupancy / base-2 log treated-to-control ratio."
+                },
+                {
+                  "label": "cor / R²",
+                  "text": "Correlation / squared correlation."
+                }
+              ],
+              "reading_note": "B/F show RING1B and SUZ12 occupancy changes; E compares selected RING1B-loss and unchanged groups. G/H show RNA changes and their weak correlation with RING1B change.",
               "short_label": "Figure 6A–H",
-              "width": 1282,
-              "height": 1135
+              "width": 1538,
+              "height": 1327
             },
             {
               "paper_id": "blackledge-2014",
@@ -17988,6 +21615,17 @@ window.GEMS = {
               "reviewed_at": "2026-11-03T00:41:50.035416+00:00",
               "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
               "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "FL/FL / ΔCxxC",
+                  "text": "Conditional floxed Kdm2b control / KDM2B missing its CpG-binding CxxC domain."
+                },
+                {
+                  "label": "% input / NTS / Rel. expression",
+                  "text": "Percent input DNA recovered / no-template PCR control / relative RNA abundance."
+                }
+              ],
+              "reading_note": "I contains five named ChIP assays and groups loci by RING1B loss; J gives RNA at those selected loci. Compare blue control with red CxxC-deletion bars.",
               "short_label": "Figure 6I–J",
               "width": 1282,
               "height": 568
@@ -18050,11 +21688,11 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "KDM2B ΔCxxC",
-        "result": "KDM2B/PCGF1 binding ↓↓; subset RING1B/SUZ12/H2AK119ub1/H3K27me3 ↓. RNA changes modest/uneven; weak ChIP–RNA correlation.",
+        "result": "KDM2B/PCGF1 binding ↓↓; subset RING1B/SUZ12/H2AK119ub1/H3K27me3 ↓. RNA changes modest/uneven; weak RING1B-ChIP/RNA correlation.",
         "timing": "72h post-induction",
-        "function": "Disrupts binding to unmethylated CpG DNA; partner binding retained",
-        "scope": "RING1B-loss subset",
-        "rna_result": "RNA ↑ modestly in the RING1B-loss subgroup; weak ChIP–RNA correlation (r=−0.26, R²=0.07)."
+        "function": "Disrupts unmethylated-CpG DNA binding; association with PCGF1-complex partners remains",
+        "scope": "Promoters with reduced RING1B ChIP",
+        "rna_result": "RNA ↑ modestly in the promoters with reduced RING1B ChIP; weak RING1B-ChIP/RNA correlation (r=−0.26, R²=0.07)."
       },
       "comparison_links": [],
       "presentation": {
@@ -18081,7 +21719,7 @@ window.GEMS = {
           },
           {
             "label": "Poly(A) RNA / RT-qPCR",
-            "text": "modest, uneven changes; weak correlation with RING1B loss",
+            "text": "modest, uneven changes; weak correlation with the RING1B ChIP decrease",
             "kind": "rna"
           }
         ],
@@ -18121,12 +21759,12 @@ window.GEMS = {
         ],
         "rna": [
           {
-            "label": "RING1B-loss subgroup · RNA-seq",
+            "label": "promoters with reduced RING1B ChIP · RNA-seq",
             "text": "modest mean ↑",
             "kind": "rna"
           },
           {
-            "label": "RING1B loss vs RNA change",
+            "label": "RING1B ChIP decrease vs RNA change",
             "text": "Pearson r=−0.26; R²=0.07",
             "kind": "rna"
           },
@@ -18137,7 +21775,7 @@ window.GEMS = {
           }
         ],
         "chromatin_note": "3,488 RING1B peaks; loss subgroup: >1.5× decrease. Read-depth-normalized ChIP.",
-        "rna_note": "Poly(A) RNA-seq; subgroup selected by RING1B loss."
+        "rna_note": "Poly(A) RNA-seq; subgroup selected by reduced RING1B ChIP."
       },
       "result_evidence": {
         "readouts": [
@@ -18180,6 +21818,25 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035422+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "OHT / UNT / FL/FL",
+                    "text": "4-hydroxytamoxifen / untreated / conditional floxed Kdm2b alleles."
+                  },
+                  {
+                    "label": "ΔCxxC / LF / SF",
+                    "text": "Deleted CpG-binding CxxC domain / long KDM2B isoform / short isoform."
+                  },
+                  {
+                    "label": "Bio-CAP / % input",
+                    "text": "Nonmethylated-DNA profiling / ChIP recovery as percentage of input DNA."
+                  },
+                  {
+                    "label": "JmjC / PHD / Fbox / LRR",
+                    "text": "JmjC catalytic domain / PHD zinc finger / F-box / leucine-rich repeats."
+                  }
+                ],
+                "reading_note": "F compares KDM2B binding before/after OHT; G gives KDM2B and PCGF1 ChIP-qPCR with blue control and red CxxC-deletion bars. D/E document the domain deletion and retained protein.",
                 "short_label": "Figure 5D–G",
                 "width": 1327,
                 "height": 666
@@ -18208,25 +21865,25 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.cell.2014.05.004",
                 "source_sha256": "a52582f19722e0a72c0ef5ef1592daed62bb06ccc1d7fa141296bc162d389aa8",
                 "box_normalized": [
-                  0.1,
-                  0.1,
-                  0.95,
-                  0.68
+                  0.10005527915975677,
+                  0.10004257130693912,
+                  0.9502487562189055,
+                  0.6649638143891018
                 ],
                 "box_pixels": [
-                  151,
-                  196,
-                  1433,
-                  1331
+                  181,
+                  235,
+                  1719,
+                  1562
                 ],
                 "source_image_size": [
-                  1508,
-                  1958
+                  1809,
+                  2349
                 ],
-                "caption": "Original source crop; no image content changed.",
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "reviewed": true,
                 "review_status": "reviewed",
-                "verification": "Source page and crop visually inspected by coverage_question_audit",
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
                 "created_at": "2026-11-03T00:40:14.129553+00:00",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:41:50.035421+00:00",
@@ -18234,9 +21891,24 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035421+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "OHT / CGI / Bio-CAP",
+                    "text": "Treatment deleting KDM2B’s CxxC domain / CpG island / nonmethylated-DNA profiling."
+                  },
+                  {
+                    "label": "ΔRING1B / ΔSUZ12 / log2 change",
+                    "text": "Targets with reduced named-protein occupancy / base-2 log treated-to-control ratio."
+                  },
+                  {
+                    "label": "cor / R²",
+                    "text": "Correlation / squared correlation."
+                  }
+                ],
+                "reading_note": "B/F show RING1B and SUZ12 occupancy changes; E compares selected RING1B-loss and unchanged groups. G/H show RNA changes and their weak correlation with RING1B change.",
                 "short_label": "Figure 6A–H",
-                "width": 1282,
-                "height": 1135
+                "width": 1538,
+                "height": 1327
               }
             ],
             "summary": [
@@ -18246,7 +21918,7 @@ window.GEMS = {
                 "kind": "own_binding"
               }
             ],
-            "note": "Fig 6B–F · outcome-selected RING1B-loss subgroup.",
+            "note": "Fig 6B–F · outcome-selected promoters with reduced RING1B ChIP.",
             "readout_label": "RING1B ChIP"
           },
           {
@@ -18288,6 +21960,17 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035416+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "FL/FL / ΔCxxC",
+                    "text": "Conditional floxed Kdm2b control / KDM2B missing its CpG-binding CxxC domain."
+                  },
+                  {
+                    "label": "% input / NTS / Rel. expression",
+                    "text": "Percent input DNA recovered / no-template PCR control / relative RNA abundance."
+                  }
+                ],
+                "reading_note": "I contains five named ChIP assays and groups loci by RING1B loss; J gives RNA at those selected loci. Compare blue control with red CxxC-deletion bars.",
                 "short_label": "Figure 6I–J",
                 "width": 1282,
                 "height": 568
@@ -18342,6 +22025,17 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035416+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "FL/FL / ΔCxxC",
+                    "text": "Conditional floxed Kdm2b control / KDM2B missing its CpG-binding CxxC domain."
+                  },
+                  {
+                    "label": "% input / NTS / Rel. expression",
+                    "text": "Percent input DNA recovered / no-template PCR control / relative RNA abundance."
+                  }
+                ],
+                "reading_note": "I contains five named ChIP assays and groups loci by RING1B loss; J gives RNA at those selected loci. Compare blue control with red CxxC-deletion bars.",
                 "short_label": "Figure 6I–J",
                 "width": 1282,
                 "height": 568
@@ -18370,25 +22064,25 @@ window.GEMS = {
                 "source_url": "https://doi.org/10.1016/j.cell.2014.05.004",
                 "source_sha256": "a52582f19722e0a72c0ef5ef1592daed62bb06ccc1d7fa141296bc162d389aa8",
                 "box_normalized": [
-                  0.1,
-                  0.1,
-                  0.95,
-                  0.68
+                  0.10005527915975677,
+                  0.10004257130693912,
+                  0.9502487562189055,
+                  0.6649638143891018
                 ],
                 "box_pixels": [
-                  151,
-                  196,
-                  1433,
-                  1331
+                  181,
+                  235,
+                  1719,
+                  1562
                 ],
                 "source_image_size": [
-                  1508,
-                  1958
+                  1809,
+                  2349
                 ],
-                "caption": "Original source crop; no image content changed.",
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "reviewed": true,
                 "review_status": "reviewed",
-                "verification": "Source page and crop visually inspected by coverage_question_audit",
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
                 "created_at": "2026-11-03T00:40:14.129553+00:00",
                 "checked": "2026-11-03",
                 "visual_reviewed_at": "2026-11-03T00:41:50.035421+00:00",
@@ -18396,9 +22090,24 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035421+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "OHT / CGI / Bio-CAP",
+                    "text": "Treatment deleting KDM2B’s CxxC domain / CpG island / nonmethylated-DNA profiling."
+                  },
+                  {
+                    "label": "ΔRING1B / ΔSUZ12 / log2 change",
+                    "text": "Targets with reduced named-protein occupancy / base-2 log treated-to-control ratio."
+                  },
+                  {
+                    "label": "cor / R²",
+                    "text": "Correlation / squared correlation."
+                  }
+                ],
+                "reading_note": "B/F show RING1B and SUZ12 occupancy changes; E compares selected RING1B-loss and unchanged groups. G/H show RNA changes and their weak correlation with RING1B change.",
                 "short_label": "Figure 6A–H",
-                "width": 1282,
-                "height": 1135
+                "width": 1538,
+                "height": 1327
               },
               {
                 "paper_id": "blackledge-2014",
@@ -18436,6 +22145,17 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035416+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "FL/FL / ΔCxxC",
+                    "text": "Conditional floxed Kdm2b control / KDM2B missing its CpG-binding CxxC domain."
+                  },
+                  {
+                    "label": "% input / NTS / Rel. expression",
+                    "text": "Percent input DNA recovered / no-template PCR control / relative RNA abundance."
+                  }
+                ],
+                "reading_note": "I contains five named ChIP assays and groups loci by RING1B loss; J gives RNA at those selected loci. Compare blue control with red CxxC-deletion bars.",
                 "short_label": "Figure 6I–J",
                 "width": 1282,
                 "height": 568
@@ -18444,7 +22164,7 @@ window.GEMS = {
             "summary": [
               {
                 "label": "Poly(A) RNA / RT-qPCR",
-                "text": "modest, uneven changes; weak correlation with RING1B loss",
+                "text": "modest, uneven changes; weak correlation with the RING1B ChIP decrease",
                 "kind": "rna"
               }
             ],
@@ -18510,6 +22230,21 @@ window.GEMS = {
           "created_at": "2026-11-02T22:31:01.936338+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:31:01.936338+00:00",
+          "legend_key": [
+            {
+              "label": "dTAG-13 - / +",
+              "text": "Before / after SUZ12 degradation."
+            },
+            {
+              "label": "BP",
+              "text": "Beyond measurement because of photobleaching."
+            },
+            {
+              "label": "s",
+              "text": "Seconds."
+            }
+          ],
+          "reading_note": "Within each protein, compare minus and plus dTAG-13.",
           "short_label": "Figure 8c–e · binding after SUZ12 loss",
           "width": 1049,
           "height": 343
@@ -19045,7 +22780,7 @@ window.GEMS = {
       "comparison_links": [
         {
           "observation_id": "interaction-zhen16-cbx7-partner-loss",
-          "text": "Partner-loss lines show more bound Halo-CBX7 and longer fitted slow events. This study instead tracks RING1B/PCGF2 after SUZ12 loss; the measured proteins and perturbations differ."
+          "text": "RING1A/B-loss and PCGF2/4-loss lines show higher CBX7 bound fractions and longer fitted slow events. SUZ12 depletion instead lowers RING1B/PCGF2 bound fractions; the proteins and perturbations differ."
         }
       ],
       "detail_readouts": {
@@ -19111,6 +22846,29 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:33.741498+00:00",
           "view": "RNA + protein controls",
+          "legend_key": [
+            {
+              "label": "PRC1deg",
+              "text": "Drug-removable tagged RING1B in RING1A-null cells."
+            },
+            {
+              "label": "PRC2deg",
+              "text": "Drug-removable tagged SUZ12."
+            },
+            {
+              "label": "dTAG-13",
+              "text": "Drug that removes tagged SUZ12."
+            },
+            {
+              "label": "TBP / H3",
+              "text": "Protein / histone loading controls."
+            },
+            {
+              "label": "log2 RPKM",
+              "text": "Base-2 reads per kilobase per million mapped reads."
+            }
+          ],
+          "reading_note": "Panel F verifies SUZ12 loss.",
           "short_label": "Figure 3F–G",
           "width": 1059,
           "height": 376
@@ -19148,6 +22906,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:23:34.294617+00:00",
           "view": "Chromatin",
+          "legend_key": [
+            {
+              "label": "PRC2deg",
+              "text": "Drug-removable tagged SUZ12."
+            },
+            {
+              "label": "UNT",
+              "text": "Untreated."
+            },
+            {
+              "label": "2h dTAG",
+              "text": "Two hours of SUZ12 degradation."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "Compare untreated and 2-hour dTAG H3K27me3 profiles around peak centers.",
           "short_label": "Extended Data Figure 3I",
           "width": 329,
           "height": 277
@@ -19192,6 +22969,29 @@ window.GEMS = {
             "visual_reviewed_at": "2026-11-02T22:23:33.741498+00:00",
             "view": "RNA",
             "notes": "The left Figure3G plot is SUZ12 removal; the right plot is the separate RING1B comparison.",
+            "legend_key": [
+              {
+                "label": "PRC1deg",
+                "text": "Drug-removable tagged RING1B in RING1A-null cells."
+              },
+              {
+                "label": "PRC2deg",
+                "text": "Drug-removable tagged SUZ12."
+              },
+              {
+                "label": "dTAG-13",
+                "text": "Drug that removes tagged SUZ12."
+              },
+              {
+                "label": "TBP / H3",
+                "text": "Protein / histone loading controls."
+              },
+              {
+                "label": "log2 RPKM",
+                "text": "Base-2 reads per kilobase per million mapped reads."
+              }
+            ],
+            "reading_note": "Panel F verifies SUZ12 loss.",
             "short_label": "Figure 3F–G",
             "width": 1059,
             "height": 376
@@ -19234,6 +23034,25 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:34.294617+00:00",
               "view": "Chromatin",
+              "legend_key": [
+                {
+                  "label": "PRC2deg",
+                  "text": "Drug-removable tagged SUZ12."
+                },
+                {
+                  "label": "UNT",
+                  "text": "Untreated."
+                },
+                {
+                  "label": "2h dTAG",
+                  "text": "Two hours of SUZ12 degradation."
+                },
+                {
+                  "label": "kb",
+                  "text": "Thousands of DNA bases."
+                }
+              ],
+              "reading_note": "Compare untreated and 2-hour dTAG H3K27me3 profiles around peak centers.",
               "short_label": "Extended Data Figure 3I",
               "width": 329,
               "height": 277
@@ -19271,6 +23090,29 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:33.741498+00:00",
               "view": "Protein / mark controls",
+              "legend_key": [
+                {
+                  "label": "PRC1deg",
+                  "text": "Drug-removable tagged RING1B in RING1A-null cells."
+                },
+                {
+                  "label": "PRC2deg",
+                  "text": "Drug-removable tagged SUZ12."
+                },
+                {
+                  "label": "dTAG-13",
+                  "text": "Drug that removes tagged SUZ12."
+                },
+                {
+                  "label": "TBP / H3",
+                  "text": "Protein / histone loading controls."
+                },
+                {
+                  "label": "log2 RPKM",
+                  "text": "Base-2 reads per kilobase per million mapped reads."
+                }
+              ],
+              "reading_note": "Panel F verifies SUZ12 loss.",
               "short_label": "Figure 3F–G",
               "width": 1059,
               "height": 376
@@ -19348,10 +23190,10 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "SUZ12 dTAG",
-        "result": "SUZ12 depleted; H3K27me3 largely retained; 0 detected DEGs.",
+        "result": "SUZ12 depleted; H3K27me3 largely retained; 0 differentially expressed genes.",
         "timing": "100 nM dTAG-13, 2h",
         "scope": "RNA: adjusted P<0.05, >1.5×",
-        "rna_result": "0 detected DEGs (adjusted P<0.05, >1.5×)."
+        "rna_result": "0 differentially expressed genes (adjusted P<0.05, >1.5×)."
       },
       "comparison_links": [],
       "presentation": {
@@ -19368,7 +23210,7 @@ window.GEMS = {
           },
           {
             "label": "Nuclear RNA",
-            "text": "0 detected DEGs",
+            "text": "0 differentially expressed genes",
             "kind": "rna"
           }
         ],
@@ -19440,7 +23282,26 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "PRC2deg",
+                    "text": "Drug-removable tagged SUZ12."
+                  },
+                  {
+                    "label": "dTAG-13",
+                    "text": "Drug that removes tagged SUZ12."
+                  },
+                  {
+                    "label": "TBP / H3",
+                    "text": "Protein / histone loading controls."
+                  },
+                  {
+                    "label": "kDa",
+                    "text": "Protein molecular-size unit."
+                  }
+                ],
+                "reading_note": "Compare the 0-hour and 2-hour tagged-SUZ12 lanes."
               }
             ],
             "summary": [
@@ -19489,6 +23350,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:23:34.294617+00:00",
                 "view": "Chromatin",
+                "legend_key": [
+                  {
+                    "label": "PRC2deg",
+                    "text": "Drug-removable tagged SUZ12."
+                  },
+                  {
+                    "label": "UNT",
+                    "text": "Untreated."
+                  },
+                  {
+                    "label": "2h dTAG",
+                    "text": "Two hours of SUZ12 degradation."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Compare untreated and 2-hour dTAG H3K27me3 profiles around peak centers.",
                 "short_label": "Extended Data Figure 3I",
                 "width": 329,
                 "height": 277
@@ -19545,7 +23425,30 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "PRC2deg",
+                    "text": "Drug-removable tagged SUZ12."
+                  },
+                  {
+                    "label": "UNT",
+                    "text": "Untreated."
+                  },
+                  {
+                    "label": "2h dTAG",
+                    "text": "Two hours of SUZ12 degradation."
+                  },
+                  {
+                    "label": "log2 RPKM",
+                    "text": "Base-2 reads per kilobase per million mapped reads."
+                  },
+                  {
+                    "label": "log2 fold change",
+                    "text": "Base-2 treated-to-untreated ratio."
+                  }
+                ],
+                "reading_note": "The PRC2deg plot compares nuclear RNA after 2 hours of SUZ12 degradation with untreated RNA."
               }
             ],
             "summary": [
@@ -19610,7 +23513,22 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:39.059247+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698872+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "dRybp Eed-null / dSuz12 Rybp-null / dRnf2 Ring1-null",
+              "text": "Auxin-degradable RYBP in EED-null cells / SUZ12 in RYBP-null cells / RING1B in RING1A-null cells."
+            },
+            {
+              "label": "IAA / untreated",
+              "text": "Auxin treatment degrades the tagged protein; untreated or −IAA is its matched control."
+            },
+            {
+              "label": "Rnf2 / TSS / kb",
+              "text": "Rnf2 is RING1B. TSS is the transcription start site; kb is thousands of DNA bases. Solid/dashed lines are untreated/+auxin."
+            }
+          ],
+          "reading_note": "Use the middle dSuz12/Rybp-null column at 48h. Dashed +IAA is much lower than solid untreated for both Rnf2/RING1B above and H2Aub1 below."
         }
       ],
       "limitations": [
@@ -19678,7 +23596,26 @@ window.GEMS = {
             "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
             "created_at": "2026-11-03T00:41:39.081623+00:00",
             "reviewed_at": "2026-11-03T00:47:20.698872+00:00",
-            "view": "rna"
+            "view": "rna",
+            "legend_key": [
+              {
+                "label": "dRybp Eed-null / dSuz12 Rybp-null / dRnf2 Ring1-null",
+                "text": "Auxin-degradable RYBP in EED-null cells / SUZ12 in RYBP-null cells / RING1B in RING1A-null cells."
+              },
+              {
+                "label": "IAA / untreated",
+                "text": "Auxin treatment degrades the tagged protein; untreated or −IAA is its matched control."
+              },
+              {
+                "label": "TSS / fold change",
+                "text": "TSS is the transcription start site; log2 fold change is the base-2 log of treated/untreated RNA abundance."
+              },
+              {
+                "label": "Padj",
+                "text": "P-value adjusted for testing many genes; Down/Up count lower/higher RNA after treatment."
+              }
+            ],
+            "reading_note": "Use the middle column and lower 48h row: the volcano labels 904 down and 947 up. Shared-target preference is shown separately in Figure 4D."
           },
           {
             "paper_id": "zepeda-martinez-2020",
@@ -19710,7 +23647,22 @@ window.GEMS = {
             "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
             "created_at": "2026-11-03T00:41:39.106064+00:00",
             "reviewed_at": "2026-11-03T00:47:20.698873+00:00",
-            "view": "rna"
+            "view": "rna",
+            "legend_key": [
+              {
+                "label": "dRybp Eed-null / dSuz12 Rybp-null / dRnf2 Ring1-null",
+                "text": "Auxin-degradable RYBP in EED-null cells / SUZ12 in RYBP-null cells / RING1B in RING1A-null cells."
+              },
+              {
+                "label": "IAA / untreated",
+                "text": "Auxin treatment degrades the tagged protein; untreated or −IAA is its matched control."
+              },
+              {
+                "label": "TSS / fold change",
+                "text": "TSS is the transcription start site; log2 fold change is the base-2 log of treated/untreated RNA abundance."
+              }
+            ],
+            "reading_note": "Use the middle dSuz12/Rybp-null plot. Compare orange 24h and yellow 48h dots with the vertical zero line for each named gene."
           }
         ],
         "chromatin_pairing": {
@@ -19747,7 +23699,22 @@ window.GEMS = {
               "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
               "created_at": "2026-11-03T00:41:39.059247+00:00",
               "reviewed_at": "2026-11-03T00:47:20.698872+00:00",
-              "view": "chromatin"
+              "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "dRybp Eed-null / dSuz12 Rybp-null / dRnf2 Ring1-null",
+                  "text": "Auxin-degradable RYBP in EED-null cells / SUZ12 in RYBP-null cells / RING1B in RING1A-null cells."
+                },
+                {
+                  "label": "IAA / untreated",
+                  "text": "Auxin treatment degrades the tagged protein; untreated or −IAA is its matched control."
+                },
+                {
+                  "label": "Rnf2 / TSS / kb",
+                  "text": "Rnf2 is RING1B. TSS is the transcription start site; kb is thousands of DNA bases. Solid/dashed lines are untreated/+auxin."
+                }
+              ],
+              "reading_note": "Use the middle dSuz12/Rybp-null column at 48h. Dashed +IAA is much lower than solid untreated for both Rnf2/RING1B above and H2Aub1 below."
             }
           ],
           "linked_observation_id": "zepeda20-suz12-on-rybp-null",
@@ -19891,7 +23858,22 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:39.059247+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698872+00:00",
-                "view": "chromatin"
+                "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "dRybp Eed-null / dSuz12 Rybp-null / dRnf2 Ring1-null",
+                    "text": "Auxin-degradable RYBP in EED-null cells / SUZ12 in RYBP-null cells / RING1B in RING1A-null cells."
+                  },
+                  {
+                    "label": "IAA / untreated",
+                    "text": "Auxin treatment degrades the tagged protein; untreated or −IAA is its matched control."
+                  },
+                  {
+                    "label": "Rnf2 / TSS / kb",
+                    "text": "Rnf2 is RING1B. TSS is the transcription start site; kb is thousands of DNA bases. Solid/dashed lines are untreated/+auxin."
+                  }
+                ],
+                "reading_note": "Use the middle dSuz12/Rybp-null column at 48h. Dashed +IAA is much lower than solid untreated for both Rnf2/RING1B above and H2Aub1 below."
               }
             ],
             "summary": [
@@ -19937,7 +23919,22 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:39.059247+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698872+00:00",
-                "view": "chromatin"
+                "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "dRybp Eed-null / dSuz12 Rybp-null / dRnf2 Ring1-null",
+                    "text": "Auxin-degradable RYBP in EED-null cells / SUZ12 in RYBP-null cells / RING1B in RING1A-null cells."
+                  },
+                  {
+                    "label": "IAA / untreated",
+                    "text": "Auxin treatment degrades the tagged protein; untreated or −IAA is its matched control."
+                  },
+                  {
+                    "label": "Rnf2 / TSS / kb",
+                    "text": "Rnf2 is RING1B. TSS is the transcription start site; kb is thousands of DNA bases. Solid/dashed lines are untreated/+auxin."
+                  }
+                ],
+                "reading_note": "Use the middle dSuz12/Rybp-null column at 48h. Dashed +IAA is much lower than solid untreated for both Rnf2/RING1B above and H2Aub1 below."
               }
             ],
             "summary": [
@@ -19983,7 +23980,26 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:39.081623+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698872+00:00",
-                "view": "rna"
+                "view": "rna",
+                "legend_key": [
+                  {
+                    "label": "dRybp Eed-null / dSuz12 Rybp-null / dRnf2 Ring1-null",
+                    "text": "Auxin-degradable RYBP in EED-null cells / SUZ12 in RYBP-null cells / RING1B in RING1A-null cells."
+                  },
+                  {
+                    "label": "IAA / untreated",
+                    "text": "Auxin treatment degrades the tagged protein; untreated or −IAA is its matched control."
+                  },
+                  {
+                    "label": "TSS / fold change",
+                    "text": "TSS is the transcription start site; log2 fold change is the base-2 log of treated/untreated RNA abundance."
+                  },
+                  {
+                    "label": "Padj",
+                    "text": "P-value adjusted for testing many genes; Down/Up count lower/higher RNA after treatment."
+                  }
+                ],
+                "reading_note": "Use the middle column and lower 48h row: the volcano labels 904 down and 947 up. Shared-target preference is shown separately in Figure 4D."
               },
               {
                 "paper_id": "zepeda-martinez-2020",
@@ -20016,7 +24032,26 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Full source PDF page and final crop visually inspected; panel letters, conditions, axes and legends retained.",
                 "visual_reviewed_at": "2026-11-03T15:33:25.680979+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "dRybp Eed-null / dSuz12 Rybp-null / dRnf2 Ring1-null",
+                    "text": "Auxin-degradable RYBP in EED-null cells / SUZ12 in RYBP-null cells / RING1B in RING1A-null cells."
+                  },
+                  {
+                    "label": "IAA / untreated",
+                    "text": "Auxin treatment degrades the tagged protein; untreated or −IAA is its matched control."
+                  },
+                  {
+                    "label": "TSS / fold change",
+                    "text": "TSS is the transcription start site; log2 fold change is the base-2 log of treated/untreated RNA abundance."
+                  },
+                  {
+                    "label": "Shared / Variant specific",
+                    "text": "Purple: shared canonical/variant PRC1 targets; green: variant-PRC1-specific targets."
+                  }
+                ],
+                "reading_note": "Use the middle dSuz12/Rybp-null comparison: purple Shared boxes at 24/48h are higher than the green Variant-specific boxes, with the larger shift at 48h."
               }
             ],
             "summary": [
@@ -20548,9 +24583,9 @@ window.GEMS = {
       "scope_detail": "",
       "importance": "extension",
       "compact": {
-        "perturbation": "SUZ12 contact mutants / VEFS rescue",
-        "result": "EZH2 bound fraction: WT rescue 15 ± 1%; contact mutant 8 ± 2%; VEFS 9 ± 1%.",
-        "function": "Contact mutant loses AEBP2/PHF1/PHF19 binding; core contacts remain. VEFS keeps the EZH2/EED-binding portion.",
+        "perturbation": "SUZ12 accessory-contact mutant / VEFS fragment",
+        "result": "EZH2 bound fraction: WT SUZ12 rescue 15 ± 1%; contact mutant 8 ± 2%; VEFS fragment 9 ± 1%.",
+        "function": "Contact mutant loses AEBP2/PHF1/PHF19 binding; core contacts remain. VEFS (residues 561–739) keeps EZH2/EED contacts.",
         "scope": "Matched rescue; measured protein is EZH2"
       },
       "comparison_links": [],
@@ -20627,6 +24662,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:25:40.552466+00:00",
           "source": "https://doi.org/10.1242/dev.196329",
+          "legend_key": [
+            {
+              "label": "CJ7",
+              "text": "Mouse ESC background."
+            },
+            {
+              "label": "-/-",
+              "text": "Knockout of the named gene."
+            },
+            {
+              "label": "681C-99 / -102",
+              "text": "Independent mutant EZH2 clones."
+            },
+            {
+              "label": "α / TBP / kDa",
+              "text": "Antibody / loading control / protein-size unit."
+            }
+          ],
+          "reading_note": "Compare WT with each R681C clone in the mark rows while retaining EZH2 and TBP controls.",
           "short_label": "Figure 2C",
           "width": 428,
           "height": 441
@@ -20664,6 +24718,17 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:25:41.155830+00:00",
           "source": "https://doi.org/10.1242/dev.196329",
+          "legend_key": [
+            {
+              "label": "ESC / CUT&RUN",
+              "text": "Embryonic stem cells / antibody-directed nuclease profiling."
+            },
+            {
+              "label": "WT / 681C-99",
+              "text": "Wild-type EZH2 / the indicated EZH2 mutant clone 99."
+            }
+          ],
+          "reading_note": "The left blue WT-only sector is 300, overlap 219, and right red mutant-only sector 14; these are called SUZ12 peak counts.",
           "short_label": "Figure 2E",
           "width": 558,
           "height": 341
@@ -20701,6 +24766,17 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:54.022110+00:00",
           "source": "https://doi.org/10.1242/dev.196329",
+          "legend_key": [
+            {
+              "label": "ESC / EB / CUT&RUN",
+              "text": "Embryonic stem cells / embryoid bodies / antibody-directed nuclease profiling."
+            },
+            {
+              "label": "TSS / kb",
+              "text": "Transcription start site / thousands of DNA bases."
+            }
+          ],
+          "reading_note": "Use only the left ESC pair for baseline: mutant 681C-99 H3K27me3 remains visible. Middle/right pairs are differentiation days 4/8.",
           "short_label": "Figure 3C",
           "width": 589,
           "height": 614
@@ -20771,6 +24847,25 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:25:42.459979+00:00",
             "source": "https://doi.org/10.1242/dev.196329",
+            "legend_key": [
+              {
+                "label": "Mtase",
+                "text": "Dependence on EZH2 methyltransferase activity."
+              },
+              {
+                "label": "D0 / D4 / D8",
+                "text": "Differentiation days 0 / 4 / 8."
+              },
+              {
+                "label": "Z-scores of RPKM",
+                "text": "Standardized RNA read counts per kilobase per million."
+              },
+              {
+                "label": "Similar / different starting expression",
+                "text": "Day-0 mutant-versus-WT RNA within / beyond 1.2-fold."
+              }
+            ],
+            "reading_note": "The top/bottom gene groups are selected by day-0 WT-versus-mutant RNA similarity.",
             "short_label": "Figure S6C",
             "width": 589,
             "height": 628
@@ -20922,6 +25017,17 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:41.155830+00:00",
                 "source": "https://doi.org/10.1242/dev.196329",
+                "legend_key": [
+                  {
+                    "label": "ESC / CUT&RUN",
+                    "text": "Embryonic stem cells / antibody-directed nuclease profiling."
+                  },
+                  {
+                    "label": "WT / 681C-99",
+                    "text": "Wild-type EZH2 / the indicated EZH2 mutant clone 99."
+                  }
+                ],
+                "reading_note": "The left blue WT-only sector is 300, overlap 219, and right red mutant-only sector 14; these are called SUZ12 peak counts.",
                 "short_label": "Figure 2E",
                 "width": 558,
                 "height": 341
@@ -20972,6 +25078,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:40.552466+00:00",
                 "source": "https://doi.org/10.1242/dev.196329",
+                "legend_key": [
+                  {
+                    "label": "CJ7",
+                    "text": "Mouse ESC background."
+                  },
+                  {
+                    "label": "-/-",
+                    "text": "Knockout of the named gene."
+                  },
+                  {
+                    "label": "681C-99 / -102",
+                    "text": "Independent mutant EZH2 clones."
+                  },
+                  {
+                    "label": "α / TBP / kDa",
+                    "text": "Antibody / loading control / protein-size unit."
+                  }
+                ],
+                "reading_note": "Compare WT with each R681C clone in the mark rows while retaining EZH2 and TBP controls.",
                 "short_label": "Figure 2C",
                 "width": 428,
                 "height": 441
@@ -21023,6 +25148,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:42.459979+00:00",
                 "source": "https://doi.org/10.1242/dev.196329",
+                "legend_key": [
+                  {
+                    "label": "Mtase",
+                    "text": "Dependence on EZH2 methyltransferase activity."
+                  },
+                  {
+                    "label": "D0 / D4 / D8",
+                    "text": "Differentiation days 0 / 4 / 8."
+                  },
+                  {
+                    "label": "Z-scores of RPKM",
+                    "text": "Standardized RNA read counts per kilobase per million."
+                  },
+                  {
+                    "label": "Similar / different starting expression",
+                    "text": "Day-0 mutant-versus-WT RNA within / beyond 1.2-fold."
+                  }
+                ],
+                "reading_note": "The top/bottom gene groups are selected by day-0 WT-versus-mutant RNA similarity.",
                 "short_label": "Figure S6C",
                 "width": 589,
                 "height": 628
@@ -21110,6 +25254,17 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:25:44.738844+00:00",
           "source": "https://doi.org/10.1016/j.celrep.2016.09.087",
+          "legend_key": [
+            {
+              "label": "NI / NS / C",
+              "text": "Nuclear-insoluble / nuclear-soluble / cytoplasmic fractions."
+            },
+            {
+              "label": "H3 / Tubulin / GAPDH",
+              "text": "Loading controls."
+            }
+          ],
+          "reading_note": "Panel B separates cellular fractions for histone-mark controls.",
           "short_label": "Figure 2B–C",
           "width": 392,
           "height": 284
@@ -21147,6 +25302,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:40.768011+00:00",
           "source": "https://doi.org/10.1016/j.celrep.2016.09.087",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "H3K27me2 / me3",
+              "text": "H3 lysine 27 with two / three methyl groups."
+            },
+            {
+              "label": "TSS / kb",
+              "text": "Transcription start site / 1,000 DNA bases."
+            },
+            {
+              "label": "Normalized tag density",
+              "text": "Normalized sequencing signal."
+            }
+          ],
+          "reading_note": "Compare WT/Y641F promoter signals separately for H3K27me3 and H3K27me2; each box summarizes TSS ±5 kb regions.",
           "short_label": "Figure 2D–E",
           "width": 679,
           "height": 342
@@ -21184,6 +25358,17 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:41.211331+00:00",
           "source": "https://doi.org/10.1016/j.celrep.2016.09.087",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "Fold change",
+              "text": "RNA relative to reference cells, set to 1."
+            }
+          ],
+          "reading_note": "Compare WT/Y641F RNA for each named lineage/pluripotency gene, with WT normalized to 1.",
           "short_label": "Figure 4E",
           "width": 1161,
           "height": 274
@@ -21254,6 +25439,17 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:18:41.211331+00:00",
             "source": "https://doi.org/10.1016/j.celrep.2016.09.087",
+            "legend_key": [
+              {
+                "label": "WT",
+                "text": "Unmodified reference."
+              },
+              {
+                "label": "Fold change",
+                "text": "RNA relative to reference cells, set to 1."
+              }
+            ],
+            "reading_note": "Compare WT/Y641F RNA for each named lineage/pluripotency gene, with WT normalized to 1.",
             "short_label": "Figure 4E",
             "width": 1161,
             "height": 274
@@ -21414,7 +25610,18 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "GAPDH",
+                    "text": "Whole-cell lysate loading control."
+                  }
+                ],
+                "reading_note": "Compare WT/Y641F whole-cell lysates for each PRC2 component with GAPDH loading control."
               }
             ],
             "summary": [
@@ -21467,7 +25674,26 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "NI / NS / C",
+                    "text": "Nuclear-insoluble / nuclear-soluble / cytoplasmic fractions."
+                  },
+                  {
+                    "label": "H3K27me2 / me3",
+                    "text": "H3 lysine 27 with two / three methyl groups."
+                  },
+                  {
+                    "label": "H3 / Tubulin",
+                    "text": "Histone / cytoplasmic loading controls."
+                  }
+                ],
+                "reading_note": "Compare WT/Y641F within each biochemical fraction, using the corresponding H3 or tubulin control."
               },
               {
                 "paper_id": "juan-2016",
@@ -21502,6 +25728,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:40.768011+00:00",
                 "source": "https://doi.org/10.1016/j.celrep.2016.09.087",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "H3K27me2 / me3",
+                    "text": "H3 lysine 27 with two / three methyl groups."
+                  },
+                  {
+                    "label": "TSS / kb",
+                    "text": "Transcription start site / 1,000 DNA bases."
+                  },
+                  {
+                    "label": "Normalized tag density",
+                    "text": "Normalized sequencing signal."
+                  }
+                ],
+                "reading_note": "Compare WT/Y641F promoter signals separately for H3K27me3 and H3K27me2; each box summarizes TSS ±5 kb regions.",
                 "short_label": "Figure 2D–E",
                 "width": 679,
                 "height": 342
@@ -21553,6 +25798,17 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:41.211331+00:00",
                 "source": "https://doi.org/10.1016/j.celrep.2016.09.087",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "Fold change",
+                    "text": "RNA relative to reference cells, set to 1."
+                  }
+                ],
+                "reading_note": "Compare WT/Y641F RNA for each named lineage/pluripotency gene, with WT normalized to 1.",
                 "short_label": "Figure 4E",
                 "width": 1161,
                 "height": 274
@@ -21673,6 +25929,21 @@ window.GEMS = {
           "width": 800,
           "height": 517,
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "WT / EZH2-KO / EV",
+              "text": "Wild-type cells / cells lacking EZH2 / empty-vector rescue. WT rescue reintroduces wild-type EZH2; other rescue lanes name EZH2 substitutions."
+            },
+            {
+              "label": "ChIP-seq / max-peak / TSS",
+              "text": "Chromatin immunoprecipitation sequencing; rows are centered on the signal maximum in A or transcription start sites in B."
+            },
+            {
+              "label": "H3K27me3",
+              "text": "Histone H3 lysine 27 trimethylation; kb is thousands of DNA bases."
+            }
+          ],
+          "reading_note": "A centers rows on peak maxima and B on transcription start sites. Compare mutant rescues P132S/F145L with WT rescue in each EZH2 or H3K27me3 block.",
           "short_label": "Published Figure 3"
         },
         {
@@ -21711,6 +25982,25 @@ window.GEMS = {
           "width": 800,
           "height": 298,
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "WT / EV / KO",
+              "text": "WT is wild-type rescue protein; EV is empty-vector rescue; KO denotes EZH2 knockout in A. B uses a C-terminally truncated EED background."
+            },
+            {
+              "label": "H3K27me2 / H3K27me3",
+              "text": "Histone H3 lysine 27 carrying two / three methyl groups. GAPDH and H3 bands provide loading references."
+            },
+            {
+              "label": "MW / kDa",
+              "text": "Protein molecular weight in kilodaltons."
+            },
+            {
+              "label": "P / #2 / #4 / #26",
+              "text": "Panel C is a separate melanoma experiment: parental cells and numbered edited clones; it is outside the ESC A–B comparison."
+            }
+          ],
+          "reading_note": "Use A for EZH2-rescue and B for EED-rescue bands, comparing mutant lanes with WT rescue and EV. C is a separate melanoma experiment.",
           "short_label": "Published Figure 2A–B; panelC is a separate melanoma experiment"
         }
       ],
@@ -21751,6 +26041,21 @@ window.GEMS = {
           "width": 800,
           "height": 473,
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "SRM / SET-I / PRC2",
+              "text": "SRM is EZH2’s stimulation-responsive motif; SET-I is an insertion in its catalytic SET domain; PRC2 is the methyltransferase complex."
+            },
+            {
+              "label": "WT / H3 / H3K27me3",
+              "text": "WT is wild-type enzyme; H3 is the histone substrate; H3K27me3 is trimethylated H3 lysine 27, used to stimulate PRC2."
+            },
+            {
+              "label": "Basal / stimulated / MW",
+              "text": "Activity without/with the stimulating H3K27me3 peptide; MW is molecular weight in kilodaltons."
+            }
+          ],
+          "reading_note": "C/D compare PRC2 recognition/catalytic mutants; E/F test EZH2 substitutions and G/H test EED substitutions. Basal and stimulated activities are separate rows.",
           "short_label": "Published Figure 1"
         }
       ],
@@ -21862,7 +26167,18 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT / EZH2-KO / EV",
+                    "text": "Wild type / EZH2-knockout cells / empty-vector rescue."
+                  },
+                  {
+                    "label": "ChIP-seq / max-peak centered",
+                    "text": "ChIP sequencing signal aligned to each peak maximum; kb is thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "In the EZH2 heatmap compare P132S/F145L rescue columns with WT rescue; the two mutant columns show broad blue enrichment."
               }
             ],
             "summary": [
@@ -21918,7 +26234,18 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT / EZH2-KO / EV",
+                    "text": "Wild type / EZH2-knockout cells / empty-vector rescue."
+                  },
+                  {
+                    "label": "ChIP-seq / max-peak centered",
+                    "text": "ChIP sequencing signal aligned to each peak maximum; kb is thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "In the H3K27me3 heatmap compare P132S/F145L rescue columns with WT rescue; the mutant columns have much less blue signal."
               },
               {
                 "paper_id": "lee-2018",
@@ -21960,7 +26287,22 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT / EV / KO",
+                    "text": "WT is wild-type rescue protein; EV is empty-vector rescue; KO denotes EZH2 knockout in A. B uses a C-terminally truncated EED background."
+                  },
+                  {
+                    "label": "H3K27me2 / H3K27me3",
+                    "text": "Histone H3 lysine 27 carrying two / three methyl groups. GAPDH and H3 bands provide loading references."
+                  },
+                  {
+                    "label": "MW / kDa",
+                    "text": "Protein molecular weight in kilodaltons."
+                  }
+                ],
+                "reading_note": "Use A: compare the H3K27me2 and H3K27me3 bands under P132S/F145L rescue with WT rescue; GAPDH and H3 are loading references."
               }
             ],
             "summary": [
@@ -22686,9 +27028,9 @@ window.GEMS = {
       "importance": "extension",
       "compact": {
         "perturbation": "PRC2 binding: marks, linker DNA, RNA",
-        "result": "Apparent Kd: unmodified 280 nM, H3K27me3 260 nM. No-linker binding much weaker; separate RNA-trap release clock ~95 s.",
+        "result": "Apparent dissociation constant (Kd): unmodified 280 nM, H3K27me3 260 nM. Removing linker DNA weakens binding; separate RNA-trap release time ~95 s.",
         "function": "Fixed EZH2/EED/SUZ12/RBBP4/AEBP2 five-mer",
-        "scope": "Time labels differ; no-linker Kd extrapolated"
+        "scope": "Time labels differ; no-linker dissociation constant (Kd) extrapolated"
       },
       "comparison_links": [],
       "detail_readouts": {
@@ -23294,6 +27636,33 @@ window.GEMS = {
           "created_at": "2026-11-02T22:58:20.410660+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:58:20.410660+00:00",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "EED226 / − and +",
+              "text": "Without / with the EED inhibitor."
+            },
+            {
+              "label": "Mtf2 GT/GT / Jarid2 −/−",
+              "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+            },
+            {
+              "label": "n / 1–6",
+              "text": "Number of binding sites / source-defined site clusters."
+            },
+            {
+              "label": "rpkm / ± 5 kb",
+              "text": "Normalized read signal / 5,000 DNA bases on either side."
+            },
+            {
+              "label": "Input",
+              "text": "Chromatin before antibody pull-down."
+            }
+          ],
+          "reading_note": "Compare matched heatmap columns and boxplots separately for EZH2 and MTF2; the treatment/genotype sets differ.",
           "short_label": "Figure 1C, E",
           "width": 950,
           "height": 399
@@ -23330,6 +27699,33 @@ window.GEMS = {
           "created_at": "2026-11-02T22:58:20.905699+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:58:20.905699+00:00",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "EED226 / − and +",
+              "text": "Without / with the EED inhibitor."
+            },
+            {
+              "label": "Mtf2 GT/GT / Jarid2 −/−",
+              "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+            },
+            {
+              "label": "n / 1–6",
+              "text": "Number of binding sites / source-defined site clusters."
+            },
+            {
+              "label": "rpkm",
+              "text": "Reads normalized for region length and sequencing depth."
+            },
+            {
+              "label": "Input",
+              "text": "Chromatin before antibody pull-down."
+            }
+          ],
+          "reading_note": "Compare matched heatmap columns and boxplots separately for H3K27me3 and JARID2; the treatment/genotype sets differ.",
           "short_label": "Figure 1D, F",
           "width": 950,
           "height": 413
@@ -23367,6 +27763,29 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:32.854179+00:00",
           "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+          "legend_key": [
+            {
+              "label": "E14 / Ctrl",
+              "text": "Parental stem-cell line / untreated control."
+            },
+            {
+              "label": "EED226 / − and +",
+              "text": "Without / with the EED inhibitor."
+            },
+            {
+              "label": "Mtf2 GT/GT / Jarid2 −/−",
+              "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+            },
+            {
+              "label": "H3K27me2 / me3",
+              "text": "H3 lysine 27 with two / three methyl groups."
+            },
+            {
+              "label": "H3",
+              "text": "Histone loading control."
+            }
+          ],
+          "reading_note": "Compare untreated/treated H3K27me3 within each genotype against H3 loading; inspect EZH2/EED above.",
           "short_label": "Figure S2D",
           "width": 432,
           "height": 421
@@ -23548,7 +27967,30 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "WT+Eed226 / Mtf2 GT/GT",
+                    "text": "EED-inhibited reference / cells with both Mtf2 copies disrupted."
+                  },
+                  {
+                    "label": "n / 1–6",
+                    "text": "Number of binding sites / source-defined site clusters."
+                  },
+                  {
+                    "label": "rpkm",
+                    "text": "Reads normalized for region length and sequencing depth."
+                  },
+                  {
+                    "label": "Input",
+                    "text": "Chromatin before antibody pull-down."
+                  }
+                ],
+                "reading_note": "Compare JARID2 across WT, EED226-treated WT and Mtf2-disrupted cells; the boxplot quantifies the matching heatmap."
               },
               {
                 "paper_id": "perino-2020",
@@ -23582,6 +28024,33 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:58:20.410660+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:58:20.410660+00:00",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "EED226 / − and +",
+                    "text": "Without / with the EED inhibitor."
+                  },
+                  {
+                    "label": "Mtf2 GT/GT / Jarid2 −/−",
+                    "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+                  },
+                  {
+                    "label": "n / 1–6",
+                    "text": "Number of binding sites / source-defined site clusters."
+                  },
+                  {
+                    "label": "rpkm / ± 5 kb",
+                    "text": "Normalized read signal / 5,000 DNA bases on either side."
+                  },
+                  {
+                    "label": "Input",
+                    "text": "Chromatin before antibody pull-down."
+                  }
+                ],
+                "reading_note": "Compare matched heatmap columns and boxplots separately for EZH2 and MTF2; the treatment/genotype sets differ.",
                 "short_label": "Figure 1C, E",
                 "width": 950,
                 "height": 399
@@ -23638,7 +28107,30 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "WT+Eed226 / Mtf2 GT/GT",
+                    "text": "EED-inhibited reference / cells with both Mtf2 copies disrupted."
+                  },
+                  {
+                    "label": "n / 1–6",
+                    "text": "Number of binding sites / source-defined site clusters."
+                  },
+                  {
+                    "label": "rpkm",
+                    "text": "Reads normalized for region length and sequencing depth."
+                  },
+                  {
+                    "label": "Input",
+                    "text": "Chromatin before antibody pull-down."
+                  }
+                ],
+                "reading_note": "Compare JARID2 across WT, EED226-treated WT and Mtf2-disrupted cells; the boxplot quantifies the matching heatmap."
               },
               {
                 "paper_id": "perino-2020",
@@ -23672,6 +28164,33 @@ window.GEMS = {
                 "created_at": "2026-11-02T22:58:20.410660+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:58:20.410660+00:00",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "EED226 / − and +",
+                    "text": "Without / with the EED inhibitor."
+                  },
+                  {
+                    "label": "Mtf2 GT/GT / Jarid2 −/−",
+                    "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+                  },
+                  {
+                    "label": "n / 1–6",
+                    "text": "Number of binding sites / source-defined site clusters."
+                  },
+                  {
+                    "label": "rpkm / ± 5 kb",
+                    "text": "Normalized read signal / 5,000 DNA bases on either side."
+                  },
+                  {
+                    "label": "Input",
+                    "text": "Chromatin before antibody pull-down."
+                  }
+                ],
+                "reading_note": "Compare matched heatmap columns and boxplots separately for EZH2 and MTF2; the treatment/genotype sets differ.",
                 "short_label": "Figure 1C, E",
                 "width": 950,
                 "height": 399
@@ -23723,6 +28242,29 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:32.854179+00:00",
                 "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+                "legend_key": [
+                  {
+                    "label": "E14 / Ctrl",
+                    "text": "Parental stem-cell line / untreated control."
+                  },
+                  {
+                    "label": "EED226 / − and +",
+                    "text": "Without / with the EED inhibitor."
+                  },
+                  {
+                    "label": "Mtf2 GT/GT / Jarid2 −/−",
+                    "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+                  },
+                  {
+                    "label": "H3K27me2 / me3",
+                    "text": "H3 lysine 27 with two / three methyl groups."
+                  },
+                  {
+                    "label": "H3",
+                    "text": "Histone loading control."
+                  }
+                ],
+                "reading_note": "Compare untreated/treated H3K27me3 within each genotype against H3 loading; inspect EZH2/EED above.",
                 "short_label": "Figure S2D",
                 "width": 432,
                 "height": 421
@@ -23810,6 +28352,29 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:29:20.200946+00:00",
           "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "EED226 / − and +",
+              "text": "Without / with the EED inhibitor."
+            },
+            {
+              "label": "Mtf2 GT/GT / Jarid2 −/−",
+              "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+            },
+            {
+              "label": "n / 1–6",
+              "text": "Number of binding sites / source-defined site clusters."
+            },
+            {
+              "label": "Input",
+              "text": "Chromatin before antibody pull-down."
+            }
+          ],
+          "reading_note": "Compare −/+ EED226 within WT and Jarid2-deleted cells; Mtf2-disrupted columns provide the parallel genotype comparison.",
           "short_label": "Figure 3A",
           "width": 573,
           "height": 460
@@ -23847,6 +28412,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:30:53.440078+00:00",
           "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "EED226 / − and +",
+              "text": "Without / with the EED inhibitor."
+            },
+            {
+              "label": "Mtf2 GT/GT / Jarid2 −/−",
+              "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+            },
+            {
+              "label": "Bootstrapped median RPKM",
+              "text": "Resampling estimate of typical normalized signal; intervals show uncertainty."
+            }
+          ],
+          "reading_note": "Within each EZH2 cluster compare −/+ EED226 for WT, Mtf2-disrupted and Jarid2-deleted cells.",
           "short_label": "Figure 3B",
           "width": 301,
           "height": 813
@@ -23884,6 +28468,29 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:29:21.508700+00:00",
           "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "EED226 / − and +",
+              "text": "Without / with the EED inhibitor."
+            },
+            {
+              "label": "Mtf2 GT/GT / Jarid2 −/−",
+              "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+            },
+            {
+              "label": "n / 1–6",
+              "text": "Number of binding sites / source-defined site clusters."
+            },
+            {
+              "label": "Input",
+              "text": "Chromatin before antibody pull-down."
+            }
+          ],
+          "reading_note": "Within each genotype compare −/+ EED226 for MTF2 or JARID2; cluster rows correspond between assays.",
           "short_label": "Figure 3C",
           "width": 746,
           "height": 460
@@ -23959,7 +28566,7 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "JARID2 KO + EED226",
-        "result": "EZH2 binding falls more than either perturbation alone; MTF2 also falls, especially at broad targets.",
+        "result": "EZH2 binding ↓ more than with JARID2 KO alone or EED inhibition alone; MTF2 binding ↓, especially at broad targets.",
         "timing": "10 µM, 4d"
       },
       "comparison_links": [],
@@ -23967,7 +28574,7 @@ window.GEMS = {
         "readouts": [
           {
             "label": "EZH2 ChIP",
-            "text": "↓ more than either perturbation alone",
+            "text": "↓ more than with JARID2 KO alone or EED inhibition alone",
             "kind": "own_binding"
           },
           {
@@ -23982,7 +28589,7 @@ window.GEMS = {
         "chromatin": [
           {
             "label": "EZH2 ChIP",
-            "text": "much lower than either perturbation alone",
+            "text": "lower than with JARID2 KO alone or EED inhibition alone",
             "kind": "own_binding"
           },
           {
@@ -24030,6 +28637,29 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:29:20.200946+00:00",
                 "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "EED226 / − and +",
+                    "text": "Without / with the EED inhibitor."
+                  },
+                  {
+                    "label": "Mtf2 GT/GT / Jarid2 −/−",
+                    "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+                  },
+                  {
+                    "label": "n / 1–6",
+                    "text": "Number of binding sites / source-defined site clusters."
+                  },
+                  {
+                    "label": "Input",
+                    "text": "Chromatin before antibody pull-down."
+                  }
+                ],
+                "reading_note": "Compare −/+ EED226 within WT and Jarid2-deleted cells; Mtf2-disrupted columns provide the parallel genotype comparison.",
                 "short_label": "Figure 3A",
                 "width": 573,
                 "height": 460
@@ -24067,6 +28697,25 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:30:53.440078+00:00",
                 "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "EED226 / − and +",
+                    "text": "Without / with the EED inhibitor."
+                  },
+                  {
+                    "label": "Mtf2 GT/GT / Jarid2 −/−",
+                    "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+                  },
+                  {
+                    "label": "Bootstrapped median RPKM",
+                    "text": "Resampling estimate of typical normalized signal; intervals show uncertainty."
+                  }
+                ],
+                "reading_note": "Within each EZH2 cluster compare −/+ EED226 for WT, Mtf2-disrupted and Jarid2-deleted cells.",
                 "short_label": "Figure 3B",
                 "width": 301,
                 "height": 813
@@ -24075,7 +28724,7 @@ window.GEMS = {
             "summary": [
               {
                 "label": "EZH2 ChIP",
-                "text": "much lower than either perturbation alone",
+                "text": "lower than with JARID2 KO alone or EED inhibition alone",
                 "kind": "own_binding"
               }
             ],
@@ -24123,7 +28772,18 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "Jarid2 −/− / − and +",
+                    "text": "JARID2-deleted cells / without and with EED226."
+                  }
+                ],
+                "reading_note": "Within WT and Jarid2-deleted cells compare −/+ EED226 MTF2 columns; the treatment name is supplied in the key."
               }
             ],
             "summary": [
@@ -24208,6 +28868,29 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:34.997222+00:00",
           "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "EED226 / − and +",
+              "text": "Without / with the EED inhibitor."
+            },
+            {
+              "label": "Mtf2 GT/GT / Jarid2 −/−",
+              "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+            },
+            {
+              "label": "Input",
+              "text": "Chromatin before antibody pull-down."
+            },
+            {
+              "label": "kb",
+              "text": "1,000 DNA bases."
+            }
+          ],
+          "reading_note": "Within each cluster compare WT with WT+EED226, then the treated Mtf2- and Jarid2-disrupted curves; untreated mutant curves are absent.",
           "short_label": "Figure 4F",
           "width": 1364,
           "height": 245
@@ -24356,6 +29039,29 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:34.997222+00:00",
                 "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "EED226 / − and +",
+                    "text": "Without / with the EED inhibitor."
+                  },
+                  {
+                    "label": "Mtf2 GT/GT / Jarid2 −/−",
+                    "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+                  },
+                  {
+                    "label": "Input",
+                    "text": "Chromatin before antibody pull-down."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "1,000 DNA bases."
+                  }
+                ],
+                "reading_note": "Within each cluster compare WT with WT+EED226, then the treated Mtf2- and Jarid2-disrupted curves; untreated mutant curves are absent.",
                 "short_label": "Figure 4F",
                 "width": 1364,
                 "height": 245
@@ -24441,6 +29147,21 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:31.886326+00:00",
           "source": "https://doi.org/10.1038/s41588-018-0134-8",
+          "legend_key": [
+            {
+              "label": "mESC / Mtf2 GT/GT / Jarid2−/− / Eed−/−",
+              "text": "Mouse ESCs / homozygous Mtf2 gene-trap cells / cells lacking JARID2 / cells lacking EED."
+            },
+            {
+              "label": "ChIP / input / kb",
+              "text": "Chromatin immunoprecipitation / chromatin before immunoprecipitation / thousands of DNA bases."
+            },
+            {
+              "label": "Clusters 1–3",
+              "text": "EZH2-defined peak groups; tracks in B show example loci from each group."
+            }
+          ],
+          "reading_note": "In A compare MTF2 mESC with Jarid2-null and Eed-null columns within each EZH2-defined cluster. B gives representative loci; cluster 1 is narrow and cluster 2 broad.",
           "short_label": "Figure 4A–B",
           "width": 1101,
           "height": 484
@@ -24585,6 +29306,21 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:31.886326+00:00",
                 "source": "https://doi.org/10.1038/s41588-018-0134-8",
+                "legend_key": [
+                  {
+                    "label": "mESC / Mtf2 GT/GT / Jarid2−/− / Eed−/−",
+                    "text": "Mouse ESCs / homozygous Mtf2 gene-trap cells / cells lacking JARID2 / cells lacking EED."
+                  },
+                  {
+                    "label": "ChIP / input / kb",
+                    "text": "Chromatin immunoprecipitation / chromatin before immunoprecipitation / thousands of DNA bases."
+                  },
+                  {
+                    "label": "Clusters 1–3",
+                    "text": "EZH2-defined peak groups; tracks in B show example loci from each group."
+                  }
+                ],
+                "reading_note": "In A compare MTF2 mESC with Jarid2-null and Eed-null columns within each EZH2-defined cluster. B gives representative loci; cluster 1 is narrow and cluster 2 broad.",
                 "short_label": "Figure 4A–B",
                 "width": 1101,
                 "height": 484
@@ -24657,7 +29393,22 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.942377+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "Eed-null / Rybp-null",
+              "text": "Cells lacking EED / cells lacking RYBP."
+            },
+            {
+              "label": "Rnf2 / RPKM",
+              "text": "RING1B / reads per kilobase per million mapped reads."
+            },
+            {
+              "label": "Shared / Variant specific",
+              "text": "Purple: canonical-and-variant PRC1 targets; green: variant-PRC1-specific targets."
+            }
+          ],
+          "reading_note": "Left columns compare EED-null with WT, right columns RYBP-null with WT. RING1B is above and H2AK119ub1 below; purple denotes shared targets."
         },
         {
           "paper_id": "zepeda-martinez-2020",
@@ -24689,7 +29440,22 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.995073+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "Wild-type / Eed-null / Rybp-null",
+              "text": "Unmodified cells / cells lacking EED / cells lacking RYBP."
+            },
+            {
+              "label": "Shared / Variant specific",
+              "text": "Purple: targets occupied by canonical and variant PRC1; green: variant-PRC1-specific targets."
+            },
+            {
+              "label": "TSS / gene distance / read density",
+              "text": "TSS is the transcription start site; kb is thousands of DNA bases. Profile and heatmap scales show ChIP read enrichment."
+            }
+          ],
+          "reading_note": "Within each molecule block compare WT/EED-null/RYBP-null; the upper purple target class is shared and the lower green class is variant-specific."
         }
       ],
       "limitations": [
@@ -24756,7 +29522,18 @@ window.GEMS = {
             "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
             "created_at": "2026-11-03T00:41:39.031174+00:00",
             "reviewed_at": "2026-11-03T00:47:20.698871+00:00",
-            "view": "rna"
+            "view": "rna",
+            "legend_key": [
+              {
+                "label": "Eed-null / Rybp-null",
+                "text": "Cells lacking EED / cells lacking RYBP."
+              },
+              {
+                "label": "Shared / Variant / log2 change",
+                "text": "Canonical-and-variant PRC1 targets / variant-only targets; RNA knockout-to-WT ratio on a base-2 log scale."
+              }
+            ],
+            "reading_note": "Use purple Shared boxes: the EED-null comparison is left and RYBP-null right; both medians lie close to zero log2 RNA change."
           }
         ],
         "chromatin_pairing": {
@@ -24793,7 +29570,22 @@ window.GEMS = {
               "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
               "created_at": "2026-11-03T00:41:38.942377+00:00",
               "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-              "view": "chromatin"
+              "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "Eed-null / Rybp-null",
+                  "text": "Cells lacking EED / cells lacking RYBP."
+                },
+                {
+                  "label": "Rnf2 / RPKM",
+                  "text": "RING1B / reads per kilobase per million mapped reads."
+                },
+                {
+                  "label": "Shared / Variant specific",
+                  "text": "Purple: canonical-and-variant PRC1 targets; green: variant-PRC1-specific targets."
+                }
+              ],
+              "reading_note": "Left columns compare EED-null with WT, right columns RYBP-null with WT. RING1B is above and H2AK119ub1 below; purple denotes shared targets."
             },
             {
               "paper_id": "zepeda-martinez-2020",
@@ -24825,7 +29617,22 @@ window.GEMS = {
               "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
               "created_at": "2026-11-03T00:41:38.995073+00:00",
               "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-              "view": "chromatin"
+              "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "Wild-type / Eed-null / Rybp-null",
+                  "text": "Unmodified cells / cells lacking EED / cells lacking RYBP."
+                },
+                {
+                  "label": "Shared / Variant specific",
+                  "text": "Purple: targets occupied by canonical and variant PRC1; green: variant-PRC1-specific targets."
+                },
+                {
+                  "label": "TSS / gene distance / read density",
+                  "text": "TSS is the transcription start site; kb is thousands of DNA bases. Profile and heatmap scales show ChIP read enrichment."
+                }
+              ],
+              "reading_note": "Within each molecule block compare WT/EED-null/RYBP-null; the upper purple target class is shared and the lower green class is variant-specific."
             }
           ],
           "linked_observation_id": "zepeda20-eed-rnf2-ub",
@@ -24972,7 +29779,22 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:38.942377+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-                "view": "chromatin"
+                "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Eed-null / Rybp-null",
+                    "text": "Cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "Rnf2 / RPKM",
+                    "text": "RING1B / reads per kilobase per million mapped reads."
+                  },
+                  {
+                    "label": "Shared / Variant specific",
+                    "text": "Purple: canonical-and-variant PRC1 targets; green: variant-PRC1-specific targets."
+                  }
+                ],
+                "reading_note": "Left columns compare EED-null with WT, right columns RYBP-null with WT. RING1B is above and H2AK119ub1 below; purple denotes shared targets."
               }
             ],
             "summary": [
@@ -25018,7 +29840,22 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:38.942377+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-                "view": "chromatin"
+                "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Eed-null / Rybp-null",
+                    "text": "Cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "Rnf2 / RPKM",
+                    "text": "RING1B / reads per kilobase per million mapped reads."
+                  },
+                  {
+                    "label": "Shared / Variant specific",
+                    "text": "Purple: canonical-and-variant PRC1 targets; green: variant-PRC1-specific targets."
+                  }
+                ],
+                "reading_note": "Left columns compare EED-null with WT, right columns RYBP-null with WT. RING1B is above and H2AK119ub1 below; purple denotes shared targets."
               },
               {
                 "paper_id": "zepeda-martinez-2020",
@@ -25050,7 +29887,22 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:38.995073+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-                "view": "chromatin"
+                "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Wild-type / Eed-null / Rybp-null",
+                    "text": "Unmodified cells / cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "Shared / Variant specific",
+                    "text": "Purple: targets occupied by canonical and variant PRC1; green: variant-PRC1-specific targets."
+                  },
+                  {
+                    "label": "TSS / gene distance / read density",
+                    "text": "TSS is the transcription start site; kb is thousands of DNA bases. Profile and heatmap scales show ChIP read enrichment."
+                  }
+                ],
+                "reading_note": "Within each molecule block compare WT/EED-null/RYBP-null; the upper purple target class is shared and the lower green class is variant-specific."
               }
             ],
             "summary": [
@@ -25096,7 +29948,22 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:38.995073+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698870+00:00",
-                "view": "chromatin"
+                "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Wild-type / Eed-null / Rybp-null",
+                    "text": "Unmodified cells / cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "Shared / Variant specific",
+                    "text": "Purple: targets occupied by canonical and variant PRC1; green: variant-PRC1-specific targets."
+                  },
+                  {
+                    "label": "TSS / gene distance / read density",
+                    "text": "TSS is the transcription start site; kb is thousands of DNA bases. Profile and heatmap scales show ChIP read enrichment."
+                  }
+                ],
+                "reading_note": "Within each molecule block compare WT/EED-null/RYBP-null; the upper purple target class is shared and the lower green class is variant-specific."
               }
             ],
             "summary": [
@@ -25142,7 +30009,18 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:39.031174+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698871+00:00",
-                "view": "rna"
+                "view": "rna",
+                "legend_key": [
+                  {
+                    "label": "Eed-null / Rybp-null",
+                    "text": "Cells lacking EED / cells lacking RYBP."
+                  },
+                  {
+                    "label": "Shared / Variant / log2 change",
+                    "text": "Canonical-and-variant PRC1 targets / variant-only targets; RNA knockout-to-WT ratio on a base-2 log scale."
+                  }
+                ],
+                "reading_note": "Use purple Shared boxes: the EED-null comparison is left and RYBP-null right; both medians lie close to zero log2 RNA change."
               }
             ],
             "summary": [
@@ -25226,6 +30104,25 @@ window.GEMS = {
           "reviewed_at": "2026-11-03T00:41:50.035419+00:00",
           "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
           "view": "rna",
+          "legend_key": [
+            {
+              "label": "wt / Eed -/- / Ring1B -/-",
+              "text": "Unmodified / EED knockout / RING1B knockout."
+            },
+            {
+              "label": "dKO",
+              "text": "EED/RING1B double knockout."
+            },
+            {
+              "label": "dKO EedGFP",
+              "text": "EED-GFP restored to EED/RING1B double knockout."
+            },
+            {
+              "label": "Fold change",
+              "text": "RNA relative to the reference sample."
+            }
+          ],
+          "reading_note": "Panel B shows the six redundantly repressed genes.",
           "short_label": "Figure 4A–C",
           "width": 1285,
           "height": 851
@@ -25272,6 +30169,25 @@ window.GEMS = {
             "reviewed_at": "2026-11-03T00:41:50.035419+00:00",
             "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
             "view": "rna",
+            "legend_key": [
+              {
+                "label": "wt / Eed -/- / Ring1B -/-",
+                "text": "Unmodified / EED knockout / RING1B knockout."
+              },
+              {
+                "label": "dKO",
+                "text": "EED/RING1B double knockout."
+              },
+              {
+                "label": "dKO EedGFP",
+                "text": "EED-GFP restored to EED/RING1B double knockout."
+              },
+              {
+                "label": "Fold change",
+                "text": "RNA relative to the reference sample."
+              }
+            ],
+            "reading_note": "Panel B shows the six redundantly repressed genes.",
             "short_label": "Figure 4A–C",
             "width": 1285,
             "height": 851
@@ -25318,6 +30234,21 @@ window.GEMS = {
               "reviewed_at": "2026-11-03T00:41:50.035419+00:00",
               "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
               "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "wt / Eed -/- / Ring1B -/-",
+                  "text": "Unmodified / EED knockout / RING1B knockout."
+                },
+                {
+                  "label": "mock",
+                  "text": "Antibody-background control."
+                },
+                {
+                  "label": "% input / % H3",
+                  "text": "Starting-DNA / total-histone-H3 normalization."
+                }
+              ],
+              "reading_note": "Compare WT, EED knockout and RING1B knockout within each locus.",
               "short_label": "Figure 5A–C",
               "width": 1285,
               "height": 1544
@@ -25375,27 +30306,27 @@ window.GEMS = {
       "category": "serum_no_2i",
       "compact": {
         "perturbation": "RING1B/EED single vs double KO; EED rescue",
-        "result": "Six tested genes rise much more in double-KO; EED rescue lowers their RNA. Some Hox genes already respond to single loss.",
+        "result": "Six tested RNAs ↑ much more after RING1B/EED double KO than either single KO; ↓ after EED rescue. Hoxd11/Hoxd13 ↑ after RING1B or EED KO.",
         "function": "RING1A gene retained; protein undetected",
         "scope": "No double-KO/rescue ChIP",
-        "rna_result": "Arg2/Dlk/Nrp1/Foxa2/Dkk1/Wnt5a rise mainly in double-KO and fall after EED rescue; Hoxd11/Hoxd13 respond to single loss."
+        "rna_result": "Arg2/Dlk/Nrp1/Foxa2/Dkk1/Wnt5a ↑ mainly after RING1B/EED double KO; ↓ after EED rescue. Hoxd11/Hoxd13 ↑ after RING1B or EED KO."
       },
       "comparison_links": [
         {
           "observation_id": "zepeda20-suz12-on-rybp-null",
-          "text": "Timed SUZ12 loss on a RYBP-null background also produces a combined-loss phenotype, with matched 48h chromatin/RNA. The components and cell histories differ."
+          "text": "SUZ12 degradation in RYBP-knockout cells reduces RING1B/H2AK119ub1 and changes RNA at 48h; the Leeb comparison removes EED and RING1B."
         }
       ],
       "presentation": {
         "readouts": [
           {
             "label": "RNA · Arg2/Dlk/Nrp1/Foxa2/Dkk1/Wnt5a",
-            "text": "much ↑ in double-KO; ↓ after EED rescue",
+            "text": "much ↑ in RING1B/EED double KO; ↓ after EED rescue",
             "kind": "rna"
           },
           {
             "label": "RNA · Hoxd11/Hoxd13",
-            "text": "↑ after either single loss",
+            "text": "↑ after RING1B KO or EED KO",
             "kind": "rna"
           }
         ],
@@ -25407,7 +30338,7 @@ window.GEMS = {
         "rna": [
           {
             "label": "Arg2 / Dlk / Nrp1 / Foxa2 / Dkk1 / Wnt5a",
-            "text": "much higher in double-KO than either single-KO",
+            "text": "much higher in RING1B/EED double KO than RING1B or EED single KO",
             "kind": "rna"
           },
           {
@@ -25417,7 +30348,7 @@ window.GEMS = {
           },
           {
             "label": "Hoxd11 / Hoxd13",
-            "text": "↑ after either single loss",
+            "text": "↑ after RING1B KO or EED KO",
             "kind": "rna"
           }
         ],
@@ -25464,6 +30395,25 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035419+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "rna",
+                "legend_key": [
+                  {
+                    "label": "wt / Eed -/- / Ring1B -/-",
+                    "text": "Unmodified / EED knockout / RING1B knockout."
+                  },
+                  {
+                    "label": "dKO",
+                    "text": "EED/RING1B double knockout."
+                  },
+                  {
+                    "label": "dKO EedGFP",
+                    "text": "EED-GFP restored to EED/RING1B double knockout."
+                  },
+                  {
+                    "label": "Fold change",
+                    "text": "RNA relative to the reference sample."
+                  }
+                ],
+                "reading_note": "Panel B shows the six redundantly repressed genes.",
                 "short_label": "Figure 4A–C",
                 "width": 1285,
                 "height": 851
@@ -25472,7 +30422,7 @@ window.GEMS = {
             "summary": [
               {
                 "label": "Arg2 / Dlk / Nrp1 / Foxa2 / Dkk1 / Wnt5a",
-                "text": "much higher in double-KO than either single-KO",
+                "text": "much higher in RING1B/EED double KO than RING1B or EED single KO",
                 "kind": "rna"
               },
               {
@@ -25523,6 +30473,25 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T00:41:50.035419+00:00",
                 "review_note": "Source page and final crop visually inspected; selected labels, axes, conditions and legends retained. Small adjacent panel fragments are not treated as independent evidence.",
                 "view": "rna",
+                "legend_key": [
+                  {
+                    "label": "wt / Eed -/- / Ring1B -/-",
+                    "text": "Unmodified / EED knockout / RING1B knockout."
+                  },
+                  {
+                    "label": "dKO",
+                    "text": "EED/RING1B double knockout."
+                  },
+                  {
+                    "label": "dKO EedGFP",
+                    "text": "EED-GFP restored to EED/RING1B double knockout."
+                  },
+                  {
+                    "label": "Fold change",
+                    "text": "RNA relative to the reference sample."
+                  }
+                ],
+                "reading_note": "Panel B shows the six redundantly repressed genes.",
                 "short_label": "Figure 4A–C",
                 "width": 1285,
                 "height": 851
@@ -25531,7 +30500,7 @@ window.GEMS = {
             "summary": [
               {
                 "label": "Hoxd11 / Hoxd13",
-                "text": "↑ after either single loss",
+                "text": "↑ after RING1B KO or EED KO",
                 "kind": "rna"
               }
             ],
@@ -25630,6 +30599,25 @@ window.GEMS = {
           "width": 800,
           "height": 298,
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "WT / EV / KO",
+              "text": "WT is wild-type rescue protein; EV is empty-vector rescue; KO denotes EZH2 knockout in A. B uses a C-terminally truncated EED background."
+            },
+            {
+              "label": "H3K27me2 / H3K27me3",
+              "text": "Histone H3 lysine 27 carrying two / three methyl groups. GAPDH and H3 bands provide loading references."
+            },
+            {
+              "label": "MW / kDa",
+              "text": "Protein molecular weight in kilodaltons."
+            },
+            {
+              "label": "P / #2 / #4 / #26",
+              "text": "Panel C is a separate melanoma experiment: parental cells and numbered edited clones; it is outside the ESC A–B comparison."
+            }
+          ],
+          "reading_note": "Use A for EZH2-rescue and B for EED-rescue bands, comparing mutant lanes with WT rescue and EV. C is a separate melanoma experiment.",
           "short_label": "Published Figure 2A–B; panelC is a separate melanoma experiment"
         }
       ],
@@ -25670,6 +30658,21 @@ window.GEMS = {
           "width": 800,
           "height": 473,
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "SRM / SET-I / PRC2",
+              "text": "SRM is EZH2’s stimulation-responsive motif; SET-I is an insertion in its catalytic SET domain; PRC2 is the methyltransferase complex."
+            },
+            {
+              "label": "WT / H3 / H3K27me3",
+              "text": "WT is wild-type enzyme; H3 is the histone substrate; H3K27me3 is trimethylated H3 lysine 27, used to stimulate PRC2."
+            },
+            {
+              "label": "Basal / stimulated / MW",
+              "text": "Activity without/with the stimulating H3K27me3 peptide; MW is molecular weight in kilodaltons."
+            }
+          ],
+          "reading_note": "C/D compare PRC2 recognition/catalytic mutants; E/F test EZH2 substitutions and G/H test EED substitutions. Basal and stimulated activities are separate rows.",
           "short_label": "Published Figure 1"
         }
       ],
@@ -25775,7 +30778,22 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT / EV / EED ΔC-term",
+                    "text": "WT and EV are wild-type EED and empty-vector rescues in cells carrying C-terminally truncated EED; other lanes name EED substitutions."
+                  },
+                  {
+                    "label": "H3K27me2 / H3K27me3",
+                    "text": "Histone H3 lysine 27 carrying two / three methyl groups. GAPDH and H3 bands provide loading references."
+                  },
+                  {
+                    "label": "MW / kDa",
+                    "text": "Protein molecular weight in kilodaltons."
+                  }
+                ],
+                "reading_note": "Use B: compare the far-right R302G rescue lane with WT EED rescue. The EED protein band remains, while H3K27me2/3 bands are very weak."
               }
             ],
             "summary": [
@@ -25831,7 +30849,22 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT / EV / EED ΔC-term",
+                    "text": "WT and EV are wild-type EED and empty-vector rescues in cells carrying C-terminally truncated EED; other lanes name EED substitutions."
+                  },
+                  {
+                    "label": "H3K27me2 / H3K27me3",
+                    "text": "Histone H3 lysine 27 carrying two / three methyl groups. GAPDH and H3 bands provide loading references."
+                  },
+                  {
+                    "label": "MW / kDa",
+                    "text": "Protein molecular weight in kilodaltons."
+                  }
+                ],
+                "reading_note": "Use B: compare the far-right R302G rescue lane with WT EED rescue. The EED protein band remains, while H3K27me2/3 bands are very weak."
               }
             ],
             "summary": [
@@ -25916,6 +30949,29 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:34.997222+00:00",
           "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "EED226 / − and +",
+              "text": "Without / with the EED inhibitor."
+            },
+            {
+              "label": "Mtf2 GT/GT / Jarid2 −/−",
+              "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+            },
+            {
+              "label": "Input",
+              "text": "Chromatin before antibody pull-down."
+            },
+            {
+              "label": "kb",
+              "text": "1,000 DNA bases."
+            }
+          ],
+          "reading_note": "Within each cluster compare WT with WT+EED226, then the treated Mtf2- and Jarid2-disrupted curves; untreated mutant curves are absent.",
           "short_label": "Figure 4F",
           "width": 1364,
           "height": 245
@@ -26060,6 +31116,29 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:34.997222+00:00",
                 "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "EED226 / − and +",
+                    "text": "Without / with the EED inhibitor."
+                  },
+                  {
+                    "label": "Mtf2 GT/GT / Jarid2 −/−",
+                    "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+                  },
+                  {
+                    "label": "Input",
+                    "text": "Chromatin before antibody pull-down."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "1,000 DNA bases."
+                  }
+                ],
+                "reading_note": "Within each cluster compare WT with WT+EED226, then the treated Mtf2- and Jarid2-disrupted curves; untreated mutant curves are absent.",
                 "short_label": "Figure 4F",
                 "width": 1364,
                 "height": 245
@@ -26127,7 +31206,26 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.487900+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698860+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference cells."
+            },
+            {
+              "label": "TKO",
+              "text": "PHF1/MTF2/PHF19 triple knockout."
+            },
+            {
+              "label": "ChIP-Rx",
+              "text": "DNA-binding signal calibrated with reference chromatin."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "Each profile compares WT with PCL triple knockout around the same H3K27me3 peak centers."
         },
         {
           "paper_id": "healy-2019",
@@ -26159,7 +31257,30 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.524413+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698862+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference cells."
+            },
+            {
+              "label": "TKO",
+              "text": "PHF1/MTF2/PHF19 triple knockout."
+            },
+            {
+              "label": "ChIP-Rx",
+              "text": "DNA-binding signal calibrated with reference chromatin."
+            },
+            {
+              "label": "Narrow / broad",
+              "text": "Short / extended Polycomb domains."
+            },
+            {
+              "label": "Log2 KO/WT",
+              "text": "Base-2 knockout-to-WT signal ratio."
+            }
+          ],
+          "reading_note": "Compare WT–TKO separation separately within narrow and broad peak groups."
         },
         {
           "paper_id": "healy-2019",
@@ -26191,7 +31312,30 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.459380+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698855+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference cells."
+            },
+            {
+              "label": "MTF2 GT",
+              "text": "MTF2 gene-trap cells."
+            },
+            {
+              "label": "TKO",
+              "text": "PHF1/MTF2/PHF19 triple knockout."
+            },
+            {
+              "label": "Normalized to WT",
+              "text": "Each mark scaled to the WT measurement."
+            },
+            {
+              "label": "Histone H3",
+              "text": "Histone loading control."
+            }
+          ],
+          "reading_note": "Compare TKO with WT."
         },
         {
           "paper_id": "healy-2019",
@@ -26224,7 +31368,26 @@ window.GEMS = {
           "review_status": "reviewed",
           "verification": "Full source PDF page and final crop visually inspected; panel letters, conditions, axes and legends retained.",
           "visual_reviewed_at": "2026-11-03T15:33:25.680958+00:00",
-          "checked": "2026-11-03"
+          "checked": "2026-11-03",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference cells."
+            },
+            {
+              "label": "TKO",
+              "text": "PHF1/MTF2/PHF19 triple knockout."
+            },
+            {
+              "label": "mm10",
+              "text": "Mouse reference genome build."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "Compare WT and TKO within each locus."
         }
       ],
       "limitations": [
@@ -26310,7 +31473,7 @@ window.GEMS = {
         "perturbation": "PHF1/MTF2/PHF19 triple-KO",
         "result": "SUZ12/H3K27me3/CBX7 ↓, especially at narrow domains; H3K27me1/2 ↑ locally. Bulk western shows no reproducible H3K27me3 loss.",
         "timing": "72h post-induction",
-        "function": "MTF2 gene trap; PHF1/19 excision"
+        "function": "MTF2 gene trap; PHF1 and PHF19 excision"
       },
       "comparison_links": [],
       "presentation": {
@@ -26401,9 +31564,9 @@ window.GEMS = {
                 "short_label": "Figure 4C",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.1525,
-                  0.49639999999999995,
-                  0.259,
+                  0.13,
+                  0.32,
+                  0.575,
                   0.6
                 ],
                 "parent_crop": "panels/coverage-prc2/healy19-fig4cd.png",
@@ -26418,18 +31581,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 8,
                 "box_pdf_points": [
-                  91.95536849975586,
-                  388.67426179199214,
-                  156.17337994384766,
+                  78.38818298339844,
+                  250.55552734375001,
+                  346.71696319580076,
                   469.79161376953124
                 ],
                 "render_dpi": 180,
-                "width": 162,
-                "height": 204,
-                "review_status": "reviewed",
+                "width": 672,
+                "height": 549,
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.612500+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "Narrow / broad",
+                    "text": "Short / extended Polycomb domains."
+                  }
+                ],
+                "reading_note": "Read SUZ12 in the bottom row of the narrow group."
               },
               {
                 "paper_id": "healy-2019",
@@ -26441,9 +31623,9 @@ window.GEMS = {
                 "short_label": "Figure 4C",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.37375,
-                  0.49639999999999995,
-                  0.47875,
+                  0.13,
+                  0.32,
+                  0.575,
                   0.6
                 ],
                 "parent_crop": "panels/coverage-prc2/healy19-fig4cd.png",
@@ -26458,18 +31640,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 8,
                 "box_pdf_points": [
-                  225.36602607727053,
-                  388.67426179199214,
-                  288.6795584869385,
+                  78.38818298339844,
+                  250.55552734375001,
+                  346.71696319580076,
                   469.79161376953124
                 ],
                 "render_dpi": 180,
-                "width": 159,
-                "height": 204,
-                "review_status": "reviewed",
+                "width": 672,
+                "height": 549,
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.560392+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "Narrow / broad",
+                    "text": "Short / extended Polycomb domains."
+                  }
+                ],
+                "reading_note": "Read SUZ12 in the bottom row of the broad group."
               }
             ],
             "summary": [
@@ -26495,9 +31696,9 @@ window.GEMS = {
                 "short_label": "Figure 4C",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.2575,
-                  0.49639999999999995,
-                  0.3625,
+                  0.13,
+                  0.32,
+                  0.575,
                   0.6
                 ],
                 "parent_crop": "panels/coverage-prc2/healy19-fig4cd.png",
@@ -26512,18 +31713,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 8,
                 "box_pdf_points": [
-                  155.26890090942382,
-                  388.67426179199214,
-                  218.5824333190918,
+                  78.38818298339844,
+                  250.55552734375001,
+                  346.71696319580076,
                   469.79161376953124
                 ],
                 "render_dpi": 180,
-                "width": 159,
-                "height": 204,
-                "review_status": "reviewed",
+                "width": 672,
+                "height": 549,
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.508180+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "Narrow / broad",
+                    "text": "Short / extended Polycomb domains."
+                  }
+                ],
+                "reading_note": "Read H3K27me3 in the narrow group at lower left."
               },
               {
                 "paper_id": "healy-2019",
@@ -26535,9 +31755,9 @@ window.GEMS = {
                 "short_label": "Figure 4C",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.47125,
-                  0.49639999999999995,
-                  0.5875,
+                  0.13,
+                  0.32,
+                  0.575,
                   0.6
                 ],
                 "parent_crop": "panels/coverage-prc2/healy19-fig4cd.png",
@@ -26552,18 +31772,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 8,
                 "box_pdf_points": [
-                  284.15716331481934,
-                  388.67426179199214,
-                  354.254288482666,
+                  78.38818298339844,
+                  250.55552734375001,
+                  346.71696319580076,
                   469.79161376953124
                 ],
                 "render_dpi": 180,
-                "width": 176,
-                "height": 204,
-                "review_status": "reviewed",
+                "width": 672,
+                "height": 549,
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.429181+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "Narrow / broad",
+                    "text": "Short / extended Polycomb domains."
+                  }
+                ],
+                "reading_note": "Read H3K27me3 in the broad group at lower right."
               }
             ],
             "summary": [
@@ -26589,10 +31828,10 @@ window.GEMS = {
                 "short_label": "Figure 3D",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.736,
+                  0.47,
                   0.28,
                   0.87,
-                  0.398
+                  0.48
                 ],
                 "parent_crop": "panels/coverage-prc2/healy19-fig3d.png",
                 "relative_parent_box": [
@@ -26606,18 +31845,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 6,
                 "box_pdf_points": [
-                  443.797712890625,
+                  283.4034307861328,
                   219.23608642578128,
                   524.5978399658203,
-                  311.6284371337891
+                  375.833291015625
                 ],
                 "render_dpi": 180,
-                "width": 203,
-                "height": 232,
-                "review_status": "reviewed",
+                "width": 604,
+                "height": 392,
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.390427+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Locate H3K27me2 in the upper right profile and compare WT with TKO."
               },
               {
                 "paper_id": "healy-2019",
@@ -26629,9 +31887,9 @@ window.GEMS = {
                 "short_label": "Figure 3D",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.504,
-                  0.378,
-                  0.62,
+                  0.47,
+                  0.28,
+                  0.87,
                   0.48
                 ],
                 "parent_crop": "panels/coverage-prc2/healy19-fig3d.png",
@@ -26646,18 +31904,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 6,
                 "box_pdf_points": [
-                  303.9049555664063,
-                  295.9687166748047,
-                  373.8513342285156,
+                  283.4034307861328,
+                  219.23608642578128,
+                  524.5978399658203,
                   375.833291015625
                 ],
                 "render_dpi": 180,
-                "width": 176,
-                "height": 201,
-                "review_status": "reviewed",
+                "width": 604,
+                "height": 392,
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.350437+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Locate H3K27me1 in the lower left profile and compare WT with TKO."
               }
             ],
             "summary": [
@@ -26683,7 +31960,7 @@ window.GEMS = {
                 "short_label": "Figure 3B",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.4825,
+                  0.475,
                   0.12,
                   0.88,
                   0.28
@@ -26700,18 +31977,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 6,
                 "box_pdf_points": [
-                  290.94075607299806,
+                  286.4183609008789,
                   93.95832275390624,
                   530.6277001953125,
                   219.23608642578128
                 ],
                 "render_dpi": 180,
-                "width": 600,
+                "width": 611,
                 "height": 315,
-                "review_status": "reviewed",
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.286577+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "MTF2 GT",
+                    "text": "MTF2 gene-trap cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "Normalized to WT",
+                    "text": "Each mark scaled to the WT measurement."
+                  }
+                ],
+                "reading_note": "Each mark is normalized to its WT value."
               }
             ],
             "summary": [
@@ -26737,9 +32033,9 @@ window.GEMS = {
                 "short_label": "Figure 3D",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.622,
-                  0.38,
-                  0.744,
+                  0.47,
+                  0.28,
+                  0.87,
                   0.48
                 ],
                 "parent_crop": "panels/coverage-prc2/healy19-fig3d.png",
@@ -26754,18 +32050,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 6,
                 "box_pdf_points": [
-                  375.0573062744141,
-                  297.5346887207031,
-                  448.62160107421874,
+                  283.4034307861328,
+                  219.23608642578128,
+                  524.5978399658203,
                   375.833291015625
                 ],
                 "render_dpi": 180,
-                "width": 185,
-                "height": 197,
-                "review_status": "reviewed",
+                "width": 604,
+                "height": 392,
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.319745+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Locate CBX7 in the lower middle profile and compare WT with TKO."
               },
               {
                 "paper_id": "healy-2019",
@@ -26798,7 +32113,26 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Full source PDF page and final crop visually inspected; panel letters, conditions, axes and legends retained.",
                 "visual_reviewed_at": "2026-11-03T15:33:25.680958+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "mm10",
+                    "text": "Mouse reference genome build."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Compare WT and TKO within each locus."
               }
             ],
             "summary": [
@@ -26902,6 +32236,29 @@ window.GEMS = {
           "width": 1320,
           "height": 1742,
           "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "Parental",
+              "text": "RING1A-null cells carrying conditional RING1B."
+            },
+            {
+              "label": "OHT - / +",
+              "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+            },
+            {
+              "label": "WT / I53S",
+              "text": "Introduced normal / indicated mutant RING1B rescue."
+            },
+            {
+              "label": "CPMK / CPKM",
+              "text": "ChIP counts per million mapped reads per kilobase."
+            },
+            {
+              "label": "MTF2 KO - / +",
+              "text": "Intact MTF2 / MTF2 knockout."
+            }
+          ],
+          "reading_note": "Compare the rightmost I53S +OHT pair with and without MTF2 knockout, separately for H3K27me3 and SUZ12.",
           "short_label": "Figure 5A–F"
         }
       ],
@@ -26970,7 +32327,7 @@ window.GEMS = {
             "kind": "own_binding"
           }
         ],
-        "chromatin_note": "Added MTF2 loss versus I53S rescue alone; Fig. 5: rightmost columns."
+        "chromatin_note": "MTF2 KO versus intact MTF2, both with RING1B I53S rescue and endogenous RING1A/RING1B loss; Fig. 5 rightmost columns."
       },
       "result_evidence": {
         "readouts": [
@@ -27013,6 +32370,29 @@ window.GEMS = {
                 "width": 1320,
                 "height": 1742,
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Parental",
+                    "text": "RING1A-null cells carrying conditional RING1B."
+                  },
+                  {
+                    "label": "OHT - / +",
+                    "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+                  },
+                  {
+                    "label": "WT / I53S",
+                    "text": "Introduced normal / indicated mutant RING1B rescue."
+                  },
+                  {
+                    "label": "CPMK / CPKM",
+                    "text": "ChIP counts per million mapped reads per kilobase."
+                  },
+                  {
+                    "label": "MTF2 KO - / +",
+                    "text": "Intact MTF2 / MTF2 knockout."
+                  }
+                ],
+                "reading_note": "Compare the rightmost I53S +OHT pair with and without MTF2 knockout, separately for H3K27me3 and SUZ12.",
                 "short_label": "Figure 5A–F"
               }
             ],
@@ -27065,6 +32445,29 @@ window.GEMS = {
                 "width": 1320,
                 "height": 1742,
                 "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Parental",
+                    "text": "RING1A-null cells carrying conditional RING1B."
+                  },
+                  {
+                    "label": "OHT - / +",
+                    "text": "Before / after tamoxifen-triggered endogenous RING1B deletion."
+                  },
+                  {
+                    "label": "WT / I53S",
+                    "text": "Introduced normal / indicated mutant RING1B rescue."
+                  },
+                  {
+                    "label": "CPMK / CPKM",
+                    "text": "ChIP counts per million mapped reads per kilobase."
+                  },
+                  {
+                    "label": "MTF2 KO - / +",
+                    "text": "Intact MTF2 / MTF2 knockout."
+                  }
+                ],
+                "reading_note": "Compare the rightmost I53S +OHT pair with and without MTF2 knockout, separately for H3K27me3 and SUZ12.",
                 "short_label": "Figure 5A–F"
               }
             ],
@@ -27759,6 +33162,29 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:25:39.265211+00:00",
           "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unedited reference cells."
+            },
+            {
+              "label": "SOF/SOF",
+              "text": "Both gene copies carry the indicated separation-of-function edit."
+            },
+            {
+              "label": "INPUT",
+              "text": "Starting-DNA control."
+            },
+            {
+              "label": "CpG islands",
+              "text": "DNA regions rich in CpG dinucleotides."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "Compare WT and double-mutant tracks within each molecule.",
           "short_label": "Figure 5A",
           "width": 1372,
           "height": 509
@@ -27796,6 +33222,33 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:25:39.961865+00:00",
           "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "SOF/SOF",
+              "text": "Both gene copies lack the methylation site that stimulates PRC2."
+            },
+            {
+              "label": "TSS / kb",
+              "text": "Transcription start site / 1,000 DNA bases."
+            },
+            {
+              "label": "log2",
+              "text": "Ratio scale: +1 means twofold higher."
+            },
+            {
+              "label": "ChIP-Rx",
+              "text": "ChIP calibrated with reference chromatin."
+            },
+            {
+              "label": "Outside / inside SUZ12 peaks",
+              "text": "Flanks extending 30 kb / normal SUZ12-bound regions."
+            }
+          ],
+          "reading_note": "B/C compare H3K27me3 and SUZ12 changes; D compares mark signal inside/outside normal SUZ12 peaks. JARID2/MTF2 tracks are in companion 5A.",
           "short_label": "Figure 5B–D",
           "width": 1372,
           "height": 871
@@ -27899,6 +33352,17 @@ window.GEMS = {
           "created_at": "2026-11-02T22:28:42.113270+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:28:42.113270+00:00",
+          "legend_key": [
+            {
+              "label": "Human / mouse numbering",
+              "text": "Residue positions differ between species."
+            },
+            {
+              "label": "K",
+              "text": "Lysine amino acid."
+            }
+          ],
+          "reading_note": "Match mouse and human sequence rows before transferring a residue number between species.",
           "short_label": "Figure 1B",
           "width": 305,
           "height": 411
@@ -27967,7 +33431,7 @@ window.GEMS = {
               "paper_id": "agius-2026",
               "observation_id": "agius26-fig4b",
               "path": "panels/reviewed-prc2/agius26-fig4b.png",
-              "label": "Figure 4B — bulk H3K27me3 and H3K27me2",
+              "label": "Figure 4B — bulk H3K27me3 and H3K27me2 by FACS",
               "page": 8,
               "source_file": null,
               "source_url": "https://doi.org/10.1016/j.molcel.2026.02.011",
@@ -27975,7 +33439,7 @@ window.GEMS = {
               "box_normalized": [
                 0.33,
                 0.12,
-                0.639,
+                0.625,
                 0.35
               ],
               "box_pixels": [
@@ -27990,15 +33454,41 @@ window.GEMS = {
               ],
               "caption": "Original source crop; no image content changed.",
               "reviewed": true,
-              "review_status": "reviewed",
+              "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
               "verification": "Caller confirmed manual visual review against the source.",
               "created_at": "2026-11-02T22:25:38.681729+00:00",
               "checked": "2026-11-02",
-              "visual_reviewed_at": "2026-11-02T22:25:38.681729+00:00",
+              "visual_reviewed_at": "2026-11-03T16:37:16.008276+00:00",
               "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
-              "short_label": "Figure 4B",
-              "width": 466,
-              "height": 450
+              "legend_key": [
+                {
+                  "label": "SOF/SOF",
+                  "text": "Both gene copies carry the indicated separation-of-function edit."
+                },
+                {
+                  "label": "FACS / a.u.",
+                  "text": "Flow-cytometry fluorescence / arbitrary units."
+                },
+                {
+                  "label": "Tazemetostat",
+                  "text": "EZH2 methyltransferase inhibitor."
+                },
+                {
+                  "label": "+ / -",
+                  "text": "Presence / absence of the indicated treatment or edit."
+                }
+              ],
+              "reading_note": "Bars show FACS fluorescence for each condition, with the drug/genotype grid below each plot.",
+              "box_pdf_points": [
+                198.9853875732422,
+                93.95832275390624,
+                376.8662643432617,
+                274.04510803222655
+              ],
+              "render_dpi": 180,
+              "width": 446,
+              "height": 452,
+              "short_label": "Figure 4B"
             }
           ],
           "why_useful": "Removing the cofactor methylation sites does not produce the simple loss of H3K27me3 expected from their activating activity in vitro.",
@@ -28098,6 +33588,17 @@ window.GEMS = {
               "created_at": "2026-11-02T22:28:42.113270+00:00",
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:28:42.113270+00:00",
+              "legend_key": [
+                {
+                  "label": "Human / mouse numbering",
+                  "text": "Residue positions differ between species."
+                },
+                {
+                  "label": "K",
+                  "text": "Lysine amino acid."
+                }
+              ],
+              "reading_note": "Match mouse and human sequence rows before transferring a residue number between species.",
               "short_label": "Figure 1B",
               "width": 305,
               "height": 411
@@ -28134,7 +33635,7 @@ window.GEMS = {
       ],
       "compact": {
         "perturbation": "JARID2 K116R + PALI1 K1393R",
-        "result": "H3K27me3 extends tens of kb beyond WT SUZ12 peaks; protein profiles remain much more focused.",
+        "result": "H3K27me3 extends tens of kb beyond WT SUZ12 peaks; SUZ12/JARID2/MTF2 profiles remain more focused.",
         "function": "Prevents methylation of the sites that stimulate PRC2 through EED; proteins retained",
         "scope": "Mouse PALI1; paper uses human K1241R label"
       },
@@ -28148,7 +33649,7 @@ window.GEMS = {
         "readouts": [
           {
             "label": "SUZ12 / JARID2 / MTF2 ChIP",
-            "text": "profiles remain much more focused than the mark",
+            "text": "profiles remain more focused than H3K27me3",
             "kind": "own_binding"
           },
           {
@@ -28183,7 +33684,7 @@ window.GEMS = {
           },
           {
             "label": "SUZ12 / JARID2 / MTF2 ChIP-Rx",
-            "text": "remain focused at original targets; smaller increase than the mark",
+            "text": "remain focused at original targets; smaller increase than H3K27me3",
             "kind": "own_binding"
           }
         ]
@@ -28226,6 +33727,29 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:39.265211+00:00",
                 "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unedited reference cells."
+                  },
+                  {
+                    "label": "SOF/SOF",
+                    "text": "Both gene copies carry the indicated separation-of-function edit."
+                  },
+                  {
+                    "label": "INPUT",
+                    "text": "Starting-DNA control."
+                  },
+                  {
+                    "label": "CpG islands",
+                    "text": "DNA regions rich in CpG dinucleotides."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Compare WT and double-mutant tracks within each molecule.",
                 "short_label": "Figure 5A",
                 "width": 1372,
                 "height": 509
@@ -28263,6 +33787,33 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:39.961865+00:00",
                 "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "SOF/SOF",
+                    "text": "Both gene copies lack the methylation site that stimulates PRC2."
+                  },
+                  {
+                    "label": "TSS / kb",
+                    "text": "Transcription start site / 1,000 DNA bases."
+                  },
+                  {
+                    "label": "log2",
+                    "text": "Ratio scale: +1 means twofold higher."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "ChIP calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "Outside / inside SUZ12 peaks",
+                    "text": "Flanks extending 30 kb / normal SUZ12-bound regions."
+                  }
+                ],
+                "reading_note": "B/C compare H3K27me3 and SUZ12 changes; D compares mark signal inside/outside normal SUZ12 peaks. JARID2/MTF2 tracks are in companion 5A.",
                 "short_label": "Figure 5B–D",
                 "width": 1372,
                 "height": 871
@@ -28271,7 +33822,7 @@ window.GEMS = {
             "summary": [
               {
                 "label": "SUZ12 / JARID2 / MTF2 ChIP-Rx",
-                "text": "remain focused at original targets; smaller increase than the mark",
+                "text": "remain focused at original targets; smaller increase than H3K27me3",
                 "kind": "own_binding"
               }
             ],
@@ -28314,6 +33865,29 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:39.265211+00:00",
                 "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unedited reference cells."
+                  },
+                  {
+                    "label": "SOF/SOF",
+                    "text": "Both gene copies carry the indicated separation-of-function edit."
+                  },
+                  {
+                    "label": "INPUT",
+                    "text": "Starting-DNA control."
+                  },
+                  {
+                    "label": "CpG islands",
+                    "text": "DNA regions rich in CpG dinucleotides."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Compare WT and double-mutant tracks within each molecule.",
                 "short_label": "Figure 5A",
                 "width": 1372,
                 "height": 509
@@ -28351,6 +33925,33 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:39.961865+00:00",
                 "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "SOF/SOF",
+                    "text": "Both gene copies lack the methylation site that stimulates PRC2."
+                  },
+                  {
+                    "label": "TSS / kb",
+                    "text": "Transcription start site / 1,000 DNA bases."
+                  },
+                  {
+                    "label": "log2",
+                    "text": "Ratio scale: +1 means twofold higher."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "ChIP calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "Outside / inside SUZ12 peaks",
+                    "text": "Flanks extending 30 kb / normal SUZ12-bound regions."
+                  }
+                ],
+                "reading_note": "B/C compare H3K27me3 and SUZ12 changes; D compares mark signal inside/outside normal SUZ12 peaks. JARID2/MTF2 tracks are in companion 5A.",
                 "short_label": "Figure 5B–D",
                 "width": 1372,
                 "height": 871
@@ -28438,6 +34039,25 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:30.999472+00:00",
           "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unedited reference cells."
+            },
+            {
+              "label": "SOF/SOF",
+              "text": "Both gene copies carry the indicated separation-of-function edit."
+            },
+            {
+              "label": "TSS",
+              "text": "Transcription start site."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "Compare WT with the JARID2/PALI1 double mutant within each replicate.",
           "short_label": "Figure S8E–F",
           "width": 1530,
           "height": 911
@@ -28540,6 +34160,17 @@ window.GEMS = {
           "created_at": "2026-11-02T22:28:42.113270+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:28:42.113270+00:00",
+          "legend_key": [
+            {
+              "label": "Human / mouse numbering",
+              "text": "Residue positions differ between species."
+            },
+            {
+              "label": "K",
+              "text": "Lysine amino acid."
+            }
+          ],
+          "reading_note": "Match mouse and human sequence rows before transferring a residue number between species.",
           "short_label": "Figure 1B",
           "width": 305,
           "height": 411
@@ -28633,9 +34264,9 @@ window.GEMS = {
                 "short_label": "Figure S8F",
                 "source_sha256": "2072a659f1f600441f3cf47ccfc4405d8309ed2517fc90190cc76ad75b30b78e",
                 "box_normalized": [
-                  0.485,
+                  0.474,
                   0.535,
-                  1.0,
+                  1,
                   0.995
                 ],
                 "parent_crop": "panels/reviewed-prc2/agius26-figs8ef.png",
@@ -28650,18 +34281,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 41,
                 "box_pdf_points": [
-                  296.82,
+                  290.08799999999997,
                   423.72,
                   612.0,
                   788.04
                 ],
-                "render_dpi": 180,
-                "width": 788,
-                "height": 912,
+                "render_dpi": 216,
+                "width": 966,
+                "height": 1094,
                 "review_status": "reviewed",
-                "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "verification": "Individually inspected against native PDF source page; original rectangular source content only.",
+                "visual_reviewed_at": "2026-11-03T16:37:36.389581+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "SOF/SOF",
+                    "text": "Both gene copies lack the methylation site that stimulates PRC2."
+                  },
+                  {
+                    "label": "TSS / kb",
+                    "text": "Transcription start site / 1,000 DNA bases."
+                  },
+                  {
+                    "label": "H2Aub1 / H2AK119ub1",
+                    "text": "H2A carrying one ubiquitin on lysine 119."
+                  }
+                ],
+                "reading_note": "Compare WT/double-SOF H2AK119ub within each replicate; replicate scales differ."
               }
             ],
             "summary": [
@@ -28687,9 +34337,9 @@ window.GEMS = {
                 "short_label": "Figure S8E",
                 "source_sha256": "2072a659f1f600441f3cf47ccfc4405d8309ed2517fc90190cc76ad75b30b78e",
                 "box_normalized": [
-                  0.0,
+                  0,
                   0.535,
-                  0.5,
+                  0.507,
                   0.995
                 ],
                 "parent_crop": "panels/reviewed-prc2/agius26-figs8ef.png",
@@ -28706,16 +34356,31 @@ window.GEMS = {
                 "box_pdf_points": [
                   0.0,
                   423.72,
-                  306.0,
+                  310.284,
                   788.04
                 ],
-                "render_dpi": 180,
-                "width": 765,
-                "height": 912,
+                "render_dpi": 216,
+                "width": 931,
+                "height": 1094,
                 "review_status": "reviewed",
-                "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "verification": "Individually inspected against native PDF source page; original rectangular source content only.",
+                "visual_reviewed_at": "2026-11-03T16:37:36.194708+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "SOF/SOF",
+                    "text": "Both gene copies lack the methylation site that stimulates PRC2."
+                  },
+                  {
+                    "label": "TSS / kb",
+                    "text": "Transcription start site / 1,000 DNA bases."
+                  }
+                ],
+                "reading_note": "Compare WT/double-SOF RING1B within each replicate; replicate scales differ."
               }
             ],
             "summary": [
@@ -28780,7 +34445,30 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.586791+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698863+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference cells."
+            },
+            {
+              "label": "TKO",
+              "text": "PHF1/MTF2/PHF19 triple knockout."
+            },
+            {
+              "label": "QKO",
+              "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+            },
+            {
+              "label": "ChIP-Rx",
+              "text": "DNA-binding signal calibrated with reference chromatin."
+            },
+            {
+              "label": "kb",
+              "text": "Thousands of DNA bases."
+            }
+          ],
+          "reading_note": "Read SUZ12 and CBX7 separately against the WT/TKO/QKO line key."
         },
         {
           "paper_id": "healy-2019",
@@ -28812,7 +34500,26 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.622345+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698864+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference cells."
+            },
+            {
+              "label": "QKO",
+              "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+            },
+            {
+              "label": "ChIP-Rx",
+              "text": "DNA-binding signal calibrated with reference chromatin."
+            },
+            {
+              "label": "10kb / abundance",
+              "text": "10,000-base windows / overlapping-window count."
+            }
+          ],
+          "reading_note": "Upper and lower scatterplots show the same genomic-bin comparison at different signal ranges."
         },
         {
           "paper_id": "healy-2019",
@@ -28844,7 +34551,30 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.562632+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698863+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference cells."
+            },
+            {
+              "label": "TKO",
+              "text": "PHF1/MTF2/PHF19 triple knockout."
+            },
+            {
+              "label": "QKO",
+              "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+            },
+            {
+              "label": "c1 / c2",
+              "text": "Independent knockout clones."
+            },
+            {
+              "label": "Histone H3",
+              "text": "Histone loading control."
+            }
+          ],
+          "reading_note": "Panel B compares bulk marks in two QKO clones."
         }
       ],
       "limitations": [
@@ -28933,7 +34663,7 @@ window.GEMS = {
         "perturbation": "JARID2 + PHF1/MTF2/PHF19 quadruple-KO",
         "result": "Target-site SUZ12/CBX7/H3K27me3 ↓↓; SUZ12 ↑ in weak genomic bins. Bulk H3K27me3 remains substantial.",
         "function": "Core SUZ12 retained",
-        "scope": "Clonal quadruple-KO vs 72h triple-loss"
+        "scope": "Established JARID2/PHF1/MTF2/PHF19 KO vs 72h PHF1/MTF2/PHF19 loss"
       },
       "comparison_links": [],
       "presentation": {
@@ -29002,7 +34732,7 @@ window.GEMS = {
             "kind": "own_binding"
           }
         ],
-        "chromatin_note": "Genomic analysis: 273,031 bins of 10 kb. Established quadruple-KO versus 72h PCL triple-loss."
+        "chromatin_note": "273,031 genomic bins of 10 kb; established JARID2/PHF1/MTF2/PHF19 KO versus 72h PHF1/MTF2/PHF19 loss."
       },
       "result_evidence": {
         "readouts": [
@@ -29019,10 +34749,10 @@ window.GEMS = {
                 "short_label": "Figure 7E",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.6900499999999999,
-                  0.397,
-                  0.7726500000000001,
-                  0.4786
+                  0.575,
+                  0.38,
+                  0.87,
+                  0.55
                 ],
                 "parent_crop": "panels/coverage-prc2/healy19-fig7e.png",
                 "relative_parent_box": [
@@ -29036,18 +34766,41 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 12,
                 "box_pdf_points": [
-                  416.0905051361084,
-                  310.84545111083986,
-                  465.8971506317139,
-                  374.73711058349613
+                  346.71696319580076,
+                  297.5346887207031,
+                  524.5978399658203,
+                  430.64231262207034
                 ],
                 "render_dpi": 180,
-                "width": 125,
-                "height": 160,
-                "review_status": "reviewed",
+                "width": 446,
+                "height": 334,
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.694531+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "QKO",
+                    "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Read SUZ12 in the upper middle plot against the WT/TKO/QKO key."
               },
               {
                 "paper_id": "healy-2019",
@@ -29088,7 +34841,22 @@ window.GEMS = {
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
                 "checked": "2026-11-03",
-                "panel_role": "legend"
+                "panel_role": "legend",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "QKO",
+                    "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+                  }
+                ],
+                "reading_note": "This key identifies curves in the accompanying Figure 7E plots."
               },
               {
                 "paper_id": "healy-2019",
@@ -29100,7 +34868,7 @@ window.GEMS = {
                 "short_label": "Figure 7G",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.6786,
+                  0.5,
                   0.56,
                   0.88,
                   0.805
@@ -29117,18 +34885,37 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 12,
                 "box_pdf_points": [
-                  409.18631517333984,
+                  301.4930114746094,
                   438.47217285156256,
                   530.6277001953125,
                   630.3037484741211
                 ],
                 "render_dpi": 180,
-                "width": 305,
+                "width": 574,
                 "height": 480,
-                "review_status": "reviewed",
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.750010+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "QKO",
+                    "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "10kb / abundance",
+                    "text": "10,000-base windows / overlapping-window count."
+                  }
+                ],
+                "reading_note": "Read the SUZ12 column."
               }
             ],
             "summary": [
@@ -29187,7 +34974,30 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "QKO",
+                    "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+                  },
+                  {
+                    "label": "% input",
+                    "text": "Recovered DNA relative to starting DNA."
+                  },
+                  {
+                    "label": "-ve",
+                    "text": "Negative-control locus."
+                  }
+                ],
+                "reading_note": "Compare WT/TKO/QKO bars within each named locus."
               }
             ],
             "summary": [
@@ -29241,7 +35051,26 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "QKO",
+                    "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+                  },
+                  {
+                    "label": "c1 / c2",
+                    "text": "Independent knockout clones."
+                  },
+                  {
+                    "label": "Histone H3",
+                    "text": "Histone loading control."
+                  }
+                ],
+                "reading_note": "Compare WT with QKO c1 and c2, using Histone H3 as the loading reference."
               }
             ],
             "summary": [
@@ -29267,9 +35096,9 @@ window.GEMS = {
                 "short_label": "Figure 7E",
                 "source_sha256": "6896ba83c2f4699b186cb4c22a0ce4b5ba4c4c8ee50858b3a54d0352eb4d2185",
                 "box_normalized": [
-                  0.6103999999999999,
-                  0.4786,
-                  0.693,
+                  0.575,
+                  0.38,
+                  0.87,
                   0.55
                 ],
                 "parent_crop": "panels/coverage-prc2/healy19-fig7e.png",
@@ -29284,18 +35113,41 @@ window.GEMS = {
                 "view": "chromatin",
                 "page": 12,
                 "box_pdf_points": [
-                  368.0626684082031,
-                  374.73711058349613,
-                  417.8693139038086,
+                  346.71696319580076,
+                  297.5346887207031,
+                  524.5978399658203,
                   430.64231262207034
                 ],
                 "render_dpi": 180,
-                "width": 125,
-                "height": 141,
-                "review_status": "reviewed",
+                "width": 446,
+                "height": 334,
+                "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
-                "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "visual_reviewed_at": "2026-11-03T16:37:15.655917+00:00",
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "QKO",
+                    "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+                  },
+                  {
+                    "label": "ChIP-Rx",
+                    "text": "DNA-binding signal calibrated with reference chromatin."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "Thousands of DNA bases."
+                  }
+                ],
+                "reading_note": "Read CBX7 in the lower left plot against the WT/TKO/QKO key."
               },
               {
                 "paper_id": "healy-2019",
@@ -29336,7 +35188,22 @@ window.GEMS = {
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
                 "checked": "2026-11-03",
-                "panel_role": "legend"
+                "panel_role": "legend",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference cells."
+                  },
+                  {
+                    "label": "TKO",
+                    "text": "PHF1/MTF2/PHF19 triple knockout."
+                  },
+                  {
+                    "label": "QKO",
+                    "text": "JARID2/PHF1/MTF2/PHF19 quadruple knockout."
+                  }
+                ],
+                "reading_note": "This key identifies curves in the accompanying Figure 7E plots."
               }
             ],
             "summary": [
@@ -29421,6 +35288,21 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:28:41.515895+00:00",
           "source": "https://doi.org/10.1016/j.molcel.2014.12.020",
+          "legend_key": [
+            {
+              "label": "KO / WT",
+              "text": "JARID2 knockout / normal JARID2 rescue."
+            },
+            {
+              "label": "Lamin b1",
+              "text": "Loading control."
+            },
+            {
+              "label": "H3K27me2/3",
+              "text": "Antibody detects both methylation states together."
+            }
+          ],
+          "reading_note": "Compare WT-rescue and K116A-rescue lanes.",
           "short_label": "Figure 6B",
           "width": 287,
           "height": 352
@@ -29435,32 +35317,47 @@ window.GEMS = {
           "source_url": "https://doi.org/10.1016/j.molcel.2014.12.020",
           "source_sha256": "a99fbc17b912cacb93cb4a9a6cc2595da6fc05c23bce0edf68aad903d28d6123",
           "box_normalized": [
-            0.12,
-            0.51,
-            0.62,
-            0.92
+            0.11995577667219458,
+            0.5210727969348659,
+            0.6202321724709784,
+            0.9250744997871435
           ],
           "box_pixels": [
-            181,
-            999,
-            935,
-            1801
+            217,
+            1224,
+            1122,
+            2173
           ],
           "source_image_size": [
-            1508,
-            1958
+            1809,
+            2349
           ],
-          "caption": "Original source crop; no image content changed.",
+          "caption": "Single native-source rectangular crop; no data alteration or stitching.",
           "reviewed": true,
           "review_status": "reviewed",
-          "verification": "Caller confirmed manual visual review against the source.",
+          "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
           "created_at": "2026-11-02T22:18:38.602434+00:00",
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:38.602434+00:00",
           "source": "https://doi.org/10.1016/j.molcel.2014.12.020",
+          "legend_key": [
+            {
+              "label": "WT / K116A / KO",
+              "text": "Wild-type JARID2 rescue / JARID2 K116A rescue / cells lacking JARID2."
+            },
+            {
+              "label": "Days / heatmap scale",
+              "text": "Days of differentiation; use day 0 for the ESC comparison. Colors show median-centered expression of selected markers."
+            },
+            {
+              "label": "LINE / IAP / MERVL",
+              "text": "Classes of retrotransposon RNAs included in the lower heatmap; these are selected markers rather than whole-transcriptome measurements."
+            }
+          ],
+          "reading_note": "For the ESC baseline compare the first day-0 column in each WT/K116A/KO block. Later columns are differentiation; colors describe selected median-centered markers.",
           "short_label": "Figure 6F",
-          "width": 754,
-          "height": 802
+          "width": 905,
+          "height": 949
         }
       ],
       "why_useful": "An actual older baseline for the same JARID2 methylation-site question, with a different amino-acid substitution and rescue design from Agius 2026.",
@@ -29504,32 +35401,47 @@ window.GEMS = {
             "source_url": "https://doi.org/10.1016/j.molcel.2014.12.020",
             "source_sha256": "a99fbc17b912cacb93cb4a9a6cc2595da6fc05c23bce0edf68aad903d28d6123",
             "box_normalized": [
-              0.12,
-              0.51,
-              0.62,
-              0.92
+              0.11995577667219458,
+              0.5210727969348659,
+              0.6202321724709784,
+              0.9250744997871435
             ],
             "box_pixels": [
-              181,
-              999,
-              935,
-              1801
+              217,
+              1224,
+              1122,
+              2173
             ],
             "source_image_size": [
-              1508,
-              1958
+              1809,
+              2349
             ],
-            "caption": "Original source crop; no image content changed.",
+            "caption": "Single native-source rectangular crop; no data alteration or stitching.",
             "reviewed": true,
             "review_status": "reviewed",
-            "verification": "Caller confirmed manual visual review against the source.",
+            "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
             "created_at": "2026-11-02T22:18:38.602434+00:00",
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:18:38.602434+00:00",
             "source": "https://doi.org/10.1016/j.molcel.2014.12.020",
+            "legend_key": [
+              {
+                "label": "WT / K116A / KO",
+                "text": "Wild-type JARID2 rescue / JARID2 K116A rescue / cells lacking JARID2."
+              },
+              {
+                "label": "Days / heatmap scale",
+                "text": "Days of differentiation; use day 0 for the ESC comparison. Colors show median-centered expression of selected markers."
+              },
+              {
+                "label": "LINE / IAP / MERVL",
+                "text": "Classes of retrotransposon RNAs included in the lower heatmap; these are selected markers rather than whole-transcriptome measurements."
+              }
+            ],
+            "reading_note": "For the ESC baseline compare the first day-0 column in each WT/K116A/KO block. Later columns are differentiation; colors describe selected median-centered markers.",
             "short_label": "Figure 6F",
-            "width": 754,
-            "height": 802
+            "width": 905,
+            "height": 949
           }
         ],
         "source": "https://doi.org/10.1016/j.molcel.2014.12.020",
@@ -29694,6 +35606,21 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:28:41.515895+00:00",
                 "source": "https://doi.org/10.1016/j.molcel.2014.12.020",
+                "legend_key": [
+                  {
+                    "label": "KO / WT",
+                    "text": "JARID2 knockout / normal JARID2 rescue."
+                  },
+                  {
+                    "label": "Lamin b1",
+                    "text": "Loading control."
+                  },
+                  {
+                    "label": "H3K27me2/3",
+                    "text": "Antibody detects both methylation states together."
+                  }
+                ],
+                "reading_note": "Compare WT-rescue and K116A-rescue lanes.",
                 "short_label": "Figure 6B",
                 "width": 287,
                 "height": 352
@@ -29716,38 +35643,53 @@ window.GEMS = {
                 "paper_id": "sanulli-2015",
                 "observation_id": "sanulli15-fig6f",
                 "path": "panels/reviewed-prc2/sanulli15-fig6f.png",
-                "label": "Figure 6F — selected transcript time course",
+                "label": "Figure 6F — day-0 column in each genotype block; later columns are differentiation data",
                 "page": 11,
                 "source_file": null,
                 "source_url": "https://doi.org/10.1016/j.molcel.2014.12.020",
                 "source_sha256": "a99fbc17b912cacb93cb4a9a6cc2595da6fc05c23bce0edf68aad903d28d6123",
                 "box_normalized": [
-                  0.12,
-                  0.51,
-                  0.62,
-                  0.92
+                  0.11995577667219458,
+                  0.5210727969348659,
+                  0.6202321724709784,
+                  0.9250744997871435
                 ],
                 "box_pixels": [
-                  181,
-                  999,
-                  935,
-                  1801
+                  217,
+                  1224,
+                  1122,
+                  2173
                 ],
                 "source_image_size": [
-                  1508,
-                  1958
+                  1809,
+                  2349
                 ],
-                "caption": "Original source crop; no image content changed.",
+                "caption": "Single native-source rectangular crop; no data alteration or stitching.",
                 "reviewed": true,
                 "review_status": "reviewed",
-                "verification": "Caller confirmed manual visual review against the source.",
+                "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
                 "created_at": "2026-11-02T22:18:38.602434+00:00",
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:38.602434+00:00",
                 "source": "https://doi.org/10.1016/j.molcel.2014.12.020",
+                "legend_key": [
+                  {
+                    "label": "WT / K116A / KO",
+                    "text": "Wild-type JARID2 rescue / JARID2 K116A rescue / cells lacking JARID2."
+                  },
+                  {
+                    "label": "Days / heatmap scale",
+                    "text": "Days of differentiation; use day 0 for the ESC comparison. Colors show median-centered expression of selected markers."
+                  },
+                  {
+                    "label": "LINE / IAP / MERVL",
+                    "text": "Classes of retrotransposon RNAs included in the lower heatmap; these are selected markers rather than whole-transcriptome measurements."
+                  }
+                ],
+                "reading_note": "For the ESC baseline compare the first day-0 column in each WT/K116A/KO block. Later columns are differentiation; colors describe selected median-centered markers.",
                 "short_label": "Figure 6F",
-                "width": 754,
-                "height": 802
+                "width": 905,
+                "height": 949
               }
             ],
             "summary": [
@@ -29830,6 +35772,21 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:31.886326+00:00",
           "source": "https://doi.org/10.1038/s41588-018-0134-8",
+          "legend_key": [
+            {
+              "label": "mESC / Mtf2 GT/GT / Jarid2−/− / Eed−/−",
+              "text": "Mouse ESCs / homozygous Mtf2 gene-trap cells / cells lacking JARID2 / cells lacking EED."
+            },
+            {
+              "label": "ChIP / input / kb",
+              "text": "Chromatin immunoprecipitation / chromatin before immunoprecipitation / thousands of DNA bases."
+            },
+            {
+              "label": "Clusters 1–3",
+              "text": "EZH2-defined peak groups; tracks in B show example loci from each group."
+            }
+          ],
+          "reading_note": "In A compare MTF2 mESC with Jarid2-null and Eed-null columns within each EZH2-defined cluster. B gives representative loci; cluster 1 is narrow and cluster 2 broad.",
           "short_label": "Figure 4A–B",
           "width": 1101,
           "height": 484
@@ -29972,6 +35929,21 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:31.886326+00:00",
                 "source": "https://doi.org/10.1038/s41588-018-0134-8",
+                "legend_key": [
+                  {
+                    "label": "mESC / Mtf2 GT/GT / Jarid2−/− / Eed−/−",
+                    "text": "Mouse ESCs / homozygous Mtf2 gene-trap cells / cells lacking JARID2 / cells lacking EED."
+                  },
+                  {
+                    "label": "ChIP / input / kb",
+                    "text": "Chromatin immunoprecipitation / chromatin before immunoprecipitation / thousands of DNA bases."
+                  },
+                  {
+                    "label": "Clusters 1–3",
+                    "text": "EZH2-defined peak groups; tracks in B show example loci from each group."
+                  }
+                ],
+                "reading_note": "In A compare MTF2 mESC with Jarid2-null and Eed-null columns within each EZH2-defined cluster. B gives representative loci; cluster 1 is narrow and cluster 2 broad.",
                 "short_label": "Figure 4A–B",
                 "width": 1101,
                 "height": 484
@@ -30064,6 +36036,29 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:34.997222+00:00",
           "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "EED226 / − and +",
+              "text": "Without / with the EED inhibitor."
+            },
+            {
+              "label": "Mtf2 GT/GT / Jarid2 −/−",
+              "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+            },
+            {
+              "label": "Input",
+              "text": "Chromatin before antibody pull-down."
+            },
+            {
+              "label": "kb",
+              "text": "1,000 DNA bases."
+            }
+          ],
+          "reading_note": "Within each cluster compare WT with WT+EED226, then the treated Mtf2- and Jarid2-disrupted curves; untreated mutant curves are absent.",
           "short_label": "Figure 4F",
           "width": 1364,
           "height": 245
@@ -30208,6 +36203,29 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:34.997222+00:00",
                 "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
+                "legend_key": [
+                  {
+                    "label": "WT",
+                    "text": "Unmodified reference."
+                  },
+                  {
+                    "label": "EED226 / − and +",
+                    "text": "Without / with the EED inhibitor."
+                  },
+                  {
+                    "label": "Mtf2 GT/GT / Jarid2 −/−",
+                    "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+                  },
+                  {
+                    "label": "Input",
+                    "text": "Chromatin before antibody pull-down."
+                  },
+                  {
+                    "label": "kb",
+                    "text": "1,000 DNA bases."
+                  }
+                ],
+                "reading_note": "Within each cluster compare WT with WT+EED226, then the treated Mtf2- and Jarid2-disrupted curves; untreated mutant curves are absent.",
                 "short_label": "Figure 4F",
                 "width": 1364,
                 "height": 245
@@ -30275,7 +36293,18 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.645673+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698865+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "Pali WT / Pali1 sKO / Pali1/2 dKO",
+              "text": "Wild-type cells / cells lacking PALI1 alone / cells lacking both PALI1 and PALI2."
+            },
+            {
+              "label": "ChIP-Rx / TSS",
+              "text": "ChIP read counts calibrated with a reference spike-in / transcription start site."
+            }
+          ],
+          "reading_note": "Compare dark-blue Pali WT with medium-blue Pali1 sKO and pale-blue Pali1/2 dKO around the TSS; the mutant central profiles are lower."
         },
         {
           "paper_id": "conway-2018",
@@ -30307,7 +36336,26 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.676241+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698865+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "Pali WT / Pali1 sKO / Pali1/2 dKO",
+              "text": "Wild-type cells / cells lacking PALI1 alone / cells lacking both PALI1 and PALI2."
+            },
+            {
+              "label": "Aebp2 / AEBP2",
+              "text": "The RNA/protein measured; short and long in S5C distinguish RNA isoforms. The ChIP antibody in G does not distinguish protein isoforms."
+            },
+            {
+              "label": "Total / soluble / chromatin",
+              "text": "Whole-cell material / soluble fraction / chromatin-associated fraction. GAPDH and H3 are fraction/loading references."
+            },
+            {
+              "label": "% H3 / TSS / −ve",
+              "text": "AEBP2 ChIP recovery normalized to H3; TSS is a transcription start site; −ve marks the negative-control Gapdh locus."
+            }
+          ],
+          "reading_note": "F separates total, soluble and chromatin material; compare the lower AEBP2 bands within the right chromatin group. G measures AEBP2 ChIP at named loci."
         }
       ],
       "limitations": [
@@ -30383,6 +36431,17 @@ window.GEMS = {
             "reviewed_at": "2026-11-03T01:02:03.629328+00:00",
             "review_note": "Source SI PDFp11 and corrected final crop inspected. Both isoform titles, all three genotype labels, axes and bars retained; adjacent panel-D label has no measurement content here.",
             "view": "rna",
+            "legend_key": [
+              {
+                "label": "Pali WT / Pali1 sKO / Pali1/2 dKO",
+                "text": "Wild-type cells / cells lacking PALI1 alone / cells lacking both PALI1 and PALI2."
+              },
+              {
+                "label": "Relative mRNA",
+                "text": "Short- or long-isoform RT-qPCR abundance relative to WT."
+              }
+            ],
+            "reading_note": "The left plot is short Aebp2 RNA and the right plot long Aebp2 RNA. Compare sKO/dKO bars with Pali WT within each plot.",
             "short_label": "Figure S5C",
             "width": 734,
             "height": 396
@@ -30445,7 +36504,18 @@ window.GEMS = {
               "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
               "created_at": "2026-11-03T00:41:38.645673+00:00",
               "reviewed_at": "2026-11-03T00:47:20.698865+00:00",
-              "view": "chromatin"
+              "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "Pali WT / Pali1 sKO / Pali1/2 dKO",
+                  "text": "Wild-type cells / cells lacking PALI1 alone / cells lacking both PALI1 and PALI2."
+                },
+                {
+                  "label": "ChIP-Rx / TSS",
+                  "text": "ChIP read counts calibrated with a reference spike-in / transcription start site."
+                }
+              ],
+              "reading_note": "Compare dark-blue Pali WT with medium-blue Pali1 sKO and pale-blue Pali1/2 dKO around the TSS; the mutant central profiles are lower."
             },
             {
               "paper_id": "conway-2018",
@@ -30477,7 +36547,26 @@ window.GEMS = {
               "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
               "created_at": "2026-11-03T00:41:38.676241+00:00",
               "reviewed_at": "2026-11-03T00:47:20.698865+00:00",
-              "view": "chromatin"
+              "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "Pali WT / Pali1 sKO / Pali1/2 dKO",
+                  "text": "Wild-type cells / cells lacking PALI1 alone / cells lacking both PALI1 and PALI2."
+                },
+                {
+                  "label": "Aebp2 / AEBP2",
+                  "text": "The RNA/protein measured; short and long in S5C distinguish RNA isoforms. The ChIP antibody in G does not distinguish protein isoforms."
+                },
+                {
+                  "label": "Total / soluble / chromatin",
+                  "text": "Whole-cell material / soluble fraction / chromatin-associated fraction. GAPDH and H3 are fraction/loading references."
+                },
+                {
+                  "label": "% H3 / TSS / −ve",
+                  "text": "AEBP2 ChIP recovery normalized to H3; TSS is a transcription start site; −ve marks the negative-control Gapdh locus."
+                }
+              ],
+              "reading_note": "F separates total, soluble and chromatin material; compare the lower AEBP2 bands within the right chromatin group. G measures AEBP2 ChIP at named loci."
             }
           ],
           "linked_observation_id": "conway18-pali-aebp2-balance",
@@ -30541,7 +36630,7 @@ window.GEMS = {
         "readouts": [
           {
             "label": "H3K27me3 ChIP",
-            "text": "↓ after PALI1 loss; lower after double loss",
+            "text": "↓ after PALI1 loss; lower after PALI1/PALI2 double KO",
             "kind": "marks"
           },
           {
@@ -30570,7 +36659,7 @@ window.GEMS = {
         "chromatin": [
           {
             "label": "H3K27me3 ChIP",
-            "text": "↓ with PALI1 loss; somewhat lower with double loss",
+            "text": "↓ with PALI1 loss; somewhat lower with PALI1/PALI2 double KO",
             "kind": "marks"
           },
           {
@@ -30596,7 +36685,7 @@ window.GEMS = {
             "kind": "rna"
           }
         ],
-        "rna_note": "Isoform-specific RT-qPCR; single- and double-KO."
+        "rna_note": "Isoform-specific RT-qPCR; PALI1 KO and PALI1/PALI2 double KO."
       },
       "result_evidence": {
         "readouts": [
@@ -30633,13 +36722,24 @@ window.GEMS = {
                 "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
                 "created_at": "2026-11-03T00:41:38.645673+00:00",
                 "reviewed_at": "2026-11-03T00:47:20.698865+00:00",
-                "view": "chromatin"
+                "view": "chromatin",
+                "legend_key": [
+                  {
+                    "label": "Pali WT / Pali1 sKO / Pali1/2 dKO",
+                    "text": "Wild-type cells / cells lacking PALI1 alone / cells lacking both PALI1 and PALI2."
+                  },
+                  {
+                    "label": "ChIP-Rx / TSS",
+                    "text": "ChIP read counts calibrated with a reference spike-in / transcription start site."
+                  }
+                ],
+                "reading_note": "Compare dark-blue Pali WT with medium-blue Pali1 sKO and pale-blue Pali1/2 dKO around the TSS; the mutant central profiles are lower."
               }
             ],
             "summary": [
               {
                 "label": "H3K27me3 ChIP",
-                "text": "↓ with PALI1 loss; somewhat lower with double loss",
+                "text": "↓ with PALI1 loss; somewhat lower with PALI1/PALI2 double KO",
                 "kind": "marks"
               }
             ],
@@ -30686,7 +36786,18 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "Pali WT / Pali1 sKO / Pali1/2 dKO",
+                    "text": "Wild-type cells / cells lacking PALI1 alone / cells lacking both PALI1 and PALI2."
+                  },
+                  {
+                    "label": "Total / soluble / chromatin",
+                    "text": "Whole-cell / soluble / chromatin-associated material; GAPDH and H3 are fraction/loading references."
+                  }
+                ],
+                "reading_note": "Use the rightmost chromatin fraction; compare WT with Pali1 sKO and Pali1/2 dKO in the lower AEBP2 band. H3 is the chromatin reference."
               }
             ],
             "summary": [
@@ -30740,7 +36851,18 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "Pali WT / Pali1 sKO / Pali1/2 dKO",
+                    "text": "Wild-type cells / cells lacking PALI1 alone / cells lacking both PALI1 and PALI2."
+                  },
+                  {
+                    "label": "% H3 / TSS / −ve",
+                    "text": "AEBP2 ChIP normalized to H3 / transcription start site / negative-control locus."
+                  }
+                ],
+                "reading_note": "Compare blue WT/sKO/dKO bars at each named PRC2 target; G measures total antibody-detected AEBP2, not a specific isoform."
               }
             ],
             "summary": [
@@ -30792,6 +36914,17 @@ window.GEMS = {
                 "reviewed_at": "2026-11-03T01:02:03.629328+00:00",
                 "review_note": "Source SI PDFp11 and corrected final crop inspected. Both isoform titles, all three genotype labels, axes and bars retained; adjacent panel-D label has no measurement content here.",
                 "view": "rna",
+                "legend_key": [
+                  {
+                    "label": "Pali WT / Pali1 sKO / Pali1/2 dKO",
+                    "text": "Wild-type cells / cells lacking PALI1 alone / cells lacking both PALI1 and PALI2."
+                  },
+                  {
+                    "label": "Relative mRNA",
+                    "text": "Short- or long-isoform RT-qPCR abundance relative to WT."
+                  }
+                ],
+                "reading_note": "The left plot is short Aebp2 RNA and the right plot long Aebp2 RNA. Compare sKO/dKO bars with Pali WT within each plot.",
                 "short_label": "Figure S5C",
                 "width": 734,
                 "height": 396
@@ -30884,6 +37017,21 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:18:42.575203+00:00",
           "source": "https://doi.org/10.1242/dev.123935",
+          "legend_key": [
+            {
+              "label": "WT / tr/tr",
+              "text": "Wild-type cells versus cells homozygous for the Aebp2 gene-trap allele."
+            },
+            {
+              "label": "Input / repeat 1–2",
+              "text": "Chromatin before immunoprecipitation / two independent ChIP experiments."
+            },
+            {
+              "label": "Read depth / H3K27me3",
+              "text": "Sequencing signal at AEBP2-bound sites / histone H3 lysine 27 trimethylation."
+            }
+          ],
+          "reading_note": "In both repeats compare pale-green tr/tr H3K27me3 with dark-green WT around the center; pale-green signal is higher. Gray/black are input controls.",
           "short_label": "Figure 4C",
           "width": 857,
           "height": 271
@@ -30921,6 +37069,21 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:25:45.675506+00:00",
           "source": "https://doi.org/10.1242/dev.123935",
+          "legend_key": [
+            {
+              "label": "WT / tr/tr",
+              "text": "Normal / both Aebp2 copies truncated before exon 2."
+            },
+            {
+              "label": "Input",
+              "text": "Chromatin before antibody pull-down."
+            },
+            {
+              "label": " ± 5000",
+              "text": "DNA bases around the aligned SUZ12 binding-site center."
+            }
+          ],
+          "reading_note": "Compare dark/light blue SUZ12 profiles within each repeat; black/gray curves are matching input controls. Vertical ranges differ between repeats.",
           "short_label": "Figure S4E",
           "width": 1131,
           "height": 421
@@ -30958,6 +37121,21 @@ window.GEMS = {
           "checked": "2026-11-02",
           "visual_reviewed_at": "2026-11-02T22:25:46.168130+00:00",
           "source": "https://doi.org/10.1242/dev.123935",
+          "legend_key": [
+            {
+              "label": "WT / tr/tr",
+              "text": "Normal / both Aebp2 copies truncated before exon 2."
+            },
+            {
+              "label": "Idh2 / WT",
+              "text": "Reference-gene normalization / reference cells set to 1."
+            },
+            {
+              "label": "*",
+              "text": "Reported significant change."
+            }
+          ],
+          "reading_note": "Compare WT/Aebp2-truncated bars at each gene; the asterisk marks the reported Aebp2 change and other estimates have broad error bars.",
           "short_label": "Figure S4B",
           "width": 452,
           "height": 364
@@ -31024,6 +37202,21 @@ window.GEMS = {
             "checked": "2026-11-02",
             "visual_reviewed_at": "2026-11-02T22:25:46.168130+00:00",
             "source": "https://doi.org/10.1242/dev.123935",
+            "legend_key": [
+              {
+                "label": "WT / tr/tr",
+                "text": "Normal / both Aebp2 copies truncated before exon 2."
+              },
+              {
+                "label": "Idh2 / WT",
+                "text": "Reference-gene normalization / reference cells set to 1."
+              },
+              {
+                "label": "*",
+                "text": "Reported significant change."
+              }
+            ],
+            "reading_note": "Compare WT/Aebp2-truncated bars at each gene; the asterisk marks the reported Aebp2 change and other estimates have broad error bars.",
             "short_label": "Figure S4B",
             "width": 452,
             "height": 364
@@ -31152,6 +37345,21 @@ window.GEMS = {
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:18:44.203175+00:00",
               "source": "https://doi.org/10.1242/dev.123935",
+              "legend_key": [
+                {
+                  "label": "WT / tr/tr",
+                  "text": "Wild-type cells versus cells homozygous for the Aebp2 gene-trap allele."
+                },
+                {
+                  "label": "IP / input / IgG",
+                  "text": "Immunoprecipitation using the named protein as bait / starting material / control immunoglobulin."
+                },
+                {
+                  "label": "GFP-NeoR / cross-reacting band",
+                  "text": "AEBP2 fusion to green fluorescent protein and neomycin resistance marker / antibody signal from an unrelated protein."
+                }
+              ],
+              "reading_note": "Within the EZH2 and JARID2 IP pairs compare WT and tr/tr lanes; blue and green boxes are native source annotations around changed associations.",
               "short_label": "Figure 2D",
               "width": 597,
               "height": 362
@@ -31220,6 +37428,21 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:46.168130+00:00",
                 "source": "https://doi.org/10.1242/dev.123935",
+                "legend_key": [
+                  {
+                    "label": "WT / tr/tr",
+                    "text": "Normal / both Aebp2 copies truncated before exon 2."
+                  },
+                  {
+                    "label": "Idh2 / WT",
+                    "text": "Reference-gene normalization / reference cells set to 1."
+                  },
+                  {
+                    "label": "*",
+                    "text": "Reported significant change."
+                  }
+                ],
+                "reading_note": "Compare WT/Aebp2-truncated bars at each gene; the asterisk marks the reported Aebp2 change and other estimates have broad error bars.",
                 "short_label": "Figure S4B",
                 "width": 452,
                 "height": 364
@@ -31300,7 +37523,7 @@ window.GEMS = {
         }
       ],
       "compact": {
-        "perturbation": "AEBP2 gene trap",
+        "perturbation": "AEBP2 gene-trap truncation",
         "result": "Target-site H3K27me3 ↑; SUZ12 enrichment retained or higher. Selected RNA estimates remain uncertain.",
         "function": "Alters PRC2 partner association; both AEBP2 isoforms affected",
         "rna_result": "Selected panel: only Aebp2 significantly changed; other estimates uncertain."
@@ -31396,6 +37619,21 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:45.675506+00:00",
                 "source": "https://doi.org/10.1242/dev.123935",
+                "legend_key": [
+                  {
+                    "label": "WT / tr/tr",
+                    "text": "Normal / both Aebp2 copies truncated before exon 2."
+                  },
+                  {
+                    "label": "Input",
+                    "text": "Chromatin before antibody pull-down."
+                  },
+                  {
+                    "label": " ± 5000",
+                    "text": "DNA bases around the aligned SUZ12 binding-site center."
+                  }
+                ],
+                "reading_note": "Compare dark/light blue SUZ12 profiles within each repeat; black/gray curves are matching input controls. Vertical ranges differ between repeats.",
                 "short_label": "Figure S4E",
                 "width": 1131,
                 "height": 421
@@ -31451,6 +37689,21 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:18:42.575203+00:00",
                 "source": "https://doi.org/10.1242/dev.123935",
+                "legend_key": [
+                  {
+                    "label": "WT / tr/tr",
+                    "text": "Wild-type cells versus cells homozygous for the Aebp2 gene-trap allele."
+                  },
+                  {
+                    "label": "Input / repeat 1–2",
+                    "text": "Chromatin before immunoprecipitation / two independent ChIP experiments."
+                  },
+                  {
+                    "label": "Read depth / H3K27me3",
+                    "text": "Sequencing signal at AEBP2-bound sites / histone H3 lysine 27 trimethylation."
+                  }
+                ],
+                "reading_note": "In both repeats compare pale-green tr/tr H3K27me3 with dark-green WT around the center; pale-green signal is higher. Gray/black are input controls.",
                 "short_label": "Figure 4C",
                 "width": 857,
                 "height": 271
@@ -31501,6 +37754,21 @@ window.GEMS = {
                 "checked": "2026-11-02",
                 "visual_reviewed_at": "2026-11-02T22:25:46.168130+00:00",
                 "source": "https://doi.org/10.1242/dev.123935",
+                "legend_key": [
+                  {
+                    "label": "WT / tr/tr",
+                    "text": "Normal / both Aebp2 copies truncated before exon 2."
+                  },
+                  {
+                    "label": "Idh2 / WT",
+                    "text": "Reference-gene normalization / reference cells set to 1."
+                  },
+                  {
+                    "label": "*",
+                    "text": "Reported significant change."
+                  }
+                ],
+                "reading_note": "Compare WT/Aebp2-truncated bars at each gene; the asterisk marks the reported Aebp2 change and other estimates have broad error bars.",
                 "short_label": "Figure S4B",
                 "width": 452,
                 "height": 364
@@ -31573,7 +37841,22 @@ window.GEMS = {
           "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
           "created_at": "2026-11-03T00:41:38.753981+00:00",
           "reviewed_at": "2026-11-03T00:47:20.698866+00:00",
-          "view": "chromatin"
+          "view": "chromatin",
+          "legend_key": [
+            {
+              "label": "shCt / shEPOP #3,#4",
+              "text": "Control / EPOP-targeting hairpin; number identifies construct."
+            },
+            {
+              "label": "TSS",
+              "text": "Transcription start site."
+            },
+            {
+              "label": "Normalized count",
+              "text": "Sequencing signal adjusted for read depth."
+            }
+          ],
+          "reading_note": "Compare control and EPOP hairpin curves within each molecule."
         }
       ],
       "limitations": [
@@ -31640,7 +37923,26 @@ window.GEMS = {
             "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
             "created_at": "2026-11-03T00:41:38.779621+00:00",
             "reviewed_at": "2026-11-03T00:47:20.698867+00:00",
-            "view": "rna"
+            "view": "rna",
+            "legend_key": [
+              {
+                "label": "EPOP -/- #1 / #2",
+                "text": "Independent EPOP knockout clones."
+              },
+              {
+                "label": "UP / DW",
+                "text": "Increased / decreased RNA."
+              },
+              {
+                "label": "FPKM",
+                "text": "RNA fragments per kilobase per million mapped reads."
+              },
+              {
+                "label": "Rel. expression",
+                "text": "Expression scaled to WT."
+              }
+            ],
+            "reading_note": "Panel A counts RNA changes in two EPOP-knockout clones."
           },
           {
             "paper_id": "beringer-2016",
@@ -31672,7 +37974,26 @@ window.GEMS = {
             "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
             "created_at": "2026-11-03T00:41:38.818644+00:00",
             "reviewed_at": "2026-11-03T00:47:20.698868+00:00",
-            "view": "rna"
+            "view": "rna",
+            "legend_key": [
+              {
+                "label": "shCt / shEPOP / siCt / siEloB",
+                "text": "Control hairpin / EPOP hairpin / control siRNA / Elongin B siRNA."
+              },
+              {
+                "label": "EPOP -/- #1 / #2",
+                "text": "Independent EPOP knockout clones."
+              },
+              {
+                "label": "FPKM",
+                "text": "RNA fragments per kilobase per million mapped reads."
+              },
+              {
+                "label": "log10+1",
+                "text": "Base-10 scale after adding one."
+              }
+            ],
+            "reading_note": "Panel I defines increased-SUZ12 cohorts under EPOP/Elongin B depletion."
           }
         ],
         "conditions": {
@@ -31731,7 +38052,22 @@ window.GEMS = {
               "review_status": "Source page and final crop visually inspected; selected panel labels, genotype keys, axes and legends retained.",
               "created_at": "2026-11-03T00:41:38.753981+00:00",
               "reviewed_at": "2026-11-03T00:47:20.698866+00:00",
-              "view": "chromatin"
+              "view": "chromatin",
+              "legend_key": [
+                {
+                  "label": "shCt / shEPOP #3,#4",
+                  "text": "Control / EPOP-targeting hairpin; number identifies construct."
+                },
+                {
+                  "label": "TSS",
+                  "text": "Transcription start site."
+                },
+                {
+                  "label": "Normalized count",
+                  "text": "Sequencing signal adjusted for read depth."
+                }
+              ],
+              "reading_note": "Compare control and EPOP hairpin curves within each molecule."
             }
           ],
           "link_label": "Related hairpin chromatin; different intervention ↗"
@@ -31774,7 +38110,7 @@ window.GEMS = {
       ],
       "category": "serum_no_2i",
       "compact": {
-        "perturbation": "EPOP KD · sh#3/sh#4",
+        "perturbation": "EPOP knockdown · hairpins #3/#4",
         "result": "SUZ12/JARID2/H3K27me3 enrichment ↑ at EPOP targets; 1,185 SUZ12-gain versus 96 loss genes.",
         "scope": "ChIP: hairpins; RNA: separate KO clones",
         "rna_result": "EPOP KO: 92 ↑/352 ↓ shared by two clones; several Polycomb targets ↓.",
@@ -31824,7 +38160,7 @@ window.GEMS = {
         "chromatin_note": "4,542 EPOP sites; SUZ12 gain/loss cutoff: 1.5-fold. Separate hairpin lines.",
         "rna": [
           {
-            "label": "RNA-seq · shared across two KO clones",
+            "label": "RNA-seq · shared across two EPOP KO clones",
             "text": "92 ↑ / 352 ↓ by ≥2-fold",
             "kind": "rna"
           },
@@ -31834,12 +38170,12 @@ window.GEMS = {
             "kind": "rna"
           },
           {
-            "label": "SUZ12-gain gene cohorts",
+            "label": "RNA · genes with SUZ12 gain under EPOP/Elongin B depletion",
             "text": "lower RNA",
             "kind": "rna"
           }
         ],
-        "rna_note": "RNA: CRISPR-KO clones; ChIP: separate shRNA lines."
+        "rna_note": "RNA: EPOP CRISPR-KO clones; ChIP: separate EPOP-hairpin lines."
       },
       "result_evidence": {
         "readouts": [
@@ -31884,7 +38220,22 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "shCt / shEPOP #3,#4",
+                    "text": "Control / EPOP-targeting hairpin; number identifies construct."
+                  },
+                  {
+                    "label": "TSS",
+                    "text": "Transcription start site."
+                  },
+                  {
+                    "label": "Normalized count",
+                    "text": "Sequencing signal adjusted for read depth."
+                  }
+                ],
+                "reading_note": "Compare shCt with shEPOP #4 at EPOP targets and EPOP-negative genes."
               }
             ],
             "summary": [
@@ -31938,7 +38289,22 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "shCt / shEPOP #3,#4",
+                    "text": "Control / EPOP-targeting hairpin; number identifies construct."
+                  },
+                  {
+                    "label": "TSS",
+                    "text": "Transcription start site."
+                  },
+                  {
+                    "label": "Normalized count",
+                    "text": "Sequencing signal adjusted for read depth."
+                  }
+                ],
+                "reading_note": "Compare shCt with shEPOP #3 at EPOP targets and EPOP-negative genes."
               }
             ],
             "summary": [
@@ -31992,7 +38358,22 @@ window.GEMS = {
                 "review_status": "reviewed",
                 "verification": "Native-source rectangular crop, visually reviewed after rendering against the original panel. No data edited; shared scale/domain keys supplied in the focused caption where outside the subplot.",
                 "visual_reviewed_at": "2026-11-03T15:52:05.488528+00:00",
-                "checked": "2026-11-03"
+                "checked": "2026-11-03",
+                "legend_key": [
+                  {
+                    "label": "shCt / shEPOP #3,#4",
+                    "text": "Control / EPOP-targeting hairpin; number identifies construct."
+                  },
+                  {
+                    "label": "TSS",
+                    "text": "Transcription start site."
+                  },
+                  {
+                    "label": "Normalized count",
+                    "text": "Sequencing signal adjusted for read depth."
+                  }
+                ],
+                "reading_note": "Compare shCt with shEPOP #4 at EPOP targets and EPOP-negative genes."
               }
             ],
             "summary": [

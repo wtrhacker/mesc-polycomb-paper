@@ -333,6 +333,24 @@ pre { white-space:pre-wrap; overflow-wrap:anywhere; }
 .focused-result .panel-figure { width:100%; max-width:440px; box-sizing:border-box; }
 .panel-figure.shared-key { max-width:250px; align-self:start; }
 .panel-figure.shared-key img { width:auto; max-width:100%; max-height:80px; }
+.panel-image { display:block; border:0; padding:0; width:100%; background:white; cursor:zoom-in; }
+.panel-key-strip { display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin:8px 0; }
+.panel-key-strip .native-key { width:auto; max-width:100%; }
+.panel-key-strip .native-key img { width:auto; height:auto; max-width:100%; max-height:80px; }
+.figure-zoom-link { margin-right:12px; font-size:10px; }
+.panel-legend { margin:9px 0 0; border-top:1px solid var(--line); padding-top:7px; font-size:11px; line-height:1.4; }
+.panel-legend>div { display:grid; grid-template-columns:minmax(65px,24%) 1fr; gap:8px; margin:4px 0; }
+.panel-legend dt { font-weight:600; }
+.panel-legend dd { margin:0; }
+.panel-legend dt,.panel-legend dd { min-width:0; overflow-wrap:anywhere; }
+.panel-reading-note { font-size:12px; line-height:1.45; margin:8px 0; color:var(--ink); }
+#panel-zoom { width:calc(100vw - 28px); max-width:none; height:calc(100vh - 28px); max-height:none; padding:0; border:1px solid var(--line); border-radius:7px; overflow:hidden; }
+#panel-zoom::backdrop { background:rgba(20,28,24,.72); }
+.zoom-bar { display:flex; align-items:center; justify-content:space-between; gap:14px; padding:10px 15px; border-bottom:1px solid var(--line); font-size:12px; }
+.zoom-controls { display:flex; gap:7px; }
+.zoom-controls button { border:1px solid var(--line); border-radius:4px; background:white; padding:5px 10px; cursor:pointer; }
+.zoom-canvas { height:calc(100% - 55px); overflow:auto; padding:10px; box-sizing:border-box; }
+#zoom-image { display:block; height:auto; max-width:none; margin:0 auto; }
 .detail-section>.detail-readout-note { margin:3px 0 12px; color:var(--muted); font-size:11px; line-height:1.4; }
 @media(max-width:580px){
  .detail-readouts { font-size:12px; }
