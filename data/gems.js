@@ -132,7 +132,18 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1016/j.molcel.2026.02.011",
         "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "Human / mouse numbering",
+            "text": "Residue positions differ between species."
+          },
+          {
+            "label": "K",
+            "text": "Lysine amino acid."
+          }
+        ],
+        "reading_note": "Match mouse and human sequence rows before transferring a residue number between species."
       },
       "citation": "Agius et al.",
       "pdf_path": null,
@@ -1483,7 +1494,18 @@ window.GEMS = {
           "verification": "Caller confirmed manual visual review against the source.",
           "created_at": "2026-11-02T22:30:54.506765+00:00",
           "checked": "2026-11-02",
-          "visual_reviewed_at": "2026-11-02T22:30:54.506765+00:00"
+          "visual_reviewed_at": "2026-11-02T22:30:54.506765+00:00",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated cells versus 4-hydroxytamoxifen-treated cells that remove RYBP in a YAF2-null background."
+            },
+            {
+              "label": "Log2 fold change / base mean / P",
+              "text": "Base-2 log treated/control nuclear RNA abundance / average normalized count / significance P-value. Red dots mark P < 0.05."
+            }
+          ],
+          "reading_note": "Points above zero have higher nuclear RNA after RYBP removal; red points meet P < 0.05. The counts 230/37 come from the source analysis, not labels drawn in this MA plot."
         },
         "source": "https://doi.org/10.7554/eLife.18591",
         "panels": [
@@ -2068,7 +2090,22 @@ window.GEMS = {
           "verification": "Caller confirmed manual visual review against the source.",
           "created_at": "2026-11-02T22:30:57.019666+00:00",
           "checked": "2026-11-02",
-          "visual_reviewed_at": "2026-11-02T22:30:57.019666+00:00"
+          "visual_reviewed_at": "2026-11-02T22:30:57.019666+00:00",
+          "legend_key": [
+            {
+              "label": "IAA / h",
+              "text": "Auxin-triggered RYBP degradation / hours."
+            },
+            {
+              "label": "% input",
+              "text": "Antibody-enriched DNA as a fraction of starting chromatin."
+            },
+            {
+              "label": "IgG",
+              "text": "Background-control antibody."
+            }
+          ],
+          "reading_note": "Upper panels measure local H2AK119ub1; lower panels measure RNA at the same four loci over their displayed time points."
         },
         "source": "https://doi.org/10.1038/s41556-020-0484-1",
         "match_scope": "IAA-treated cells only: same four genes at 12, 24 and 48 hours. No RNA pair for the aphidicolin comparison.",
@@ -3956,7 +3993,18 @@ window.GEMS = {
           "verification": "Caller confirmed manual visual review against the source.",
           "created_at": "2026-11-02T22:30:58.440093+00:00",
           "checked": "2026-11-02",
-          "visual_reviewed_at": "2026-11-02T22:30:58.440093+00:00"
+          "visual_reviewed_at": "2026-11-02T22:30:58.440093+00:00",
+          "legend_key": [
+            {
+              "label": "TF/AA / WT",
+              "text": "RYBP reader variant / reference."
+            },
+            {
+              "label": "Log2 / −log10 p",
+              "text": "RNA fold-change scale / statistical significance; higher −log10 p means smaller p."
+            }
+          ],
+          "reading_note": "Positive horizontal values mean more RNA in the reader mutant; colored counts refer to the significantly changed genes."
         },
         "source": "https://doi.org/10.1038/s41556-020-0484-1",
         "chromatin_pairing": {
@@ -4535,7 +4583,22 @@ window.GEMS = {
           "verification": "Caller confirmed manual visual review against the source.",
           "created_at": "2026-11-02T22:30:59.636426+00:00",
           "checked": "2026-11-02",
-          "visual_reviewed_at": "2026-11-02T22:30:59.636426+00:00"
+          "visual_reviewed_at": "2026-11-02T22:30:59.636426+00:00",
+          "legend_key": [
+            {
+              "label": "UNT / OHT",
+              "text": "Untreated versus 4-hydroxytamoxifen-treated cells. Left: RING1B removal in RING1A-null cells. Right: PCGF2 removal in PCGF4-null cells."
+            },
+            {
+              "label": "Log2 OHT/UNT / RPKM",
+              "text": "RNA fold change after treatment, on a base-2 log scale, versus untreated reads per kilobase per million mapped reads."
+            },
+            {
+              "label": "fl/fl / −/−",
+              "text": "Two conditional floxed alleles / loss of both copies of the named gene."
+            }
+          ],
+          "reading_note": "Use the right Pcgf4-null/Pcgf2-conditional comparison for 13 up and 7 down; the left RING1A/B-loss plot is a separate comparator."
         },
         "source": "https://doi.org/10.1016/j.molcel.2019.03.024",
         "panels": [
@@ -5935,7 +5998,18 @@ window.GEMS = {
           "verification": "Caller confirmed manual visual review against the source.",
           "created_at": "2026-11-02T22:31:00.797425+00:00",
           "checked": "2026-11-02",
-          "visual_reviewed_at": "2026-11-02T22:31:00.797425+00:00"
+          "visual_reviewed_at": "2026-11-02T22:31:00.797425+00:00",
+          "legend_key": [
+            {
+              "label": "fl/fl / −/−",
+              "text": "Two conditional floxed alleles / both gene copies absent; labels name PCGF combinations or the RING1A/B comparator."
+            },
+            {
+              "label": "OHT/UNT",
+              "text": "RNA after/before 4-hydroxytamoxifen treatment, shown as a base-2 log ratio."
+            }
+          ],
+          "reading_note": "The first three violins remove the indicated PCGF combinations; the right red violin removes RING1A/B. All measure RNA at the same RING1B-retained promoter set."
         },
         "source": "https://doi.org/10.1016/j.molcel.2019.03.024",
         "panels": [
@@ -14054,7 +14128,26 @@ window.GEMS = {
               "created_at": "2026-11-02T22:23:35.231601+00:00",
               "checked": "2026-11-02",
               "visual_reviewed_at": "2026-11-02T22:23:35.231601+00:00",
-              "view": "Related Chromatin"
+              "view": "Related Chromatin",
+              "legend_key": [
+                {
+                  "label": "UNT",
+                  "text": "Untreated."
+                },
+                {
+                  "label": "IAA",
+                  "text": "Auxin removes tagged RING1B; RING1A is already absent."
+                },
+                {
+                  "label": "Pol II / Ser5P / Ser2P",
+                  "text": "Polymerase / phosphate at tail serine 5 or 2."
+                },
+                {
+                  "label": "kb",
+                  "text": "Thousands of DNA bases."
+                }
+              ],
+              "reading_note": "Compare untreated and 2-hour auxin tracks within each named gene and each polymerase measurement."
             }
           ],
           "panels": []
@@ -24626,7 +24719,26 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1242/dev.196329",
         "source": "https://doi.org/10.1242/dev.196329",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "CJ7",
+            "text": "Mouse ESC background."
+          },
+          {
+            "label": "-/-",
+            "text": "Knockout of the named gene."
+          },
+          {
+            "label": "681C-99 / -102",
+            "text": "Independent mutant EZH2 clones."
+          },
+          {
+            "label": "α / TBP / kDa",
+            "text": "Antibody / loading control / protein-size unit."
+          }
+        ],
+        "reading_note": "Compare WT with each R681C clone in the mark rows while retaining EZH2 and TBP controls."
       },
       "panels": [
         {
@@ -24811,7 +24923,26 @@ window.GEMS = {
           "source_file": null,
           "source_url": "https://doi.org/10.1242/dev.196329",
           "source": "https://doi.org/10.1242/dev.196329",
-          "reviewed": true
+          "reviewed": true,
+          "legend_key": [
+            {
+              "label": "Mtase",
+              "text": "Dependence on EZH2 methyltransferase activity."
+            },
+            {
+              "label": "D0 / D4 / D8",
+              "text": "Differentiation days 0 / 4 / 8."
+            },
+            {
+              "label": "Z-scores of RPKM",
+              "text": "Standardized RNA read counts per kilobase per million."
+            },
+            {
+              "label": "Similar / different starting expression",
+              "text": "Day-0 mutant-versus-WT RNA within / beyond 1.2-fold."
+            }
+          ],
+          "reading_note": "The top/bottom gene groups are selected by day-0 WT-versus-mutant RNA similarity."
         },
         "panels": [
           {
@@ -25218,7 +25349,18 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1016/j.celrep.2016.09.087",
         "source": "https://doi.org/10.1016/j.celrep.2016.09.087",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "NI / NS / C",
+            "text": "Nuclear-insoluble / nuclear-soluble / cytoplasmic fractions."
+          },
+          {
+            "label": "H3 / Tubulin / GAPDH",
+            "text": "Loading controls."
+          }
+        ],
+        "reading_note": "Panel B separates cellular fractions for histone-mark controls."
       },
       "panels": [
         {
@@ -25403,7 +25545,18 @@ window.GEMS = {
           "source_file": null,
           "source_url": "https://doi.org/10.1016/j.celrep.2016.09.087",
           "source": "https://doi.org/10.1016/j.celrep.2016.09.087",
-          "reviewed": true
+          "reviewed": true,
+          "legend_key": [
+            {
+              "label": "WT",
+              "text": "Unmodified reference."
+            },
+            {
+              "label": "Fold change",
+              "text": "RNA relative to reference cells, set to 1."
+            }
+          ],
+          "reading_note": "Compare WT/Y641F RNA for each named lineage/pluripotency gene, with WT normalized to 1."
         },
         "panels": [
           {
@@ -27601,7 +27754,34 @@ window.GEMS = {
         "verification": "Caller confirmed manual visual review against the source.",
         "created_at": "2026-11-02T22:58:20.410660+00:00",
         "checked": "2026-11-02",
-        "visual_reviewed_at": "2026-11-02T22:58:20.410660+00:00"
+        "visual_reviewed_at": "2026-11-02T22:58:20.410660+00:00",
+        "legend_key": [
+          {
+            "label": "WT",
+            "text": "Unmodified reference."
+          },
+          {
+            "label": "EED226 / − and +",
+            "text": "Without / with the EED inhibitor."
+          },
+          {
+            "label": "Mtf2 GT/GT / Jarid2 −/−",
+            "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+          },
+          {
+            "label": "n / 1–6",
+            "text": "Number of binding sites / source-defined site clusters."
+          },
+          {
+            "label": "rpkm / ± 5 kb",
+            "text": "Normalized read signal / 5,000 DNA bases on either side."
+          },
+          {
+            "label": "Input",
+            "text": "Chromatin before antibody pull-down."
+          }
+        ],
+        "reading_note": "Compare matched heatmap columns and boxplots separately for EZH2 and MTF2; the treatment/genotype sets differ."
       },
       "panels": [
         {
@@ -28316,7 +28496,30 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1016/j.stemcr.2020.07.007",
         "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "WT",
+            "text": "Unmodified reference."
+          },
+          {
+            "label": "EED226 / − and +",
+            "text": "Without / with the EED inhibitor."
+          },
+          {
+            "label": "Mtf2 GT/GT / Jarid2 −/−",
+            "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+          },
+          {
+            "label": "n / 1–6",
+            "text": "Number of binding sites / source-defined site clusters."
+          },
+          {
+            "label": "Input",
+            "text": "Chromatin before antibody pull-down."
+          }
+        ],
+        "reading_note": "Compare −/+ EED226 within WT and Jarid2-deleted cells; Mtf2-disrupted columns provide the parallel genotype comparison."
       },
       "panels": [
         {
@@ -28832,7 +29035,30 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1016/j.stemcr.2020.07.007",
         "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "WT",
+            "text": "Unmodified reference."
+          },
+          {
+            "label": "EED226 / − and +",
+            "text": "Without / with the EED inhibitor."
+          },
+          {
+            "label": "Mtf2 GT/GT / Jarid2 −/−",
+            "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+          },
+          {
+            "label": "Input",
+            "text": "Chromatin before antibody pull-down."
+          },
+          {
+            "label": "kb",
+            "text": "1,000 DNA bases."
+          }
+        ],
+        "reading_note": "Within each cluster compare WT with WT+EED226, then the treated Mtf2- and Jarid2-disrupted curves; untreated mutant curves are absent."
       },
       "panels": [
         {
@@ -29111,7 +29337,22 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1038/s41588-018-0134-8",
         "source": "https://doi.org/10.1038/s41588-018-0134-8",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "mESC / Mtf2 GT/GT / Jarid2−/− / Eed−/−",
+            "text": "Mouse ESCs / homozygous Mtf2 gene-trap cells / cells lacking JARID2 / cells lacking EED."
+          },
+          {
+            "label": "ChIP / input / kb",
+            "text": "Chromatin immunoprecipitation / chromatin before immunoprecipitation / thousands of DNA bases."
+          },
+          {
+            "label": "Clusters 1–3",
+            "text": "EZH2-defined peak groups; tracks in B show example loci from each group."
+          }
+        ],
+        "reading_note": "In A compare MTF2 mESC with Jarid2-null and Eed-null columns within each EZH2-defined cluster. B gives representative loci; cluster 1 is narrow and cluster 2 broad."
       },
       "panels": [
         {
@@ -30913,7 +31154,30 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1016/j.stemcr.2020.07.007",
         "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "WT",
+            "text": "Unmodified reference."
+          },
+          {
+            "label": "EED226 / − and +",
+            "text": "Without / with the EED inhibitor."
+          },
+          {
+            "label": "Mtf2 GT/GT / Jarid2 −/−",
+            "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+          },
+          {
+            "label": "Input",
+            "text": "Chromatin before antibody pull-down."
+          },
+          {
+            "label": "kb",
+            "text": "1,000 DNA bases."
+          }
+        ],
+        "reading_note": "Within each cluster compare WT with WT+EED226, then the treated Mtf2- and Jarid2-disrupted curves; untreated mutant curves are absent."
       },
       "panels": [
         {
@@ -33126,7 +33390,30 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1016/j.molcel.2026.02.011",
         "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "WT",
+            "text": "Unedited reference cells."
+          },
+          {
+            "label": "SOF/SOF",
+            "text": "Both gene copies carry the indicated separation-of-function edit."
+          },
+          {
+            "label": "INPUT",
+            "text": "Starting-DNA control."
+          },
+          {
+            "label": "CpG islands",
+            "text": "DNA regions rich in CpG dinucleotides."
+          },
+          {
+            "label": "kb",
+            "text": "Thousands of DNA bases."
+          }
+        ],
+        "reading_note": "Compare WT and double-mutant tracks within each molecule."
       },
       "panels": [
         {
@@ -33419,12 +33706,49 @@ window.GEMS = {
           "scope": "Undifferentiated serum-grown mESCs",
           "panel": {
             "path": "panels/reviewed-prc2/agius26-fig4b.png",
-            "label": "Figure 4B — bulk H3K27me3 and H3K27me2",
+            "label": "Figure 4B — bulk H3K27me3 and H3K27me2 by FACS",
             "page": 8,
             "source_file": null,
             "source_url": "https://doi.org/10.1016/j.molcel.2026.02.011",
             "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
-            "reviewed": true
+            "reviewed": true,
+            "legend_key": [
+              {
+                "label": "SOF/SOF",
+                "text": "Both gene copies carry the indicated separation-of-function edit."
+              },
+              {
+                "label": "FACS / a.u.",
+                "text": "Flow-cytometry fluorescence / arbitrary units."
+              },
+              {
+                "label": "Tazemetostat",
+                "text": "EZH2 methyltransferase inhibitor."
+              },
+              {
+                "label": "+ / -",
+                "text": "Presence / absence of the indicated treatment or edit."
+              }
+            ],
+            "reading_note": "Bars show FACS fluorescence for each condition, with the drug/genotype grid below each plot.",
+            "source_sha256": "2072a659f1f600441f3cf47ccfc4405d8309ed2517fc90190cc76ad75b30b78e",
+            "box_normalized": [
+              0.33,
+              0.12,
+              0.625,
+              0.35
+            ],
+            "box_pdf_points": [
+              198.9853875732422,
+              93.95832275390624,
+              376.8662643432617,
+              274.04510803222655
+            ],
+            "render_dpi": 180,
+            "width": 446,
+            "height": 452,
+            "review_status": "Individual crop and native source page visually inspected; corrected rectangle restores shared scientific context.",
+            "visual_reviewed_at": "2026-11-03T16:37:16.008276+00:00"
           },
           "panels": [
             {
@@ -34003,7 +34327,26 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1016/j.molcel.2026.02.011",
         "source": "https://doi.org/10.1016/j.molcel.2026.02.011",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "WT",
+            "text": "Unedited reference cells."
+          },
+          {
+            "label": "SOF/SOF",
+            "text": "Both gene copies carry the indicated separation-of-function edit."
+          },
+          {
+            "label": "TSS",
+            "text": "Transcription start site."
+          },
+          {
+            "label": "kb",
+            "text": "Thousands of DNA bases."
+          }
+        ],
+        "reading_note": "Compare WT with the JARID2/PALI1 double mutant within each replicate."
       },
       "panels": [
         {
@@ -35252,7 +35595,22 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1016/j.molcel.2014.12.020",
         "source": "https://doi.org/10.1016/j.molcel.2014.12.020",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "KO / WT",
+            "text": "JARID2 knockout / normal JARID2 rescue."
+          },
+          {
+            "label": "Lamin b1",
+            "text": "Loading control."
+          },
+          {
+            "label": "H3K27me2/3",
+            "text": "Antibody detects both methylation states together."
+          }
+        ],
+        "reading_note": "Compare WT-rescue and K116A-rescue lanes."
       },
       "panels": [
         {
@@ -35383,12 +35741,55 @@ window.GEMS = {
         "status": "measured_matched_chromatin",
         "panel": {
           "path": "panels/reviewed-prc2/sanulli15-fig6f.png",
-          "label": "Figure 6F — use day-0 columns for the ESC baseline",
+          "label": "Figure 6F — day-0 column in each genotype block; later columns are differentiation data",
           "page": 11,
           "source_file": null,
           "source_url": "https://doi.org/10.1016/j.molcel.2014.12.020",
           "source": "https://doi.org/10.1016/j.molcel.2014.12.020",
-          "reviewed": true
+          "reviewed": true,
+          "legend_key": [
+            {
+              "label": "WT / K116A / KO",
+              "text": "Wild-type JARID2 rescue / JARID2 K116A rescue / cells lacking JARID2."
+            },
+            {
+              "label": "Days / heatmap scale",
+              "text": "Days of differentiation; use day 0 for the ESC comparison. Colors show median-centered expression of selected markers."
+            },
+            {
+              "label": "LINE / IAP / MERVL",
+              "text": "Classes of retrotransposon RNAs included in the lower heatmap; these are selected markers rather than whole-transcriptome measurements."
+            }
+          ],
+          "reading_note": "For the ESC baseline compare the first day-0 column in each WT/K116A/KO block. Later columns are differentiation; colors describe selected median-centered markers.",
+          "paper_id": "sanulli-2015",
+          "observation_id": "sanulli15-fig6f",
+          "source_sha256": "a99fbc17b912cacb93cb4a9a6cc2595da6fc05c23bce0edf68aad903d28d6123",
+          "box_normalized": [
+            0.11995577667219458,
+            0.5210727969348659,
+            0.6202321724709784,
+            0.9250744997871435
+          ],
+          "box_pixels": [
+            217,
+            1224,
+            1122,
+            2173
+          ],
+          "source_image_size": [
+            1809,
+            2349
+          ],
+          "caption": "Single native-source rectangular crop; no data alteration or stitching.",
+          "review_status": "reviewed",
+          "verification": "Individually visually inspected against the native source; selected data, identities, conditions and complete native axes/legends checked.",
+          "created_at": "2026-11-02T22:18:38.602434+00:00",
+          "checked": "2026-11-02",
+          "visual_reviewed_at": "2026-11-02T22:18:38.602434+00:00",
+          "short_label": "Figure 6F",
+          "width": 905,
+          "height": 949
         },
         "panels": [
           {
@@ -35736,7 +36137,22 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1038/s41588-018-0134-8",
         "source": "https://doi.org/10.1038/s41588-018-0134-8",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "mESC / Mtf2 GT/GT / Jarid2−/− / Eed−/−",
+            "text": "Mouse ESCs / homozygous Mtf2 gene-trap cells / cells lacking JARID2 / cells lacking EED."
+          },
+          {
+            "label": "ChIP / input / kb",
+            "text": "Chromatin immunoprecipitation / chromatin before immunoprecipitation / thousands of DNA bases."
+          },
+          {
+            "label": "Clusters 1–3",
+            "text": "EZH2-defined peak groups; tracks in B show example loci from each group."
+          }
+        ],
+        "reading_note": "In A compare MTF2 mESC with Jarid2-null and Eed-null columns within each EZH2-defined cluster. B gives representative loci; cluster 1 is narrow and cluster 2 broad."
       },
       "panels": [
         {
@@ -36000,7 +36416,30 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1016/j.stemcr.2020.07.007",
         "source": "https://doi.org/10.1016/j.stemcr.2020.07.007",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "WT",
+            "text": "Unmodified reference."
+          },
+          {
+            "label": "EED226 / − and +",
+            "text": "Without / with the EED inhibitor."
+          },
+          {
+            "label": "Mtf2 GT/GT / Jarid2 −/−",
+            "text": "Both Mtf2 copies disrupted / both Jarid2 copies deleted."
+          },
+          {
+            "label": "Input",
+            "text": "Chromatin before antibody pull-down."
+          },
+          {
+            "label": "kb",
+            "text": "1,000 DNA bases."
+          }
+        ],
+        "reading_note": "Within each cluster compare WT with WT+EED226, then the treated Mtf2- and Jarid2-disrupted curves; untreated mutant curves are absent."
       },
       "panels": [
         {
@@ -36981,7 +37420,22 @@ window.GEMS = {
         "source_file": null,
         "source_url": "https://doi.org/10.1242/dev.123935",
         "source": "https://doi.org/10.1242/dev.123935",
-        "reviewed": true
+        "reviewed": true,
+        "legend_key": [
+          {
+            "label": "WT / tr/tr",
+            "text": "Wild-type cells versus cells homozygous for the Aebp2 gene-trap allele."
+          },
+          {
+            "label": "Input / repeat 1–2",
+            "text": "Chromatin before immunoprecipitation / two independent ChIP experiments."
+          },
+          {
+            "label": "Read depth / H3K27me3",
+            "text": "Sequencing signal at AEBP2-bound sites / histone H3 lysine 27 trimethylation."
+          }
+        ],
+        "reading_note": "In both repeats compare pale-green tr/tr H3K27me3 with dark-green WT around the center; pale-green signal is higher. Gray/black are input controls."
       },
       "panels": [
         {
@@ -37166,7 +37620,22 @@ window.GEMS = {
           "source_file": null,
           "source_url": "https://doi.org/10.1242/dev.123935",
           "source": "https://doi.org/10.1242/dev.123935",
-          "reviewed": true
+          "reviewed": true,
+          "legend_key": [
+            {
+              "label": "WT / tr/tr",
+              "text": "Normal / both Aebp2 copies truncated before exon 2."
+            },
+            {
+              "label": "Idh2 / WT",
+              "text": "Reference-gene normalization / reference cells set to 1."
+            },
+            {
+              "label": "*",
+              "text": "Reported significant change."
+            }
+          ],
+          "reading_note": "Compare WT/Aebp2-truncated bars at each gene; the asterisk marks the reported Aebp2 change and other estimates have broad error bars."
         },
         "panels": [
           {
@@ -37309,7 +37778,22 @@ window.GEMS = {
             "source_file": null,
             "source_url": "https://doi.org/10.1242/dev.123935",
             "source": "https://doi.org/10.1242/dev.123935",
-            "reviewed": true
+            "reviewed": true,
+            "legend_key": [
+              {
+                "label": "WT / tr/tr",
+                "text": "Wild-type cells versus cells homozygous for the Aebp2 gene-trap allele."
+              },
+              {
+                "label": "IP / input / IgG",
+                "text": "Immunoprecipitation using the named protein as bait / starting material / control immunoglobulin."
+              },
+              {
+                "label": "GFP-NeoR / cross-reacting band",
+                "text": "AEBP2 fusion to green fluorescent protein and neomycin resistance marker / antibody signal from an unrelated protein."
+              }
+            ],
+            "reading_note": "Within the EZH2 and JARID2 IP pairs compare WT and tr/tr lanes; blue and green boxes are native source annotations around changed associations."
           },
           "panels": [
             {
@@ -37392,7 +37876,22 @@ window.GEMS = {
               "source_file": null,
               "source_url": "https://doi.org/10.1242/dev.123935",
               "source": "https://doi.org/10.1242/dev.123935",
-              "reviewed": true
+              "reviewed": true,
+              "legend_key": [
+                {
+                  "label": "WT / tr/tr",
+                  "text": "Normal / both Aebp2 copies truncated before exon 2."
+                },
+                {
+                  "label": "Idh2 / WT",
+                  "text": "Reference-gene normalization / reference cells set to 1."
+                },
+                {
+                  "label": "*",
+                  "text": "Reported significant change."
+                }
+              ],
+              "reading_note": "Compare WT/Aebp2-truncated bars at each gene; the asterisk marks the reported Aebp2 change and other estimates have broad error bars."
             },
             "panels": [
               {
